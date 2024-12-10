@@ -12,6 +12,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MAT_FruitVegAtlas
+    second: {fileID: 2100000, guid: 897fe7cd22bfa7746bc0df1f9384b699, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Metal
     second: {fileID: 2100000, guid: 955d7eeda3d4c3c49be0daa51bf8e933, type: 2}
   materials:
