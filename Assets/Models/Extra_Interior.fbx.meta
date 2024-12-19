@@ -45,7 +45,8 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    extraUserProperties: []
+    extraUserProperties:
+    - "#BAKERY{\"meshName\":[\"Extra_Walls.004\",\"Extra_Walls.003\",\"Extra_Walls.002\",\"Extra_Walls.001\",\"Extra_Ceiling.002\",\"Extra_Ceiling.001\",\"Rack_MetalThin.001\",\"Rack_MetalThin\",\"Rack_Metal.003\",\"Rack_Metal.002\",\"Rack_Metal.001\",\"MESH_VentilationPipes.001\",\"MESH_VentilationPipes\",\"MESH_Pillar\",\"MESH_CeilingLamp.015\",\"MESH_CeilingLamp.014\",\"MESH_CeilingLamp.013\",\"MESH_CeilingLamp.012\",\"MESH_CeilingLamp.011\",\"MESH_CeilingLamp.010\",\"MESH_CeilingLamp.009\",\"MESH_CeilingLamp.008\",\"MESH_CeilingLamp\",\"MESH_CeilingGirder\",\"MESH_CeilingCarry\",\"Extra_WindowEntrance\",\"Extra_Walls\",\"Extra_PanteDoor\",\"Extra_Floor_MainArea\",\"Extra_Floor.001\",\"Extra_EntranceFloor\",\"Extra_Ceiling\",\"Cylinder.001\",\"B\xE9zierCurve\",\"Extra_Floor\",\"Extra_WindowEntrance.001\"],\"padding\":[23,23,20,26,5,7,72,72,70,100,100,25,29,59,64,64,64,64,64,64,64,64,62,25,40,13,27,63,6,6,13,11,71,26,7,13],\"unwrapper\":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}"
     clipAnimations: []
     isReadable: 0
   meshes:

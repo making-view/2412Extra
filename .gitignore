@@ -704,3 +704,13 @@ Assets/Editor/x64/Bakery/uvTerrainPos.pso
 Assets/Editor/x64/Bakery/uvTerrainPos.pso.meta
 Assets/Editor/x64/Bakery/uvTerrainSmoothPos.pso
 Assets/Editor/x64/Bakery/uvTerrainSmoothPos.pso.meta
+Assets/Bakery/examples.meta
+Assets/Bakery/examples/content.meta
+Assets/Bakery/examples/content/sponza.meta
+Assets/Bakery/examples/content/sponza/sponza.fbm.meta
+Assets/Bakery/examples/content/sponza/sponza.fbm/spnza_bricks_a_diff.png
+Assets/Bakery/examples/content/sponza/sponza.fbm/spnza_bricks_a_diff.png.meta
+Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_ceiling_a_diff.png
+Assets/Bakery/examples/content/sponza/sponza.fbm/sponza_ceiling_a_diff.png.meta
+Assets/Bakery/examples/content/StoneBeach_Normal.png
+Assets/Bakery/examples/content/StoneBeach_Normal.png.meta
