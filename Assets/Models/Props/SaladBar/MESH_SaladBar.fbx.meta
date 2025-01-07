@@ -19,6 +19,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: MAT_SaladBar
     second: {fileID: 2100000, guid: 704bc2a7065eb5f48ad0e67b74466b65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: d663d9638112775438812200a04763fa, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
