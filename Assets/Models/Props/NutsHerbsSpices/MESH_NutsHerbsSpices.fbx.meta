@@ -3,7 +3,12 @@ guid: e75727dbf51dd314a9948fd437dd22dd
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_NutsHerbsSpices
+    second: {fileID: 2100000, guid: 8e98b8c80671f9247b44c29f6bbf873d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
