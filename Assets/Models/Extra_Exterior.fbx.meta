@@ -71,7 +71,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["Cube.030","Cube.029","Cube.028","Cube.027","Cube.026","Cube.025","Cube.024","Cube.023","Cube.022","Cube.021","Cube.020","Cube.019","Cube.018","Cube.017","Cube.016","Cube.015","Cube.014","Cube.013","Cube.012","Cube.011","Cube.010","Cube.009","Cube.008","Cube.007","Cube.006","Cube.005","Cube.004","Cube.003","Cube","Cube.001","Cube.002","Cylinder","Plane","Text.001","Text.002","Text.003","Text.004"],"padding":[31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,31,2,18,21,48,2,30,30,29,29],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
+    - '#BAKERY{"meshName":["Cube.030","Cube.029","Cube.028","Cube.027","Cube.026","Cube.025","Cube.024","Cube.023","Cube.022","Cube.021","Cube.020","Cube.019","Cube.018","Cube.017","Cube.016","Cube.015","Cube.014","Cube.013","Cube.012","Cube.011","Cube.010","Cube.009","Cube.008","Cube.007","Cube.006","Cube.005","Cube.004","Cube.003","Cube","Cube.001","Cube.002","Cylinder","Plane","Text.001","Text.002","Text.003","Text.004"],"padding":[142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,142,2,18,21,48,2,30,30,29,29],"unwrapper":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
