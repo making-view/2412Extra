@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ca84e725c7c764aa5ed097918d14b7, type: 3}
+  m_Name: ftLocalStorage
+  m_EditorClassIdentifier: 
+  modifiedAssetPathList:
+  - Assets/Bakery/examples/content/sponza/sponza.FBX
+  - Assets/Models/Extra_Interior.fbx
+  - Assets/Models/Props/Crate/MESH_Crate.fbx
+  - Assets/Models/Props/MiscEntrance/MESH_MetalFence.fbx
+  - Assets/Models/Props/Till/MESH_Till.fbx
+  - Assets/Models/Props/FlowerCorner/MESH_FlowerCorner.fbx
+  - Assets/Models/Environment/Fridges/MESH_Fridges.fbx
+  - Assets/Models/Props/PlasticCrate/MESH_Crate_Plastic.fbx
+  - Assets/Models/Props/MiscEntrance/MESH_TennPoser.fbx
+  - Assets/Models/Props/MiscEntrance/MESH_Tennveske.fbx
+  - Assets/Models/Props/Candystand/MESH_CandyStand.fbx
+  - Assets/Models/Props/Crate/MESH_Crate_Pallet.fbx
+  - Assets/Models/Props/Shelves/MESH_Shelves3Stack.fbx
+  - Assets/Models/Props/MiscEntrance/MESH_TennBriketter.fbx
+  - Assets/Models/Props/Shelves/MESH_Shelves.fbx
+  - Assets/Models/Props/MiscEntrance/MESH_Gate.fbx
+  - Assets/Models/Props/Shelves/MESH_ShelfDistant.fbx
+  - Assets/Models/Props/Crate/MESH_Crate_Short.fbx
+  - Assets/Models/Props/MiscEntrance/MESH_Spyleveske.fbx
+  - Assets/Models/Props/MiscEntrance/MESH_MiscEntrance.fbx
+  - Assets/Models/Props/SaladBar/MESH_SaladBar.fbx
+  - Assets/Models/Props/PotatoBags/MESH_PotatoBags.fbx
+  - Assets/Models/Props/NutsHerbsSpices/MESH_NutsHerbsSpices.fbx
+  - Assets/Models/Props/FruitTableBig/MESH_FruitTableBig.fbx
+  - Assets/Models/Props/Signs/MESH_SignStand1.fbx
+  - Assets/Models/Props/Signs/MESH_SignStand2.fbx
+  - Assets/Models/Props/Freezers/Freezer2.fbx
+  - Assets/Models/Props/Freezers/Freezer1.fbx
+  - Assets/Models/Props/BagStand/MESH_BagStand.fbx
+  - Assets/Models/Extra_Exterior.fbx
+  modifiedAssetPaddingHash: d6a958ff7118cd22cfc3a693534ffff0c25031ee6d67e2a827dc894b0938ed04ecc12491ecc124919d4dfff0ba5634b7375ba031ecc124919102d08abb4608c827dc894bbd4608c8ecc12491907f9363279f9179e1c4d890133b8033f1f23a06f327c115f327c11557bf8304c10cc6325bc2a693b56f83f3
