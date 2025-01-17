@@ -18,6 +18,6 @@ public class PlayerManager : MonoBehaviour
             Destroy(this);
 
         if (_screenFader == null)
-            _screenFader = GetComponentInChildren<Camera>().GetComponentInChildren<CanvasGroup>();
+            _screenFader = GetComponentInChildren<CanvasGroup>();
     }
 }
