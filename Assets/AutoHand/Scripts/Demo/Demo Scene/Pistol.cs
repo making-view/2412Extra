@@ -33,6 +33,10 @@ namespace Autohand.Demo{
                     Debug.DrawRay(barrelTip.position, (hit.point - barrelTip.position), Color.green, 5);
                     hitBody.GetComponent<Smash>()?.DoSmash();
                     hitBody.AddForceAtPosition((hit.point - barrelTip.position).normalized*hitPower*10, hit.point, ForceMode.Impulse);
+
+                    //TODO fix menu interactions for pistol
+                    //if (hitBody.TryGetComponent<AutoGunTarget>(out var target))
+                    //    target.OnShot(null, hit);
                 }
             }
             else
