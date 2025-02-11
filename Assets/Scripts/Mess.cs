@@ -5,6 +5,7 @@ using UnityEngine;
 public class Mess : MonoBehaviour
 {
     private GameObject _confetti;
+    private GameObject _collider;
     [SerializeField] private Transform _messTransorm;
     [SerializeField] float _hitsToClear = 30;
     float _maxHits;
@@ -17,6 +18,7 @@ public class Mess : MonoBehaviour
             _messTransorm = GetComponentInChildren<MeshRenderer>().transform;
 
         _confetti = GetComponentInChildren<ParticleSystem>(true).gameObject;
+        _collider = GetComponentInChildren<Collider>(true).gameObject;
         _maxHits = _hitsToClear;
     }
 
@@ -32,9 +34,10 @@ public class Mess : MonoBehaviour
             Debug.Log(this + " is done");
             _hitsToClear = 0;
 
+            //play particle effect w sound when disappearing
             _confetti.SetActive(true);
-            //play particle effect when disappearing
-            //todo send message to messHandler and disable self-collider and visual
+            _collider.SetActive(false);
+            //todo send message to messHandler 
         }
 
         //TODO play audio and maybe have a particle effect when shrinking
