@@ -261,13 +261,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3316620098858099596}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.087262645, y: -0.0026504397, z: -0.0047416463, w: 0.9961706}
-  m_LocalPosition: {x: 0.016, y: -0.049, z: 0.313}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.017, y: -0, z: 0.272}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7270313243798914580}
-  m_LocalEulerAnglesHint: {x: 10.011, y: -0.355, z: -0.577}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &547979080497054894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -419,7 +419,7 @@ MonoBehaviour:
   m_ConeCastAngle: 6
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 32
   m_RaycastTriggerInteraction: 1
   m_RaycastSnapVolumeInteraction: 1
   m_HitClosestOnly: 0
@@ -465,8 +465,8 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_InputActionReferencePerformed: {fileID: 0}
-    m_InputActionReferenceValue: {fileID: 0}
+    m_InputActionReferencePerformed: {fileID: 8650556816782149517, guid: ea9500ae32862c949b420c59682d02ed, type: 3}
+    m_InputActionReferenceValue: {fileID: 4892747028673902059, guid: ea9500ae32862c949b420c59682d02ed, type: 3}
     m_ObjectReferenceObject: {fileID: 0}
     m_ManualPerformed: 0
     m_ManualValue: 0
@@ -1023,6 +1023,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7270313243798914580}
+  - component: {fileID: 1207175766243535268}
   m_Layer: 7
   m_Name: "ExtraG\xF8nnern"
   m_TagString: Untagged
@@ -1038,15 +1039,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6380783958026679215}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.18248972, y: -0.2136679, z: -0.7387991, w: 0.6125517}
-  m_LocalPosition: {x: -2.498, y: 0.145, z: 0.548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.827, y: 0.636, z: 0.469}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1246267089309173259}
   - {fileID: 2419734362223963614}
   m_Father: {fileID: 5312394011863151350}
-  m_LocalEulerAnglesHint: {x: -5.287, y: -32.255, z: -99.145}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1207175766243535268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6380783958026679215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6823b19642ceae14aba0826c04fb1c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _goop: {fileID: 5699988744659668912}
+  _maxGoop: 3
 --- !u!1 &8000332744412137443
 GameObject:
   m_ObjectHideFlags: 0
@@ -6107,6 +6122,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4489177959165759759, guid: 8a120af770bf3ec4c85db05b1b83cabb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -480261651913700072, guid: 8a120af770bf3ec4c85db05b1b83cabb, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -6119,6 +6138,30 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 1413888729270539251, guid: 8a120af770bf3ec4c85db05b1b83cabb, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413888729270539251, guid: 8a120af770bf3ec4c85db05b1b83cabb, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 0.059987925
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413888729270539251, guid: 8a120af770bf3ec4c85db05b1b83cabb, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.02710492
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413888729270539251, guid: 8a120af770bf3ec4c85db05b1b83cabb, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.05861371
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413888729270539251, guid: 8a120af770bf3ec4c85db05b1b83cabb, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.02710492
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413888729270539251, guid: 8a120af770bf3ec4c85db05b1b83cabb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5010a13ec5337044989338cef308cafe, type: 2}
     - target: {fileID: 1459122881620594313, guid: 8a120af770bf3ec4c85db05b1b83cabb, type: 3}
       propertyPath: m_Layer
       value: 7
@@ -6244,9 +6287,9 @@ MonoBehaviour:
   onSqueeze:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1824152912243494462}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Play
+      - m_Target: {fileID: 1207175766243535268}
+        m_TargetAssemblyTypeName: Watergun, Assembly-CSharp
+        m_MethodName: StartFiring
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6259,9 +6302,9 @@ MonoBehaviour:
   onUnsqueeze:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1824152912243494462}
-        m_TargetAssemblyTypeName: UnityEngine.ParticleSystem, UnityEngine
-        m_MethodName: Stop
+      - m_Target: {fileID: 1207175766243535268}
+        m_TargetAssemblyTypeName: Watergun, Assembly-CSharp
+        m_MethodName: StopFiring
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7116,6 +7159,11 @@ CapsuleCollider:
   m_Height: 0.16095091
   m_Direction: 1
   m_Center: {x: 0, y: 0.00035901368, z: 0.0000000018626451}
+--- !u!1 &5699988744659668912 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7567256253810673029, guid: 8a120af770bf3ec4c85db05b1b83cabb, type: 3}
+  m_PrefabInstance: {fileID: 2746675602656791093}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6866831070737073965 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -480261651913700072, guid: 8a120af770bf3ec4c85db05b1b83cabb, type: 3}

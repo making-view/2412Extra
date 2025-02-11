@@ -15,7 +15,7 @@ public class MessTrigger : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
-        Debug.Log(other + " particle entered on layer " + LayerMask.LayerToName(other.gameObject.layer) + " with size: " + other.transform.localScale.magnitude);
+        //Debug.Log(other + " particle entered on layer " + LayerMask.LayerToName(other.gameObject.layer) + " with size: " + other.transform.localScale.magnitude);
         _myMess.RegisterHit();
     }
 }
