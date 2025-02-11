@@ -1,3 +1,4 @@
+using Autohand;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,24 +12,38 @@ public class Watergun : MonoBehaviour
     private bool _menuMode = false;
 
     private ParticleSystem _particles = null;
-
+    private Rigidbody _rigidbody = null;
+    private Grabbable _grabbable = null;
     [SerializeField] private GameObject _goop = null;
+
     [SerializeField] private float _maxGoop = 3.0f;
+    [SerializeField] private float _recoilStrength = 1.0f;
     private float _goopLevel = 0f;
+
+    private float _timePerBubble = 0f;
+    private float _firingTime = 0f;
+
 
     private void Start()
     {
         _particles = GetComponentInChildren<ParticleSystem>();
+        _timePerBubble = 1.0f / _particles.emission.rateOverTime.constantMax;
+        _grabbable = GetComponentInChildren<Grabbable>();
+        _rigidbody = GetComponentInChildren<Rigidbody>();
+
+        //Debug.Log("time pr bubble " + _timePerBubble);
     }
 
     public void StartFiring()
     {
         _firing = true;
+        _particles.Play();
     }
 
     public void StopFiring()
     {
         _firing = false;
+        _particles.Stop();
     }
 
     public void SetMenuModeActive(bool active)
@@ -40,14 +55,28 @@ public class Watergun : MonoBehaviour
     {
         if( _firing )
         {
-            _particles.Play();
-
             _goopLevel = Mathf.Clamp(_goopLevel - Time.deltaTime, 0f, _maxGoop);
 
             if (_goopLevel <= 0f)
                 _particles.Stop();
+            else
+            {
+                _firingTime += Time.deltaTime;
+                int bubblesToFire = (int)Mathf.Floor(_firingTime / _timePerBubble);
+                _firingTime = _firingTime - (_timePerBubble * bubblesToFire);
+                _particles.Emit(bubblesToFire);
+
+                Vector3 recoil = -_particles.transform.forward * _recoilStrength * bubblesToFire;
+
+                _rigidbody.AddForceAtPosition(recoil, _particles.transform.position, ForceMode.Impulse);
+            }
+
+            
+
+
 
             //TODO make sure sfx is playing, stretch: change pitch based on tank fullness
+            //stretch make gun fire progressivly faster, empty tank based on bubbles spawned instead of deltatime
             //also haptics
             //also gradually empty tank and update renderer
             //also apply recoil with haptics

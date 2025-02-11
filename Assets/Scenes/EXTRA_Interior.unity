@@ -34366,101 +34366,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &737514372 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6380783958026679215, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-  m_PrefabInstance: {fileID: 2007387048}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &737514374 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1207175766243535268, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-  m_PrefabInstance: {fileID: 2007387048}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737514372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6823b19642ceae14aba0826c04fb1c98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &737514375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 737514372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0353ef0ac6254045bac5d0bac14b6ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _bindings:
-  - name: GunTestFire
-    unityEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 737514374}
-          m_TargetAssemblyTypeName: Watergun, Assembly-CSharp
-          m_MethodName: StartFiring
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    input:
-      m_Name: Input
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 08b5b01f-8a64-453f-90d7-3b78aebc63dd
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings:
-      - m_Name: 
-        m_Id: 6fd82f1d-c15b-41f7-a6b0-448eb2ec8eb7
-        m_Path: <Keyboard>/h
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Input
-        m_Flags: 0
-      m_Flags: 0
-  - name: GunStopFire
-    unityEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 737514374}
-          m_TargetAssemblyTypeName: Watergun, Assembly-CSharp
-          m_MethodName: StopFiring
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    input:
-      m_Name: Input
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 08b5b01f-8a64-453f-90d7-3b78aebc63dd
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings:
-      - m_Name: 
-        m_Id: 6fd82f1d-c15b-41f7-a6b0-448eb2ec8eb7
-        m_Path: <Keyboard>/g
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Input
-        m_Flags: 0
-      m_Flags: 0
 --- !u!1001 &746138579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78645,14 +78550,6 @@ PrefabInstance:
       objectReference: {fileID: 1640190190}
     - target: {fileID: 5180966786908033019, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
       propertyPath: singleHandOnly
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5180966786908033019, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-      propertyPath: onGrab.m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5180966786908033019, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-      propertyPath: onRelease.m_PersistentCalls.m_Calls.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5312394011863151350, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
@@ -78695,38 +78592,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7270313243798914580, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 7270313243798914580, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.014
-      objectReference: {fileID: 0}
-    - target: {fileID: 7270313243798914580, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.404
-      objectReference: {fileID: 0}
-    - target: {fileID: 7270313243798914580, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.71092415
-      objectReference: {fileID: 0}
-    - target: {fileID: 7270313243798914580, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7270313243798914580, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7270313243798914580, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.70326877
-      objectReference: {fileID: 0}
-    - target: {fileID: 7270313243798914580, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -89.38
-      objectReference: {fileID: 0}
     - target: {fileID: 9201698540008510363, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
       propertyPath: m_Name
       value: PlayerObjects
@@ -78734,10 +78599,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6380783958026679215, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 737514375}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
 --- !u!1001 &2010530260
 PrefabInstance:

@@ -21,7 +21,10 @@ public class TestBindings : MonoBehaviour
     private void OnEnable()
     {
         if (!Application.isEditor)
+        {
+            enabled = false;
             return;
+        }
 
         foreach (var binding in _bindings)
             binding.input.Enable();
