@@ -5,7 +5,7 @@ using UnityEngine;
 public class Mess : MonoBehaviour
 {
     private GameObject _confetti;
-    private Transform _messTransorm;
+    [SerializeField] private Transform _messTransorm;
     [SerializeField] float _hitsToClear = 30;
     float _maxHits;
 
@@ -13,7 +13,9 @@ public class Mess : MonoBehaviour
 
     private void Start()
     {
-        _messTransorm = GetComponentInChildren<MeshRenderer>().transform;
+        if(_messTransorm == null)
+            _messTransorm = GetComponentInChildren<MeshRenderer>().transform;
+
         _confetti = GetComponentInChildren<ParticleSystem>(true).gameObject;
         _maxHits = _hitsToClear;
     }
