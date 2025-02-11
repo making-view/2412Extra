@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/AutoHand/Examples/Scenes/OpenXR/Demo.unity
     guid: 1551acbe06158c74e8ab2f58f9b373dc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/EXTRA_Exterior.unity
     guid: cedb19692441d464c9442f2db70e57bc
   - enabled: 1
