@@ -67883,6 +67883,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1685814819}
+  - component: {fileID: 1685814820}
   m_Layer: 0
   m_Name: Mess
   m_TagString: Untagged
@@ -67908,6 +67909,31 @@ Transform:
   - {fileID: 664117058}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1685814820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685814818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e1a44801abf82e41b0f2a1d0e5f29f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messCategories:
+  - name: Rotten fruit
+    numToClean: 0
+    allMess: []
+    remainingMess: []
+  - name: Spills and stuff
+    numToClean: 0
+    allMess: []
+    remainingMess: []
+  - name: Cobwebs
+    numToClean: 0
+    allMess: []
+    remainingMess: []
 --- !u!64 &1688836466
 MeshCollider:
   m_ObjectHideFlags: 0
