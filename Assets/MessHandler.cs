@@ -16,10 +16,17 @@ public class MessHandler : MonoBehaviour
     }
 
     [SerializeField] private List<MessList> messCategories = new List<MessList>();
+    public static MessHandler instance;
 
     // Start is called before the first frame update
     void Start()
     {
+        if (instance != null)
+            Destroy(this);
+        else
+            instance = this;
+
+
         //activate a random subset of messes for each category
     }
 
