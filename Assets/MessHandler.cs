@@ -15,7 +15,7 @@ public class MessHandler : MonoBehaviour
         [HideInInspector] public List<Mess> remainingMess = new List<Mess>();
     }
 
-    [SerializeField] private List<MessList> messCategories = new List<MessList>();
+    [SerializeField] private List<MessList> _messCategories = new List<MessList>();
     public static MessHandler instance;
 
     // Start is called before the first frame update
@@ -33,7 +33,15 @@ public class MessHandler : MonoBehaviour
     public void MessCleaned(Mess mess)
     {
         //remove mess from its list
-        //spawn particle effect with counter on mess
+        //spawn particle effect with correct counter UI on finished mess
+       
+        
         //check if no mess left = call for game handler to complete
+        int messLeft = 0;
+        foreach(MessList messList in _messCategories)
+            messLeft += messList.remainingMess.Count;
+
+        if (messLeft == 0)
+            GameHandler.instance.FinishGame();
     }
 }

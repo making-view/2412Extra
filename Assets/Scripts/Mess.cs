@@ -42,6 +42,11 @@ public class Mess : MonoBehaviour
         _collider = GetComponentInChildren<Collider>(true).gameObject;
         _audioSource = GetComponent<AudioSource>();
         _maxHits = _hitsToClear;
+
+        if(_type == TransitionType.material)
+        {
+            //TODO get materials from renderers and store in list
+        }
     }
 
     public void RegisterHit()
@@ -53,14 +58,15 @@ public class Mess : MonoBehaviour
 
         switch (_type)
         {
-            case TransitionType.size:
-                HandleHitSizeChangerHit();
+            case TransitionType.size: //Give disappearing object size a little bump when hit
+                float bumpMagnitude = 0.03f * _startingScale.magnitude;
+                _messTransorm.localScale = Vector3.MoveTowards(_messTransorm.localScale, _targetScale * 1.2f, bumpMagnitude);
                 break;
-            case TransitionType.material:
-                HandleMaterialChangerHit();
+            case TransitionType.material: //TODO give material a bump towards white color when hit
+                
                 break;
-            case TransitionType.missingStuff:
-                HandleAddMissingHit();
+            case TransitionType.missingStuff: //TODO give appearing objects a bump in size when hit
+
                 break;
         }
 
@@ -96,28 +102,8 @@ public class Mess : MonoBehaviour
                     //add the last stuff missing
                     break;
             }
-
-
             MessHandler.instance.MessCleaned(this);
         }
-
-    }
-
-    private void HandleAddMissingHit()
-    {
-        throw new NotImplementedException();
-    }
-
-    private void HandleMaterialChangerHit()
-    {
-        throw new NotImplementedException();
-    }
-
-    private void HandleHitSizeChangerHit()
-    {
-        //give size a little bump up when hit
-        float bumpMagnitude = 0.03f * _startingScale.magnitude;
-        _messTransorm.localScale = Vector3.MoveTowards(_messTransorm.localScale, _targetScale * 1.2f, bumpMagnitude);
     }
 
     private void Update()
@@ -131,8 +117,10 @@ public class Mess : MonoBehaviour
                 HandleSizeUpdate();
                 break;
             case TransitionType.material:
+                //step towards correct material
                 break;
             case TransitionType.missingStuff:
+                //step towards fully appearing transform(s)
                 break;
         }
     }
