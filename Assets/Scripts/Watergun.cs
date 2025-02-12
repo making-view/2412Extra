@@ -24,7 +24,7 @@ public class Watergun : MonoBehaviour
     private float _firingTime = 0f;
 
     [SerializeField] private List<AudioClip> _shootingSFX = new List<AudioClip>();
-    private AudioSource _audioSource;
+    [SerializeField] private AudioSource _shootingAudioSource;
 
 
     private void Start()
@@ -33,7 +33,6 @@ public class Watergun : MonoBehaviour
         _timePerBubble = 1.0f / _particles.emission.rateOverTime.constantMax;
         _grabbable = GetComponentInChildren<Grabbable>();
         _rigidbody = GetComponentInChildren<Rigidbody>();
-        _audioSource = GetComponent<AudioSource>();
 
         //Debug.Log("time pr bubble " + _timePerBubble);
     }
@@ -109,12 +108,15 @@ public class Watergun : MonoBehaviour
     {
         int sfxint = Random.Range(0, _shootingSFX.Count);
         float sfxpitch = Random.Range(0.8f, 1.2f);
-        _audioSource.pitch = sfxpitch;
-        _audioSource.PlayOneShot(_shootingSFX[sfxint]);
+        _shootingAudioSource.pitch = sfxpitch;
+        _shootingAudioSource.PlayOneShot(_shootingSFX[sfxint]);
 
         _firingTime = _firingTime - (_timePerBubble * bubblesToFire);
         _particles.Emit(bubblesToFire);
-        Vector3 recoil = -_particles.transform.forward * _recoilStrength * bubblesToFire;
-        _rigidbody.AddForceAtPosition(recoil, _particles.transform.position, ForceMode.Impulse);
+        Vector3 backRecoil = -_particles.transform.forward * _recoilStrength * bubblesToFire / 10f;
+        Vector3 upRecoil = _particles.transform.up * _recoilStrength * bubblesToFire;
+
+        _rigidbody.AddForceAtPosition(backRecoil, _particles.transform.position, ForceMode.Impulse);
+        _rigidbody.AddForceAtPosition(upRecoil, _particles.transform.position, ForceMode.Impulse);
     }
 }
