@@ -23,6 +23,9 @@ public class Watergun : MonoBehaviour
     private float _timePerBubble = 0f;
     private float _firingTime = 0f;
 
+    [SerializeField] private List<AudioClip> _shootingSFX = new List<AudioClip>();
+    private AudioSource _audioSource;
+
 
     private void Start()
     {
@@ -30,6 +33,7 @@ public class Watergun : MonoBehaviour
         _timePerBubble = 1.0f / _particles.emission.rateOverTime.constantMax;
         _grabbable = GetComponentInChildren<Grabbable>();
         _rigidbody = GetComponentInChildren<Rigidbody>();
+        _audioSource = GetComponent<AudioSource>();
 
         //Debug.Log("time pr bubble " + _timePerBubble);
     }
@@ -63,12 +67,11 @@ public class Watergun : MonoBehaviour
             {
                 _firingTime += Time.deltaTime;
                 int bubblesToFire = (int)Mathf.Floor(_firingTime / _timePerBubble);
-                _firingTime = _firingTime - (_timePerBubble * bubblesToFire);
-                _particles.Emit(bubblesToFire);
-
-                Vector3 recoil = -_particles.transform.forward * _recoilStrength * bubblesToFire;
-
-                _rigidbody.AddForceAtPosition(recoil, _particles.transform.position, ForceMode.Impulse);
+                
+                if( bubblesToFire > 0 )
+                {
+                    FireBubbles(bubblesToFire);
+                }
             }
 
             
@@ -100,5 +103,18 @@ public class Watergun : MonoBehaviour
         var goopSize = Vector3.one;
         goopSize.y = _goopLevel / _maxGoop;
         _goop.transform.localScale = goopSize;
+    }
+
+    private void FireBubbles(int bubblesToFire)
+    {
+        int sfxint = Random.Range(0, _shootingSFX.Count);
+        float sfxpitch = Random.Range(0.8f, 1.2f);
+        _audioSource.pitch = sfxpitch;
+        _audioSource.PlayOneShot(_shootingSFX[sfxint]);
+
+        _firingTime = _firingTime - (_timePerBubble * bubblesToFire);
+        _particles.Emit(bubblesToFire);
+        Vector3 recoil = -_particles.transform.forward * _recoilStrength * bubblesToFire;
+        _rigidbody.AddForceAtPosition(recoil, _particles.transform.position, ForceMode.Impulse);
     }
 }
