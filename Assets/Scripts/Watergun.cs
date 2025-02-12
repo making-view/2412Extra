@@ -26,6 +26,8 @@ public class Watergun : MonoBehaviour
     [SerializeField] private List<AudioClip> _shootingSFX = new List<AudioClip>();
     [SerializeField] private AudioSource _shootingAudioSource;
 
+    private List<Hand> _grabbingHands = new List<Hand>();
+
 
     private void Start()
     {
@@ -34,7 +36,12 @@ public class Watergun : MonoBehaviour
         _grabbable = GetComponentInChildren<Grabbable>();
         _rigidbody = GetComponentInChildren<Rigidbody>();
 
-        //Debug.Log("time pr bubble " + _timePerBubble);
+        //keep track of all hands grabbing gun
+        foreach(Grabbable grabbable in GetComponentsInChildren<Grabbable>())
+        {
+            grabbable.onGrab.AddListener((hand, grabbalbe) => {_grabbingHands.Add(hand);});
+            grabbable.onRelease.AddListener((hand, grabbalbe) => {_grabbingHands.Remove(hand);});
+        }
     }
 
     public void StartFiring()
@@ -72,10 +79,6 @@ public class Watergun : MonoBehaviour
                     FireBubbles(bubblesToFire);
                 }
             }
-
-            
-
-
 
             //TODO make sure sfx is playing, stretch: change pitch based on tank fullness
             //stretch make gun fire progressivly faster, empty tank based on bubbles spawned instead of deltatime
@@ -118,5 +121,11 @@ public class Watergun : MonoBehaviour
 
         _rigidbody.AddForceAtPosition(backRecoil, _particles.transform.position, ForceMode.Impulse);
         _rigidbody.AddForceAtPosition(upRecoil, _particles.transform.position, ForceMode.Impulse);
+
+        foreach (Hand hand in _grabbingHands)
+        {
+            //Debug.Log("Sending haptic to " + hand.name);
+            hand.PlayHapticVibration(_timePerBubble / 2f, 0.5f);
+        }
     }
 }
