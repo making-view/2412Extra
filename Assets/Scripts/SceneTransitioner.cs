@@ -1,3 +1,4 @@
+using Autohand;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,6 +19,9 @@ public class SceneTransitioner : MonoBehaviour
         }
         else
             Destroy(this);
+
+
+        MovePlayerToStartingPosition();
     }
 
     public void StartTransitionToScene(string sceneName)
@@ -43,7 +47,7 @@ public class SceneTransitioner : MonoBehaviour
 
         SceneManager.LoadScene(sceneName);
 
-        //TODO set player rig at desired location
+        MovePlayerToStartingPosition();
 
         timer = 0.0f;
         while (timer < halfFade)
@@ -56,5 +60,22 @@ public class SceneTransitioner : MonoBehaviour
 
 
         yield return new WaitForSeconds(_fadeTime / 2.0f);
+    }
+
+    public void MovePlayerToStartingPosition()
+    {
+        var startingPosition = GameObject.FindGameObjectWithTag("StartingPosition").transform;
+
+        if(startingPosition == null)
+        {
+            Debug.LogError("No starting position found");
+            return;
+        }
+        
+        var playerBody = PlayerManager.instance.GetComponentInChildren<AutoHandPlayer>();
+        Vector3 targetPos = startingPosition.position;
+        Quaternion targetRot = startingPosition.rotation;
+
+        playerBody.SetPosition(targetPos, targetRot);
     }
 }

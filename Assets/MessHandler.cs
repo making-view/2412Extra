@@ -88,12 +88,13 @@ public class MessHandler : MonoBehaviour
 
 
             //check if no mess left = call for game handler to complete
-            int messLeft = 0;
+        int messLeft = 0;
+
         foreach(MessList messList in _messCategories)
             messLeft += messList.remainingMess.Count;
 
         if (messLeft == 0)
-            GameHandler.instance.FinishGame();
+            GameHandler.instance.GameWin();
     }
 
     public List<Mess> ShuffleMessList(List<Mess> list)

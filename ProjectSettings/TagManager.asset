@@ -9,6 +9,8 @@ TagManager:
   - Kvalitet
   - PrisOgVare
   - Extrabonus
+  - StartingPosition
+  - TrackingContainer
   layers:
   - Default
   - TransparentFX

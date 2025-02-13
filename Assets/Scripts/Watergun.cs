@@ -48,6 +48,8 @@ public class Watergun : MonoBehaviour
     {
         _firing = true;
         _particles.Play();
+
+        GameHandler.instance.StartGame();
     }
 
     public void StopFiring()
