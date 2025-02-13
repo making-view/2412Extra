@@ -19,7 +19,8 @@ public class Mess : MonoBehaviour
 
     private GameObject _confetti;
     private GameObject _collider;
-    [SerializeField] private Transform _messTransorm;
+    [SerializeField] private Transform _messTransform;
+    [SerializeField] public Transform _popupPosition;
     [SerializeField] float _hitsToClear = 30f;
     [SerializeField] float _progressThreshold = 0.8f;
     private AudioSource _audioSource;
@@ -50,11 +51,14 @@ public class Mess : MonoBehaviour
     {
         if(_initialzied) return;
 
-        if (_messTransorm == null)
-            _messTransorm = GetComponentInChildren<MeshRenderer>().transform;
+        if (_messTransform == null)
+            _messTransform = GetComponentInChildren<MeshRenderer>().transform;
+
+        if (_popupPosition == null)
+            _popupPosition = GetComponentInChildren<MeshRenderer>().transform;
 
         _collider = GetComponentInChildren<MessTrigger>(true).gameObject;
-        _startingScale = _messTransorm.localScale;
+        _startingScale = _messTransform.localScale;
         //get starting scale and scale from that
         _confetti = GetComponentInChildren<ParticleSystem>(true).gameObject;
         _audioSource = GetComponent<AudioSource>();
@@ -67,10 +71,10 @@ public class Mess : MonoBehaviour
         }
         else if (_type == TransitionType.missingStuff)
         {
-            _hitsToClear = _messTransorm.childCount; //shuold we override this?
+            _hitsToClear = _messTransform.childCount; //shuold we override this? If not then change onhit of missing type
 
-            for (int i = 0; i < _messTransorm.childCount; i++)
-                _missingObjects.Add(_messTransorm.GetChild(i).gameObject);
+            for (int i = 0; i < _messTransform.childCount; i++)
+                _missingObjects.Add(_messTransform.GetChild(i).gameObject);
         }
 
         _initialzied = true;
@@ -88,7 +92,7 @@ public class Mess : MonoBehaviour
             switch (_type)
             {
                 case TransitionType.size:
-                    _messTransorm.localScale = Vector3.zero; //hide mesh
+                    _messTransform.localScale = Vector3.zero; //hide mesh
                     break;
                 case TransitionType.material:
                     foreach (Material material in _materials) //make good material fully opaque
@@ -105,7 +109,7 @@ public class Mess : MonoBehaviour
             switch (_type)
             {
                 case TransitionType.size:
-                    _messTransorm.localScale = _startingScale; //show mesh
+                    _messTransform.localScale = _startingScale; //show mesh
                     break;
                 case TransitionType.material:
                     foreach (Material material in _materials) //make bad material fully opaque
@@ -131,7 +135,7 @@ public class Mess : MonoBehaviour
         {
             case TransitionType.size: //Give disappearing object size a little bump when hit
                 float bumpMagnitude = 0.03f * _startingScale.magnitude;
-                _messTransorm.localScale = Vector3.MoveTowards(_messTransorm.localScale, _targetScale * 1.2f, bumpMagnitude);
+                _messTransform.localScale = Vector3.MoveTowards(_messTransform.localScale, _targetScale * 1.2f, bumpMagnitude);
                 break;
             case TransitionType.material: //TODO maybe give material a bump towards white color when hit
                 
@@ -155,6 +159,7 @@ public class Mess : MonoBehaviour
             Debug.Log(this + " is done");
             _done = true;
             _hitsToClear = 0;
+            MessHandler.instance.MessCleaned(this);
 
             //play particle effect w sound when disappearing
             _confetti.SetActive(true);
@@ -163,7 +168,7 @@ public class Mess : MonoBehaviour
             switch (_type)
             {
                 case TransitionType.size:
-                    _messTransorm.localScale = Vector3.zero; //hide mesh
+                    _messTransform.localScale = Vector3.zero; //hide mesh
                     break;
                 case TransitionType.material:
                     foreach(Material material in _materials) //make good material fully opaque
@@ -174,7 +179,6 @@ public class Mess : MonoBehaviour
                         stuff.SetActive(true);
                     break;
             }
-            MessHandler.instance.MessCleaned(this);
         }
     }
 
@@ -191,7 +195,7 @@ public class Mess : MonoBehaviour
         {
             case TransitionType.size: //change size towards target based on progress
                 _targetScale = smoothProgress * _startingScale;
-                _messTransorm.localScale = Vector3.MoveTowards(_messTransorm.localScale, _targetScale, Time.deltaTime * 3f * _startingScale.magnitude);
+                _messTransform.localScale = Vector3.MoveTowards(_messTransform.localScale, _targetScale, Time.deltaTime * 3f * _startingScale.magnitude);
                 break;
             case TransitionType.material: //change color towards good based on progress
                 foreach (Material material in _materials) //make good material more opaque

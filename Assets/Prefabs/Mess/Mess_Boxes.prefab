@@ -49,7 +49,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _type: 0
-  _messTransorm: {fileID: 5345900925676246778}
+  _messTransform: {fileID: 5345900925676246778}
+  _popupPosition: {fileID: 0}
   _hitsToClear: 30
   _progressThreshold: 0.8
 --- !u!82 &8409537081920602127

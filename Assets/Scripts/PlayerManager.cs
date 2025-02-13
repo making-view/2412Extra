@@ -7,14 +7,15 @@ public class PlayerManager : MonoBehaviour
     public static PlayerManager instance;
     public CanvasGroup _screenFader;
     // Start is called before the first frame update
-    void Start()
+
+    private void OnEnable()
     {
         if (instance == null)
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
 
-            for(int i = 0; i < transform.childCount; i++)
+            for (int i = 0; i < transform.childCount; i++)
                 transform.GetChild(i).gameObject.SetActive(true);
         }
         else

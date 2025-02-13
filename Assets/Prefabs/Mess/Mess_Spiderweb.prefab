@@ -147,7 +147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _type: 0
-  _messTransorm: {fileID: 4963841717769824184}
+  _messTransform: {fileID: 4963841717769824184}
+  _popupPosition: {fileID: 0}
   _hitsToClear: 20
   _progressThreshold: 0.8
 --- !u!82 &2680088993045824199

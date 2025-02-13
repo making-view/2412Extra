@@ -44,13 +44,15 @@ public class MessHandler : MonoBehaviour
             Debug.Log(this + " Shuffling messes with tag " + messList.tag + " and enabling " + messList.numToClean + " items");
             messList.allMess = ShuffleMessList(messList.allMess);
 
-            for (int i = 0; i < messList.allMess.Count - 1; i++)
+            for (int i = 0; i < messList.allMess.Count; i++)
             {
                 Mess mess = messList.allMess[i];
-                messList.remainingMess.Add(mess);
 
                 bool enableMesss = i < messList.numToClean;
                 mess.EnableMess(enableMesss);
+
+                if(enableMesss)
+                    messList.remainingMess.Add(mess);
             }
         }
     }
@@ -62,7 +64,23 @@ public class MessHandler : MonoBehaviour
             if(messList.remainingMess.Contains(mess))
             {
                 messList.remainingMess.Remove(mess);
+
                 //spawn particle effect with correct counter UI on finished mess
+                GameObject notification = Instantiate(_messCleanedNotification, this.transform);
+                
+                Vector3 cameraPosition = PlayerManager.instance.GetComponentInChildren<Camera>().transform.position;
+                Vector3 popupPosition = mess._popupPosition.transform.position;
+
+                //move popup slightly towards camera
+                popupPosition = Vector3.MoveTowards(popupPosition, cameraPosition, 0.2f);
+                
+
+                notification.transform.position = popupPosition;
+                string numberText = (messList.numToClean - messList.remainingMess.Count) + " / " + messList.numToClean;
+                notification.GetComponent<CleanedPopup>().SetValues(messList.tag, numberText);
+
+                Debug.Log(this + " removing mess " + mess + " from " + messList.tag + " -list");
+                Debug.Log(this + " with notification " + numberText);
 
                 break;
             }
