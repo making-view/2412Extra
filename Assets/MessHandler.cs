@@ -28,6 +28,7 @@ public class MessHandler : MonoBehaviour
 
 
         //activate a random subset of messes for each category
+        //disable inactive messes or make them look good if quality fruit
     }
 
     public void MessCleaned(Mess mess)

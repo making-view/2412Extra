@@ -7,7 +7,6 @@ public class MessTrigger : MonoBehaviour
 {
     private Mess _myMess;
 
-
     void Start()
     {
         _myMess = GetComponentInParent<Mess>();
