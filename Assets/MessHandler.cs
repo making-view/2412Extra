@@ -3,17 +3,21 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using static MessHandler;
+using Random = System.Random;
 
 public class MessHandler : MonoBehaviour
 {
     [Serializable]
     public class MessList
     {
-        public string name;
+        public string tag;
         public int numToClean = 3;
         public List<Mess> allMess = new List<Mess>();
-        [HideInInspector] public List<Mess> remainingMess = new List<Mess>();
+        public List<Mess> remainingMess = new List<Mess>();
     }
+
+    [SerializeField] GameObject _messCleanedNotification;
 
     [SerializeField] private List<MessList> _messCategories = new List<MessList>();
     public static MessHandler instance;
@@ -26,23 +30,57 @@ public class MessHandler : MonoBehaviour
         else
             instance = this;
 
+        foreach (MessList messList in _messCategories)
+        {
+            //add all messes in scene that matches tag of messList
+            messList.allMess.AddRange(FindObjectsByType<Mess>(FindObjectsSortMode.None).ToList().Where((x) => x.tag.Equals(messList.tag)));
 
-        //activate a random subset of messes for each category
-        //disable inactive messes or make them look good if quality fruit
+            if (messList.numToClean > messList.allMess.Count)
+            {
+                Debug.LogError(this + " Not enough mess with tag " + messList.tag + " to clean " + messList.numToClean + " items");
+                return;
+            }
+
+            Debug.Log(this + " Shuffling messes with tag " + messList.tag + " and enabling " + messList.numToClean + " items");
+            messList.allMess = ShuffleMessList(messList.allMess);
+
+            for (int i = 0; i < messList.allMess.Count - 1; i++)
+            {
+                Mess mess = messList.allMess[i];
+                messList.remainingMess.Add(mess);
+
+                bool enableMesss = i < messList.numToClean;
+                mess.EnableMess(enableMesss);
+            }
+        }
     }
 
     public void MessCleaned(Mess mess)
     {
-        //remove mess from its list
-        //spawn particle effect with correct counter UI on finished mess
-       
-        
-        //check if no mess left = call for game handler to complete
-        int messLeft = 0;
+        foreach (MessList messList in _messCategories)
+        {
+            if(messList.remainingMess.Contains(mess))
+            {
+                messList.remainingMess.Remove(mess);
+                //spawn particle effect with correct counter UI on finished mess
+
+                break;
+            }
+        }
+
+
+            //check if no mess left = call for game handler to complete
+            int messLeft = 0;
         foreach(MessList messList in _messCategories)
             messLeft += messList.remainingMess.Count;
 
         if (messLeft == 0)
             GameHandler.instance.FinishGame();
+    }
+
+    public List<Mess> ShuffleMessList(List<Mess> list)
+    {
+        Random random = new Random();
+        return list.OrderBy(x => random.Next()).ToList();
     }
 }

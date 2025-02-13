@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5252453839169423484, guid: e631ce4a4f32c8d45a093a3a04884bf3, type: 3}
+      propertyPath: _hitsToClear
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 6941693076291756257, guid: e631ce4a4f32c8d45a093a3a04884bf3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.008
@@ -91,6 +95,10 @@ PrefabInstance:
     - target: {fileID: 6962208562843174205, guid: e631ce4a4f32c8d45a093a3a04884bf3, type: 3}
       propertyPath: m_Name
       value: Mess_Spiderweb2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6962208562843174205, guid: e631ce4a4f32c8d45a093a3a04884bf3, type: 3}
+      propertyPath: m_TagString
+      value: Renhold
       objectReference: {fileID: 0}
     - target: {fileID: 9193271098861353645, guid: e631ce4a4f32c8d45a093a3a04884bf3, type: 3}
       propertyPath: m_Size.y

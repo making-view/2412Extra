@@ -13,6 +13,9 @@ public class PlayerManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+
+            for(int i = 0; i < transform.childCount; i++)
+                transform.GetChild(i).gameObject.SetActive(true);
         }
         else
             Destroy(this);

@@ -103,7 +103,7 @@ public class Watergun : MonoBehaviour
         }
 
         var goopSize = Vector3.one;
-        goopSize.y = _goopLevel / _maxGoop;
+        goopSize.y = Mathf.Clamp(_goopLevel / _maxGoop, 0.01f, 1.0f);
         _goop.transform.localScale = goopSize;
     }
 

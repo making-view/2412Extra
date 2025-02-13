@@ -32,14 +32,25 @@ public class Mess : MonoBehaviour
     //material type specific
     private List<Material> _materials = new List<Material>();
 
+    //missing stuff specific 
+    private List<GameObject> _missingObjects = new List<GameObject>();
+
     private const float _startingPitch = 1.0f;
     private const float _endingPitch = 2.0f;
 
     private bool _done = false;
+    private bool _initialzied = false;
 
     private void Start()
     {
-        if(_messTransorm == null)
+        Initialize();
+    }
+
+    private void Initialize()
+    {
+        if(_initialzied) return;
+
+        if (_messTransorm == null)
             _messTransorm = GetComponentInChildren<MeshRenderer>().transform;
 
         _collider = GetComponentInChildren<MessTrigger>(true).gameObject;
@@ -49,13 +60,61 @@ public class Mess : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
         _maxHits = _hitsToClear;
 
-        if(_type == TransitionType.material)
+        if (_type == TransitionType.material)
         {
-            foreach(MeshRenderer meshRenderer in GetComponentsInChildren<MeshRenderer>())
-            {
+            foreach (MeshRenderer meshRenderer in GetComponentsInChildren<MeshRenderer>())
                 _materials.Add(meshRenderer.material);
-                //start with max badness
-                meshRenderer.material.SetFloat("_Badness", 1f);
+        }
+        else if (_type == TransitionType.missingStuff)
+        {
+            _hitsToClear = _messTransorm.childCount; //shuold we override this?
+
+            for (int i = 0; i < _messTransorm.childCount; i++)
+                _missingObjects.Add(_messTransorm.GetChild(i).gameObject);
+        }
+
+        _initialzied = true;
+    }
+
+    public void EnableMess(bool active)
+    {
+        Initialize();
+
+        _done = !active;
+        _collider.SetActive(active);
+
+        if (!active)
+        {
+            switch (_type)
+            {
+                case TransitionType.size:
+                    _messTransorm.localScale = Vector3.zero; //hide mesh
+                    break;
+                case TransitionType.material:
+                    foreach (Material material in _materials) //make good material fully opaque
+                        material.SetFloat("_Badness", 0f);
+                    break;
+                case TransitionType.missingStuff:
+                    foreach (GameObject stuff in _missingObjects)
+                        stuff.SetActive(true);
+                    break;
+            }
+        }
+        else
+        {
+            switch (_type)
+            {
+                case TransitionType.size:
+                    _messTransorm.localScale = _startingScale; //show mesh
+                    break;
+                case TransitionType.material:
+                    foreach (Material material in _materials) //make bad material fully opaque
+                        material.SetFloat("_Badness", 1f);
+                    break;
+                case TransitionType.missingStuff:
+                    foreach (GameObject stuff in _missingObjects) //hide objects
+                        stuff.SetActive(false);
+                    break;
             }
         }
     }
@@ -77,8 +136,8 @@ public class Mess : MonoBehaviour
             case TransitionType.material: //TODO maybe give material a bump towards white color when hit
                 
                 break;
-            case TransitionType.missingStuff: //TODO give appearing objects a bump in size when hit
-
+            case TransitionType.missingStuff: //TODO maybe give appearing objects a bump in size when hit
+                _missingObjects[Mathf.FloorToInt(_hitsToClear - 1)].SetActive(true);
                 break;
         }
 
@@ -111,7 +170,8 @@ public class Mess : MonoBehaviour
                         material.SetFloat("_Badness", 0f);
                     break;
                 case TransitionType.missingStuff:
-                    //add the last stuff missing
+                    foreach(GameObject stuff in _missingObjects)
+                        stuff.SetActive(true);
                     break;
             }
             MessHandler.instance.MessCleaned(this);

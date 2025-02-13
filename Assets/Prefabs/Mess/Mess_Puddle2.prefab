@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 5457979386220194293}
   m_Layer: 10
   m_Name: Mess_Puddle2
-  m_TagString: Untagged
+  m_TagString: Renhold
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -242,8 +242,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac2f3e800fec0f047abb383b5123f977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _type: 0
   _messTransorm: {fileID: 0}
-  _hitsToClear: 30
+  _hitsToClear: 20
+  _progressThreshold: 0.8
 --- !u!82 &5457979386220194293
 AudioSource:
   m_ObjectHideFlags: 0
