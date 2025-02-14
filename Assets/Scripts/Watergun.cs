@@ -95,7 +95,7 @@ public class Watergun : MonoBehaviour
 
             _particles.Stop();
 
-            _goopLevel = Mathf.Clamp(_goopLevel + Time.deltaTime, 0f, _maxGoop);
+            _goopLevel = Mathf.Clamp(_goopLevel + Time.deltaTime * 2f, 0f, _maxGoop);
 
 
             //todo stretch, play refilling sound while filling

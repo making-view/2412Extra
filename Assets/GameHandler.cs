@@ -17,6 +17,8 @@ public class GameHandler : MonoBehaviour
     //TODO make into list with timers?
     [SerializeField] private TextMeshProUGUI _txtTimer;
 
+    [SerializeField] private AudioSource _backgroundMusic;
+
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +28,7 @@ public class GameHandler : MonoBehaviour
         else
             instance = this;
 
+        _backgroundMusic = GetComponent<AudioSource>();
 
         //should set up interactions for starting stopping, UI, score etc.
     }
@@ -60,6 +63,12 @@ public class GameHandler : MonoBehaviour
         _timer = 0;
         _gameRunning = true;
 
+        var playerCamera = PlayerManager.instance.GetComponentInChildren<Camera>();
+        var confetti = playerCamera.GetComponentInChildren<ParticleSystem>(true).gameObject;
+
+        confetti.SetActive(false);
+        _backgroundMusic.Play();
+
         //should make messes interactable and put gun in bubble-mode
 
         //Transition idé: Du hører lyset slår seg av og det blir mørkt, latter fra ekstra-jævelen, du hører lyset slå seg på igjen og det blir lyst. Det har nå spawnet diverse rot som du må rydde 
@@ -81,6 +90,8 @@ public class GameHandler : MonoBehaviour
 
     private void ShowScore()
     {
+        _backgroundMusic.Stop();
+
         _gameFinished = true;
         _gameRunning = false;
         //should take gun out of bubble mode and tp player to leaderboard

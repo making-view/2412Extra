@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class SceneTransitioner : MonoBehaviour
 {
     // Start is called before the first frame update
-    static SceneTransitioner instance;
+    public static SceneTransitioner instance;
     [SerializeField] [Range(0.0f, 4.0f)] float _fadeTime = 1.0f;
 
     private void Start()
