@@ -22,7 +22,7 @@ public class Mess : MonoBehaviour
     [SerializeField] private Transform _messTransform;
     [SerializeField] public Transform _popupPosition;
     [SerializeField] float _hitsToClear = 30f;
-    [SerializeField] float _progressThreshold = 0.8f;
+    [SerializeField] float _progressThreshold = 0.5f;
     private AudioSource _audioSource;
     float _maxHits;
 
@@ -71,7 +71,7 @@ public class Mess : MonoBehaviour
         }
         else if (_type == TransitionType.missingStuff)
         {
-            _hitsToClear = _messTransform.childCount; //shuold we override this? If not then change onhit of missing type
+            //_hitsToClear = _messTransform.childCount; //shuold we override this? If not then change onhit of missing type
 
             for (int i = 0; i < _messTransform.childCount; i++)
                 _missingObjects.Add(_messTransform.GetChild(i).gameObject);
@@ -129,7 +129,9 @@ public class Mess : MonoBehaviour
             return;
 
         _hitsToClear--;
+
         float progress = 1f - Mathf.Clamp01(_hitsToClear / _maxHits);
+
 
         switch (_type)
         {
@@ -140,8 +142,12 @@ public class Mess : MonoBehaviour
             case TransitionType.material: //TODO maybe give material a bump towards white color when hit
                 
                 break;
-            case TransitionType.missingStuff: //TODO maybe give appearing objects a bump in size when hit
-                _missingObjects[Mathf.FloorToInt(_hitsToClear - 1)].SetActive(true);
+            case TransitionType.missingStuff:
+                int childrenToActivate = Mathf.FloorToInt(_messTransform.childCount * progress) - 1;
+                for(int i = 0; i < childrenToActivate; i++)
+                {
+                    _missingObjects[i].SetActive(i <= childrenToActivate);
+                }
                 break;
         }
 
@@ -154,7 +160,7 @@ public class Mess : MonoBehaviour
             _audioSource.Play();
         }
 
-        if (_hitsToClear == 0 || progress > _progressThreshold)
+        if (_hitsToClear <= 0)
         {
             Debug.Log(this + " is done");
             _done = true;
@@ -187,9 +193,10 @@ public class Mess : MonoBehaviour
         if (_done)
             return;
 
+
         //from 1 at start, to 0 at end
         float progress = Mathf.Clamp01(_hitsToClear / _maxHits);
-        float smoothProgress = Mathf.SmoothStep(0f, 1.0f, progress);
+        float smoothProgress = Mathf.SmoothStep(0f + _progressThreshold, 1.0f, progress);
 
         switch (_type)
         {

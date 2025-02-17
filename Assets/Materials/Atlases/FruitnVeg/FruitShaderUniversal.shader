@@ -382,7 +382,7 @@ Shader "FruitShaderUniversal"
 				}
 			}
 			
-			float3 CombineSamplesSharp128_g4( float S0, float S1, float S2, float Strength )
+			float3 CombineSamplesSharp128_g6( float S0, float S1, float S2, float Strength )
 			{
 				{
 				    float3 va = float3( 0.13, 0, ( S1 - S0 ) * Strength );
@@ -626,32 +626,32 @@ Shader "FruitShaderUniversal"
 				float temp_output_91_0_g5 = 0.2;
 				float Strength128_g5 = temp_output_91_0_g5;
 				float3 localCombineSamplesSharp128_g5 = CombineSamplesSharp128_g5( S0128_g5 , S1128_g5 , S2128_g5 , Strength128_g5 );
-				float localCalculateUVsSharp110_g4 = ( 0.0 );
+				float localCalculateUVsSharp110_g6 = ( 0.0 );
 				float4 _Bad_normal_ST_Instance = UNITY_ACCESS_INSTANCED_PROP(FruitShaderUniversal,_Bad_normal_ST);
 				float2 uv_Bad_normal = input.ase_texcoord8.xy * _Bad_normal_ST_Instance.xy + _Bad_normal_ST_Instance.zw;
-				float2 temp_output_85_0_g4 = uv_Bad_normal;
-				float2 UV110_g4 = temp_output_85_0_g4;
-				float4 TexelSize110_g4 = _Bad_normal_TexelSize;
-				float2 UV0110_g4 = float2( 0,0 );
-				float2 UV1110_g4 = float2( 0,0 );
-				float2 UV2110_g4 = float2( 0,0 );
+				float2 temp_output_85_0_g6 = uv_Bad_normal;
+				float2 UV110_g6 = temp_output_85_0_g6;
+				float4 TexelSize110_g6 = _Bad_normal_TexelSize;
+				float2 UV0110_g6 = float2( 0,0 );
+				float2 UV1110_g6 = float2( 0,0 );
+				float2 UV2110_g6 = float2( 0,0 );
 				{
 				{
-				    UV110_g4.y -= TexelSize110_g4.y * 0.5;
-				    UV0110_g4 = UV110_g4;
-				    UV1110_g4 = UV110_g4 + float2( TexelSize110_g4.x, 0 );
-				    UV2110_g4 = UV110_g4 + float2( 0, TexelSize110_g4.y );
+				    UV110_g6.y -= TexelSize110_g6.y * 0.5;
+				    UV0110_g6 = UV110_g6;
+				    UV1110_g6 = UV110_g6 + float2( TexelSize110_g6.x, 0 );
+				    UV2110_g6 = UV110_g6 + float2( 0, TexelSize110_g6.y );
 				}
 				}
-				float4 break134_g4 = tex2D( _Bad_normal, UV0110_g4 );
-				float S0128_g4 = break134_g4.r;
-				float4 break136_g4 = tex2D( _Bad_normal, UV1110_g4 );
-				float S1128_g4 = break136_g4.r;
-				float4 break138_g4 = tex2D( _Bad_normal, UV2110_g4 );
-				float S2128_g4 = break138_g4.r;
-				float temp_output_91_0_g4 = 0.2;
-				float Strength128_g4 = temp_output_91_0_g4;
-				float3 localCombineSamplesSharp128_g4 = CombineSamplesSharp128_g4( S0128_g4 , S1128_g4 , S2128_g4 , Strength128_g4 );
+				float4 break134_g6 = tex2D( _Bad_normal, UV0110_g6 );
+				float S0128_g6 = break134_g6.r;
+				float4 break136_g6 = tex2D( _Bad_normal, UV1110_g6 );
+				float S1128_g6 = break136_g6.r;
+				float4 break138_g6 = tex2D( _Bad_normal, UV2110_g6 );
+				float S2128_g6 = break138_g6.r;
+				float temp_output_91_0_g6 = 0.2;
+				float Strength128_g6 = temp_output_91_0_g6;
+				float3 localCombineSamplesSharp128_g6 = CombineSamplesSharp128_g6( S0128_g6 , S1128_g6 , S2128_g6 , Strength128_g6 );
 				
 				float4 _Good_metallicSmoothness_ST_Instance = UNITY_ACCESS_INSTANCED_PROP(FruitShaderUniversal,_Good_metallicSmoothness_ST);
 				float2 uv_Good_metallicSmoothness = input.ase_texcoord8.xy * _Good_metallicSmoothness_ST_Instance.xy + _Good_metallicSmoothness_ST_Instance.zw;
@@ -661,7 +661,7 @@ Shader "FruitShaderUniversal"
 				
 
 				float3 BaseColor = ( ( tex2DNode19 * ( 1.0 - _Badness_Instance ) ) + ( tex2D( _Bad_albedo, uv_Bad_albedo ) * _Badness_Instance ) ).rgb;
-				float3 Normal = ( ( localCombineSamplesSharp128_g5 * ( 1.0 - _Badness_Instance ) ) + ( localCombineSamplesSharp128_g4 * _Badness_Instance ) );
+				float3 Normal = ( ( localCombineSamplesSharp128_g5 * ( 1.0 - _Badness_Instance ) ) + ( localCombineSamplesSharp128_g6 * _Badness_Instance ) );
 				float3 Emission = 0;
 				float3 Specular = 0.5;
 				float Metallic = break26.r;
@@ -2283,7 +2283,7 @@ Shader "FruitShaderUniversal"
 				}
 			}
 			
-			float3 CombineSamplesSharp128_g4( float S0, float S1, float S2, float Strength )
+			float3 CombineSamplesSharp128_g6( float S0, float S1, float S2, float Strength )
 			{
 				{
 				    float3 va = float3( 0.13, 0, ( S1 - S0 ) * Strength );
@@ -2476,39 +2476,39 @@ Shader "FruitShaderUniversal"
 				float Strength128_g5 = temp_output_91_0_g5;
 				float3 localCombineSamplesSharp128_g5 = CombineSamplesSharp128_g5( S0128_g5 , S1128_g5 , S2128_g5 , Strength128_g5 );
 				float _Badness_Instance = UNITY_ACCESS_INSTANCED_PROP(FruitShaderUniversal,_Badness);
-				float localCalculateUVsSharp110_g4 = ( 0.0 );
+				float localCalculateUVsSharp110_g6 = ( 0.0 );
 				float4 _Bad_normal_ST_Instance = UNITY_ACCESS_INSTANCED_PROP(FruitShaderUniversal,_Bad_normal_ST);
 				float2 uv_Bad_normal = input.ase_texcoord5.xy * _Bad_normal_ST_Instance.xy + _Bad_normal_ST_Instance.zw;
-				float2 temp_output_85_0_g4 = uv_Bad_normal;
-				float2 UV110_g4 = temp_output_85_0_g4;
-				float4 TexelSize110_g4 = _Bad_normal_TexelSize;
-				float2 UV0110_g4 = float2( 0,0 );
-				float2 UV1110_g4 = float2( 0,0 );
-				float2 UV2110_g4 = float2( 0,0 );
+				float2 temp_output_85_0_g6 = uv_Bad_normal;
+				float2 UV110_g6 = temp_output_85_0_g6;
+				float4 TexelSize110_g6 = _Bad_normal_TexelSize;
+				float2 UV0110_g6 = float2( 0,0 );
+				float2 UV1110_g6 = float2( 0,0 );
+				float2 UV2110_g6 = float2( 0,0 );
 				{
 				{
-				    UV110_g4.y -= TexelSize110_g4.y * 0.5;
-				    UV0110_g4 = UV110_g4;
-				    UV1110_g4 = UV110_g4 + float2( TexelSize110_g4.x, 0 );
-				    UV2110_g4 = UV110_g4 + float2( 0, TexelSize110_g4.y );
+				    UV110_g6.y -= TexelSize110_g6.y * 0.5;
+				    UV0110_g6 = UV110_g6;
+				    UV1110_g6 = UV110_g6 + float2( TexelSize110_g6.x, 0 );
+				    UV2110_g6 = UV110_g6 + float2( 0, TexelSize110_g6.y );
 				}
 				}
-				float4 break134_g4 = tex2D( _Bad_normal, UV0110_g4 );
-				float S0128_g4 = break134_g4.r;
-				float4 break136_g4 = tex2D( _Bad_normal, UV1110_g4 );
-				float S1128_g4 = break136_g4.r;
-				float4 break138_g4 = tex2D( _Bad_normal, UV2110_g4 );
-				float S2128_g4 = break138_g4.r;
-				float temp_output_91_0_g4 = 0.2;
-				float Strength128_g4 = temp_output_91_0_g4;
-				float3 localCombineSamplesSharp128_g4 = CombineSamplesSharp128_g4( S0128_g4 , S1128_g4 , S2128_g4 , Strength128_g4 );
+				float4 break134_g6 = tex2D( _Bad_normal, UV0110_g6 );
+				float S0128_g6 = break134_g6.r;
+				float4 break136_g6 = tex2D( _Bad_normal, UV1110_g6 );
+				float S1128_g6 = break136_g6.r;
+				float4 break138_g6 = tex2D( _Bad_normal, UV2110_g6 );
+				float S2128_g6 = break138_g6.r;
+				float temp_output_91_0_g6 = 0.2;
+				float Strength128_g6 = temp_output_91_0_g6;
+				float3 localCombineSamplesSharp128_g6 = CombineSamplesSharp128_g6( S0128_g6 , S1128_g6 , S2128_g6 , Strength128_g6 );
 				
 				float4 _Good_albedo_ST_Instance = UNITY_ACCESS_INSTANCED_PROP(FruitShaderUniversal,_Good_albedo_ST);
 				float2 uv_Good_albedo = input.ase_texcoord5.xy * _Good_albedo_ST_Instance.xy + _Good_albedo_ST_Instance.zw;
 				float4 tex2DNode19 = tex2D( _Good_albedo, uv_Good_albedo );
 				
 
-				float3 Normal = ( ( localCombineSamplesSharp128_g5 * ( 1.0 - _Badness_Instance ) ) + ( localCombineSamplesSharp128_g4 * _Badness_Instance ) );
+				float3 Normal = ( ( localCombineSamplesSharp128_g5 * ( 1.0 - _Badness_Instance ) ) + ( localCombineSamplesSharp128_g6 * _Badness_Instance ) );
 				float Alpha = tex2DNode19.a;
 				float AlphaClipThreshold = 0.5;
 
@@ -2764,7 +2764,7 @@ Shader "FruitShaderUniversal"
 				}
 			}
 			
-			float3 CombineSamplesSharp128_g4( float S0, float S1, float S2, float Strength )
+			float3 CombineSamplesSharp128_g6( float S0, float S1, float S2, float Strength )
 			{
 				{
 				    float3 va = float3( 0.13, 0, ( S1 - S0 ) * Strength );
@@ -3010,32 +3010,32 @@ Shader "FruitShaderUniversal"
 				float temp_output_91_0_g5 = 0.2;
 				float Strength128_g5 = temp_output_91_0_g5;
 				float3 localCombineSamplesSharp128_g5 = CombineSamplesSharp128_g5( S0128_g5 , S1128_g5 , S2128_g5 , Strength128_g5 );
-				float localCalculateUVsSharp110_g4 = ( 0.0 );
+				float localCalculateUVsSharp110_g6 = ( 0.0 );
 				float4 _Bad_normal_ST_Instance = UNITY_ACCESS_INSTANCED_PROP(FruitShaderUniversal,_Bad_normal_ST);
 				float2 uv_Bad_normal = input.ase_texcoord8.xy * _Bad_normal_ST_Instance.xy + _Bad_normal_ST_Instance.zw;
-				float2 temp_output_85_0_g4 = uv_Bad_normal;
-				float2 UV110_g4 = temp_output_85_0_g4;
-				float4 TexelSize110_g4 = _Bad_normal_TexelSize;
-				float2 UV0110_g4 = float2( 0,0 );
-				float2 UV1110_g4 = float2( 0,0 );
-				float2 UV2110_g4 = float2( 0,0 );
+				float2 temp_output_85_0_g6 = uv_Bad_normal;
+				float2 UV110_g6 = temp_output_85_0_g6;
+				float4 TexelSize110_g6 = _Bad_normal_TexelSize;
+				float2 UV0110_g6 = float2( 0,0 );
+				float2 UV1110_g6 = float2( 0,0 );
+				float2 UV2110_g6 = float2( 0,0 );
 				{
 				{
-				    UV110_g4.y -= TexelSize110_g4.y * 0.5;
-				    UV0110_g4 = UV110_g4;
-				    UV1110_g4 = UV110_g4 + float2( TexelSize110_g4.x, 0 );
-				    UV2110_g4 = UV110_g4 + float2( 0, TexelSize110_g4.y );
+				    UV110_g6.y -= TexelSize110_g6.y * 0.5;
+				    UV0110_g6 = UV110_g6;
+				    UV1110_g6 = UV110_g6 + float2( TexelSize110_g6.x, 0 );
+				    UV2110_g6 = UV110_g6 + float2( 0, TexelSize110_g6.y );
 				}
 				}
-				float4 break134_g4 = tex2D( _Bad_normal, UV0110_g4 );
-				float S0128_g4 = break134_g4.r;
-				float4 break136_g4 = tex2D( _Bad_normal, UV1110_g4 );
-				float S1128_g4 = break136_g4.r;
-				float4 break138_g4 = tex2D( _Bad_normal, UV2110_g4 );
-				float S2128_g4 = break138_g4.r;
-				float temp_output_91_0_g4 = 0.2;
-				float Strength128_g4 = temp_output_91_0_g4;
-				float3 localCombineSamplesSharp128_g4 = CombineSamplesSharp128_g4( S0128_g4 , S1128_g4 , S2128_g4 , Strength128_g4 );
+				float4 break134_g6 = tex2D( _Bad_normal, UV0110_g6 );
+				float S0128_g6 = break134_g6.r;
+				float4 break136_g6 = tex2D( _Bad_normal, UV1110_g6 );
+				float S1128_g6 = break136_g6.r;
+				float4 break138_g6 = tex2D( _Bad_normal, UV2110_g6 );
+				float S2128_g6 = break138_g6.r;
+				float temp_output_91_0_g6 = 0.2;
+				float Strength128_g6 = temp_output_91_0_g6;
+				float3 localCombineSamplesSharp128_g6 = CombineSamplesSharp128_g6( S0128_g6 , S1128_g6 , S2128_g6 , Strength128_g6 );
 				
 				float4 _Good_metallicSmoothness_ST_Instance = UNITY_ACCESS_INSTANCED_PROP(FruitShaderUniversal,_Good_metallicSmoothness_ST);
 				float2 uv_Good_metallicSmoothness = input.ase_texcoord8.xy * _Good_metallicSmoothness_ST_Instance.xy + _Good_metallicSmoothness_ST_Instance.zw;
@@ -3045,7 +3045,7 @@ Shader "FruitShaderUniversal"
 				
 
 				float3 BaseColor = ( ( tex2DNode19 * ( 1.0 - _Badness_Instance ) ) + ( tex2D( _Bad_albedo, uv_Bad_albedo ) * _Badness_Instance ) ).rgb;
-				float3 Normal = ( ( localCombineSamplesSharp128_g5 * ( 1.0 - _Badness_Instance ) ) + ( localCombineSamplesSharp128_g4 * _Badness_Instance ) );
+				float3 Normal = ( ( localCombineSamplesSharp128_g5 * ( 1.0 - _Badness_Instance ) ) + ( localCombineSamplesSharp128_g6 * _Badness_Instance ) );
 				float3 Emission = 0;
 				float3 Specular = 0.5;
 				float Metallic = break26.r;
@@ -3712,33 +3712,33 @@ Shader "FruitShaderUniversal"
 }
 /*ASEBEGIN
 Version=19801
-Node;AmplifyShaderEditor.TexturePropertyNode;12;-1888,-128;Inherit;True;Property;_Good_albedo;Good_albedo;0;0;Create;True;0;0;0;False;0;False;16bbed83d5530f34292dc3f7e1e861df;16bbed83d5530f34292dc3f7e1e861df;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
+Node;AmplifyShaderEditor.TexturePropertyNode;12;-1888,-128;Inherit;True;Property;_Good_albedo;Good_albedo;0;0;Create;True;0;0;0;False;0;False;16bbed83d5530f34292dc3f7e1e861df;ae6391caf8de65f4ea4cca7674ab3265;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
 Node;AmplifyShaderEditor.BreakToComponentsNode;26;-352,352;Inherit;False;COLOR;1;0;COLOR;0,0,0,0;False;16;FLOAT;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4;FLOAT;5;FLOAT;6;FLOAT;7;FLOAT;8;FLOAT;9;FLOAT;10;FLOAT;11;FLOAT;12;FLOAT;13;FLOAT;14;FLOAT;15
-Node;AmplifyShaderEditor.SamplerNode;14;-1536,400;Inherit;True;Property;_TextureSample2;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;6;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4;FLOAT3;5
 Node;AmplifyShaderEditor.SamplerNode;19;-1552,-128;Inherit;True;Property;_TextureSample0;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;6;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4;FLOAT3;5
 Node;AmplifyShaderEditor.SamplerNode;20;-1552,128;Inherit;True;Property;_TextureSample1;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;6;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4;FLOAT3;5
-Node;AmplifyShaderEditor.TexturePropertyNode;13;-1888,128;Inherit;True;Property;_Bad_albedo;Bad_albedo;1;0;Create;True;0;0;0;False;0;False;8b74d04e304377448bd158b804497c1c;8b74d04e304377448bd158b804497c1c;False;black;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
+Node;AmplifyShaderEditor.TexturePropertyNode;13;-1888,128;Inherit;True;Property;_Bad_albedo;Bad_albedo;1;0;Create;True;0;0;0;False;0;False;8b74d04e304377448bd158b804497c1c;9e09818cb747c914293d288fb8f83ac0;False;black;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
 Node;AmplifyShaderEditor.SamplerNode;15;-1536,656;Inherit;True;Property;_TextureSample3;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;6;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4;FLOAT3;5
-Node;AmplifyShaderEditor.TexturePropertyNode;11;-1888,656;Inherit;True;Property;_Bad_metallicSmoothness;Bad_metallicSmoothness;3;0;Create;True;0;0;0;False;0;False;af0c6d836b12a61439a3726045ce2913;af0c6d836b12a61439a3726045ce2913;False;black;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
-Node;AmplifyShaderEditor.TexturePropertyNode;10;-1888,400;Inherit;True;Property;_Good_metallicSmoothness;Good_metallicSmoothness;2;0;Create;True;0;0;0;False;0;False;db8beb4a925d2eb4487f610ba873042f;db8beb4a925d2eb4487f610ba873042f;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
+Node;AmplifyShaderEditor.TexturePropertyNode;11;-1888,656;Inherit;True;Property;_Bad_metallicSmoothness;Bad_metallicSmoothness;3;0;Create;True;0;0;0;False;0;False;af0c6d836b12a61439a3726045ce2913;7a170cdb7cc88024cb628cfcdbb6705c;False;black;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
 Node;AmplifyShaderEditor.SamplerNode;36;-1648,1376;Inherit;True;Property;_TextureSample12;Texture Sample 12;7;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;6;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4;FLOAT3;5
-Node;AmplifyShaderEditor.TexturePropertyNode;17;-1696,912;Inherit;True;Property;_Good_normal;Good_normal;4;1;[Normal];Create;True;0;0;0;False;0;False;822abf6fb80294e4591968a5b457887d;822abf6fb80294e4591968a5b457887d;True;bump;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
-Node;AmplifyShaderEditor.TexturePropertyNode;16;-1728,1136;Inherit;True;Property;_Bad_normal;Bad_normal;5;1;[Normal];Create;True;0;0;0;False;0;False;e0e9ef63f6a41b447b471df5ed4f490d;e0e9ef63f6a41b447b471df5ed4f490d;True;bump;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
+Node;AmplifyShaderEditor.TexturePropertyNode;17;-1696,912;Inherit;True;Property;_Good_normal;Good_normal;4;1;[Normal];Create;True;0;0;0;False;0;False;822abf6fb80294e4591968a5b457887d;None;True;bump;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
+Node;AmplifyShaderEditor.TexturePropertyNode;16;-1728,1136;Inherit;True;Property;_Bad_normal;Bad_normal;5;1;[Normal];Create;True;0;0;0;False;0;False;e0e9ef63f6a41b447b471df5ed4f490d;None;True;bump;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
 Node;AmplifyShaderEditor.FunctionNode;42;-1424,864;Inherit;True;Normal From Texture;-1;;5;9728ee98a55193249b513caf9a0f1676;13,149,0,147,0,143,0,141,0,139,0,151,0,137,0,153,0,159,0,157,0,155,0,135,0,108,0;4;87;SAMPLER2D;0;False;85;FLOAT2;0,0;False;74;SAMPLERSTATE;0;False;91;FLOAT;0.2;False;2;FLOAT3;40;FLOAT3;0
-Node;AmplifyShaderEditor.FunctionNode;41;-1440,1136;Inherit;True;Normal From Texture;-1;;4;9728ee98a55193249b513caf9a0f1676;13,149,0,147,0,143,0,141,0,139,0,151,0,137,0,153,0,159,0,157,0,155,0,135,0,108,0;4;87;SAMPLER2D;0;False;85;FLOAT2;0,0;False;74;SAMPLERSTATE;0;False;91;FLOAT;0.2;False;2;FLOAT3;40;FLOAT3;0
+Node;AmplifyShaderEditor.FunctionNode;41;-1440,1136;Inherit;True;Normal From Texture;-1;;6;9728ee98a55193249b513caf9a0f1676;13,149,0,147,0,143,0,141,0,139,0,151,0,137,0,153,0,159,0,157,0,155,0,135,0,108,0;4;87;SAMPLER2D;0;False;85;FLOAT2;0,0;False;74;SAMPLERSTATE;0;False;91;FLOAT;0.2;False;2;FLOAT3;40;FLOAT3;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;31;-752,864;Inherit;True;2;2;0;FLOAT3;0,0,0;False;1;FLOAT;0;False;1;FLOAT3;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;34;-688,1136;Inherit;False;2;2;0;FLOAT3;0,0,0;False;1;FLOAT;0;False;1;FLOAT3;0
 Node;AmplifyShaderEditor.OneMinusNode;33;-944,992;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.SimpleMultiplyOpNode;44;-976,432;Inherit;True;2;2;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;1;COLOR;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;45;-912,704;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;1;COLOR;0
-Node;AmplifyShaderEditor.OneMinusNode;46;-1168,560;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;48;-828.0837,-55.57703;Inherit;True;2;2;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;1;COLOR;0
-Node;AmplifyShaderEditor.RangedFloatNode;18;-1392,320;Inherit;False;InstancedProperty;_Badness;Badness;6;0;Create;True;0;0;0;True;0;False;1;0;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.OneMinusNode;50;-1008,32;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;49;-800,224;Inherit;False;2;2;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;1;COLOR;0
-Node;AmplifyShaderEditor.SimpleAddOpNode;47;-704,560;Inherit;True;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
 Node;AmplifyShaderEditor.SimpleAddOpNode;43;-480,992;Inherit;True;2;2;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;1;FLOAT3;0
 Node;AmplifyShaderEditor.SimpleAddOpNode;51;-560,96;Inherit;True;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.SamplerNode;14;-1536,400;Inherit;True;Property;_TextureSample2;Texture Sample 0;0;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;6;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4;FLOAT3;5
+Node;AmplifyShaderEditor.TexturePropertyNode;10;-1888,400;Inherit;True;Property;_Good_metallicSmoothness;Good_metallicSmoothness;2;0;Create;True;0;0;0;False;0;False;db8beb4a925d2eb4487f610ba873042f;7a170cdb7cc88024cb628cfcdbb6705c;False;white;Auto;Texture2D;-1;0;2;SAMPLER2D;0;SAMPLERSTATE;1
+Node;AmplifyShaderEditor.RangedFloatNode;18;-1504,592;Inherit;False;InstancedProperty;_Badness;Badness;6;0;Create;True;0;0;0;True;0;False;1;0;0;1;0;1;FLOAT;0
+Node;AmplifyShaderEditor.OneMinusNode;46;-1136,592;Inherit;False;1;0;FLOAT;0;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleAddOpNode;47;-704,560;Inherit;True;2;2;0;COLOR;0,0,0,0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;44;-944,400;Inherit;True;2;2;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;1;COLOR;0
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;0,0;Float;False;False;-1;3;UnityEditor.ShaderGraphLitGUI;0;12;New Amplify Shader;94348b07e5e8bab40bd6c8a1e3df54cd;True;ExtraPrePass;0;0;ExtraPrePass;5;False;False;False;False;False;False;False;False;False;False;False;False;True;0;False;;False;True;0;False;;False;False;False;False;False;False;False;False;False;True;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;True;1;False;;True;3;False;;True;True;0;False;;0;False;;True;4;RenderPipeline=UniversalPipeline;RenderType=Opaque=RenderType;Queue=Geometry=Queue=0;UniversalMaterialType=Lit;True;5;True;12;all;0;False;True;1;1;False;;0;False;;0;1;False;;0;False;;False;False;False;False;False;False;False;False;False;False;False;False;True;0;False;;False;True;True;True;True;True;0;False;;False;False;False;False;False;False;False;True;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;True;1;False;;True;3;False;;True;True;0;False;;0;False;;True;0;False;False;0;;0;0;Standard;0;False;0
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;2;0,0;Float;False;False;-1;3;UnityEditor.ShaderGraphLitGUI;0;12;New Amplify Shader;94348b07e5e8bab40bd6c8a1e3df54cd;True;ShadowCaster;0;2;ShadowCaster;0;False;False;False;False;False;False;False;False;False;False;False;False;True;0;False;;False;True;0;False;;False;False;False;False;False;False;False;False;False;True;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;True;1;False;;True;3;False;;True;True;0;False;;0;False;;True;4;RenderPipeline=UniversalPipeline;RenderType=Opaque=RenderType;Queue=Geometry=Queue=0;UniversalMaterialType=Lit;True;5;True;12;all;0;False;False;False;False;False;False;False;False;False;False;False;False;True;0;False;;False;False;False;True;False;False;False;False;0;False;;False;False;False;False;False;False;False;False;False;True;1;False;;True;3;False;;False;True;1;LightMode=ShadowCaster;False;False;0;;0;0;Standard;0;False;0
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;3;0,0;Float;False;False;-1;3;UnityEditor.ShaderGraphLitGUI;0;12;New Amplify Shader;94348b07e5e8bab40bd6c8a1e3df54cd;True;DepthOnly;0;3;DepthOnly;0;False;False;False;False;False;False;False;False;False;False;False;False;True;0;False;;False;True;0;False;;False;False;False;False;False;False;False;False;False;True;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;True;1;False;;True;3;False;;True;True;0;False;;0;False;;True;4;RenderPipeline=UniversalPipeline;RenderType=Opaque=RenderType;Queue=Geometry=Queue=0;UniversalMaterialType=Lit;True;5;True;12;all;0;False;False;False;False;False;False;False;False;False;False;False;False;True;0;False;;False;False;False;True;True;False;False;False;0;False;;False;False;False;False;False;False;False;False;False;True;1;False;;False;False;True;1;LightMode=DepthOnly;False;False;0;;0;0;Standard;0;False;0
@@ -3750,7 +3750,6 @@ Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;8;0,0;Float;False;False;-1;
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;9;0,0;Float;False;False;-1;3;UnityEditor.ShaderGraphLitGUI;0;12;New Amplify Shader;94348b07e5e8bab40bd6c8a1e3df54cd;True;ScenePickingPass;0;9;ScenePickingPass;0;False;False;False;False;False;False;False;False;False;False;False;False;True;0;False;;False;True;0;False;;False;False;False;False;False;False;False;False;False;True;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;True;1;False;;True;3;False;;True;True;0;False;;0;False;;True;4;RenderPipeline=UniversalPipeline;RenderType=Opaque=RenderType;Queue=Geometry=Queue=0;UniversalMaterialType=Lit;True;5;True;12;all;0;False;False;False;False;False;False;False;False;False;False;False;False;True;0;False;;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;1;LightMode=Picking;False;False;0;;0;0;Standard;0;False;0
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;1;0,240;Float;False;True;-1;3;UnityEditor.ShaderGraphLitGUI;0;12;FruitShaderUniversal;94348b07e5e8bab40bd6c8a1e3df54cd;True;Forward;0;1;Forward;21;False;False;False;False;False;False;False;False;False;False;False;False;True;0;False;;False;True;0;False;;False;False;False;False;False;False;False;False;False;True;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;True;1;False;;True;3;False;;True;True;0;False;;0;False;;True;4;RenderPipeline=UniversalPipeline;RenderType=Opaque=RenderType;Queue=Geometry=Queue=0;UniversalMaterialType=Lit;True;5;True;12;all;0;False;True;1;1;False;;0;False;;1;1;False;;0;False;;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;True;True;True;True;0;False;;False;False;False;False;False;False;False;True;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;True;1;False;;True;3;False;;True;True;0;False;;0;False;;True;1;LightMode=UniversalForward;False;False;0;;0;0;Standard;43;Lighting Model;0;0;Workflow;1;0;Surface;0;0;  Refraction Model;0;0;  Blend;0;0;Two Sided;1;0;Alpha Clipping;1;0;  Use Shadow Threshold;0;0;Fragment Normal Space,InvertActionOnDeselection;0;0;Forward Only;0;0;Transmission;0;0;  Transmission Shadow;0.5,False,;0;Translucency;0;0;  Translucency Strength;1,False,;0;  Normal Distortion;0.5,False,;0;  Scattering;2,False,;0;  Direct;0.9,False,;0;  Ambient;0.1,False,;0;  Shadow;0.5,False,;0;Cast Shadows;1;0;Receive Shadows;1;0;Receive SSAO;1;0;GPU Instancing;1;0;LOD CrossFade;1;0;Built-in Fog;1;0;_FinalColorxAlpha;0;0;Meta Pass;1;0;Override Baked GI;0;0;Extra Pre Pass;0;0;Tessellation;0;0;  Phong;0;0;  Strength;0.5,False,;0;  Type;0;0;  Tess;16,False,;0;  Min;10,False,;0;  Max;25,False,;0;  Edge Length;16,False,;0;  Max Displacement;25,False,;0;Write Depth;0;0;  Early Z;0;0;Vertex Position,InvertActionOnDeselection;1;0;Debug Display;0;0;Clear Coat;0;0;0;10;False;True;True;True;True;True;True;True;True;True;False;;False;0
 WireConnection;26;0;47;0
-WireConnection;14;0;10;0
 WireConnection;19;0;12;0
 WireConnection;20;0;13;0
 WireConnection;15;0;11;0
@@ -3761,26 +3760,27 @@ WireConnection;31;1;33;0
 WireConnection;34;0;41;40
 WireConnection;34;1;18;0
 WireConnection;33;0;18;0
-WireConnection;44;0;14;0
-WireConnection;44;1;46;0
 WireConnection;45;0;15;0
 WireConnection;45;1;18;0
-WireConnection;46;0;18;0
 WireConnection;48;0;19;0
 WireConnection;48;1;50;0
 WireConnection;50;0;18;0
 WireConnection;49;0;20;0
 WireConnection;49;1;18;0
-WireConnection;47;0;44;0
-WireConnection;47;1;45;0
 WireConnection;43;0;31;0
 WireConnection;43;1;34;0
 WireConnection;51;0;48;0
 WireConnection;51;1;49;0
+WireConnection;14;0;10;0
+WireConnection;46;0;18;0
+WireConnection;47;0;44;0
+WireConnection;47;1;45;0
+WireConnection;44;0;14;0
+WireConnection;44;1;46;0
 WireConnection;1;0;51;0
 WireConnection;1;1;43;0
 WireConnection;1;3;26;0
 WireConnection;1;4;26;1
 WireConnection;1;6;19;4
 ASEEND*/
-//CHKSM=FD1C6DE7221BC241321C6BCE47EEAF61CDFF8C39
+//CHKSM=E16841B34D5D310E91299BE00155DD8351B41243
