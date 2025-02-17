@@ -8487,6 +8487,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4766289264714159008, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
+      propertyPath: jointBreakForce
+      value: 1e+19
+      objectReference: {fileID: 0}
     - target: {fileID: 5312394011863151350, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.48442167

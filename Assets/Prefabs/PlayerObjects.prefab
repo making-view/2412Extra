@@ -186,6 +186,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f0cd8206ff4b4b642b6a3b7fc6b02a4d, type: 3}
   - {fileID: 8300000, guid: 5bf31982689e39b4990fa0ae42f75cc6, type: 3}
   _shootingAudioSource: {fileID: 8005760020813669597}
+  _grabbingHands: []
 --- !u!114 &4848423769977179666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1813,7 +1814,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.5
+        value: 0.20070425
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1876,7 +1877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LineWidth: 0.005
+  m_LineWidth: 0.003
   m_OverrideInteractorLineLength: 1
   m_LineLength: 10
   m_AutoAdjustLineLength: 0
@@ -3103,7 +3104,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 1
+    angle: 2
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -6248,7 +6249,7 @@ ParticleSystem:
     radiusScale: 1
     collidesWith:
       serializedVersion: 2
-      m_Bits: 1025
+      m_Bits: 3073
     maxCollisionShapes: 256
     quality: 0
     voxelSize: 0.5
@@ -7856,7 +7857,7 @@ MonoBehaviour:
   ignoreWeight: 0
   allowHeldSwapping: 0
   throwPower: 1
-  jointBreakForce: 3500
+  jointBreakForce: 1e+19
   showAdvancedSettings: 1
   makeChildrenGrabbable: 1
   grabPriorityWeight: 1

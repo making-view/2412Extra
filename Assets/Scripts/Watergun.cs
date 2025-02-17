@@ -26,7 +26,7 @@ public class Watergun : MonoBehaviour
     [SerializeField] private List<AudioClip> _shootingSFX = new List<AudioClip>();
     [SerializeField] private AudioSource _shootingAudioSource;
 
-    private List<Hand> _grabbingHands = new List<Hand>();
+    public List<Hand> _grabbingHands = new List<Hand>();
 
 
     private void Start()

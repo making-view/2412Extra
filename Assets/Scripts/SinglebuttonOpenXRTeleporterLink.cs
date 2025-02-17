@@ -10,7 +10,24 @@ public class SinglebuttonOpenXRTeleporterLink : MonoBehaviour
     public Teleporter hand;
     public InputActionProperty teleportAction;
 
-    bool teleporting = false;
+    private bool _teleporting = false;
+    Watergun _waterGun = null;
+
+    private void Start()
+    {
+        _waterGun = PlayerManager.instance.GetComponentInChildren<Watergun>();
+    }
+
+    private void Update()
+    {
+        if(_teleporting)
+        {
+            foreach (Autohand.Hand hand in _waterGun._grabbingHands)
+            {
+                hand.PlayHapticVibration(0.1f, 0.1f);
+            }
+        }
+    }
 
     void OnEnable()
     {
@@ -34,23 +51,24 @@ public class SinglebuttonOpenXRTeleporterLink : MonoBehaviour
 
     void StartTeleportAction(InputAction.CallbackContext a)
     {
-        if (!teleporting)
+        if (!_teleporting)
         {
             hand.StartTeleport();
-            teleporting = true;
+            _teleporting = true;
         }
     }
 
     void FinishTeleportAction(InputAction.CallbackContext a)
     {
-        if (teleporting)
+        if (_teleporting)
         {
             hand.Teleport();
-            teleporting = false;
+            _teleporting = false;
+
+            foreach (Autohand.Hand hand in _waterGun._grabbingHands)
+            {
+                hand.PlayHapticVibration(0.05f, 0.6f);
+            }
         }
     }
-
-
-
-
 }

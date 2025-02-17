@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.058123816, g: 0.10545448, b: 0.09398853, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1391,7 +1391,7 @@ GameObject:
   - component: {fileID: 45917327}
   - component: {fileID: 45917325}
   m_Layer: 0
-  m_Name: Plane (6)
+  m_Name: LeftWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1431,8 +1431,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 9.999999, y: 2.220446e-16, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 13.6224575, y: 1.8859293, z: 10}
+  m_Center: {x: 1.8112438, y: -0.9429647, z: -2.3980494e-14}
 --- !u!23 &45917327
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8853,7 +8853,7 @@ GameObject:
   - component: {fileID: 249884423}
   - component: {fileID: 249884426}
   m_Layer: 0
-  m_Name: Plane (2)
+  m_Name: InnerWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8943,8 +8943,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 9.999999, y: 2.220446e-16, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 9.999999, y: 1.1009172, z: 10}
+  m_Center: {x: 0, y: -0.5504586, z: 3.907985e-14}
 --- !u!1001 &251856376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9271,7 +9271,7 @@ GameObject:
   - component: {fileID: 264553909}
   - component: {fileID: 264553912}
   m_Layer: 0
-  m_Name: Plane (3)
+  m_Name: RightWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9361,8 +9361,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 10.000002, y: 0.0000021319056, z: 10.000001}
-  m_Center: {x: 0.00000047683716, y: 0, z: 0}
+  m_Size: {x: 10.000002, y: 1.522857, z: 10.000001}
+  m_Center: {x: 0.00000045921902, y: -0.7614274, z: -1.2583111e-13}
 --- !u!1 &267605333
 GameObject:
   m_ObjectHideFlags: 0
@@ -80261,35 +80261,13 @@ GameObject:
   - component: {fileID: 1786955307}
   - component: {fileID: 1786955306}
   - component: {fileID: 1786955305}
-  - component: {fileID: 1786955303}
   m_Layer: 0
-  m_Name: Plane (4)
+  m_Name: LeftWallvisual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &1786955303
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786955301}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 9.999999, y: 2.220446e-16, z: 10}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1786955305
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -81235,7 +81213,7 @@ GameObject:
   - component: {fileID: 1796809795}
   - component: {fileID: 1796809793}
   m_Layer: 0
-  m_Name: Plane (5)
+  m_Name: OuterWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81275,8 +81253,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 9.999999, y: 0.15672183, z: 9.999998}
-  m_Center: {x: 0, y: -0.07836094, z: 2.253977e-16}
+  m_Size: {x: 9.999999, y: 0.9263348, z: 9.999998}
+  m_Center: {x: 0, y: -0.46316752, z: -5.2341935e-16}
 --- !u!23 &1796809795
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -91411,7 +91389,7 @@ GameObject:
   - component: {fileID: 2034391583}
   - component: {fileID: 2034391586}
   m_Layer: 11
-  m_Name: Plane (1)
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
