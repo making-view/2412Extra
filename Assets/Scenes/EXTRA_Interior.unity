@@ -90492,10 +90492,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5404650173966971547, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
-      propertyPath: ShapeModule.angle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5404650173966971547, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
       propertyPath: TriggerModule.primitives.Array.data[0]
       value: 
       objectReference: {fileID: 1640190190}
