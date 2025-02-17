@@ -7400,3 +7400,204 @@ Done
 Done
 Done
 Done
+2025-2-14
+Rendering UV GBuffer for LMGroup_Extra_Floor_MainArea 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for EXTRA_Interior_LM0 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for EXTRA_Interior_LMA1 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for probes 256
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV GBuffer for EXTRA_Interior_VLM 50
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering faceted UV normal...
+Rendering UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\haako\AppData\Local\Temp\frender" "uvpos_LMGroup_Extra_Floor_MainArea.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\haako\AppData\Local\Temp\frender" "uvpos_EXTRA_Interior_LM0.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\haako\AppData\Local\Temp\frender" "uvpos_EXTRA_Interior_LMA1.lz4" 2 0 2 0
+Running ftraceRTX ao "C:\Users\haako\AppData\Local\Temp\frender" "LMGroup_Extra_Floor_MainArea_ao" 8 16 0
+Running ftraceRTX ao "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_VLM_ao" 8 16 4
+Running ftraceRTX ao "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LM0_ao" 8 16 1
+Running ftraceRTX ao "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LMA1_ao" 8 16 2
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_1_0" 68 0 0 lights0.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_2_0" 68 0 0 lights1.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_3_0" 68 0 0 lights2.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_4_0" 68 0 0 lights3.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_5_0" 68 0 0 lights4.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_6_0" 68 0 0 lights5.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_7_0" 68 0 0 lights6.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_8_0" 68 0 0 lights7.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_9_0" 68 0 0 lights8.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_10_0" 68 0 0 lights9.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_11_0" 68 0 0 lights10.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_12_0" 68 0 0 lights11.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_13_0" 68 0 0 lights12.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_14_0" 68 0 0 lights13.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_15_0" 68 0 0 lights14.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_16_0" 68 0 0 lights15.bin
+Running ftraceRTX arealightdir "C:\Users\haako\AppData\Local\Temp\frender" "light_17_0" 68 0 0 lights16.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\haako\AppData\Local\Temp\frender" "PointBatch_0_0_55" 68 0 0 batchpointlight_0_0_55.bin
+Running ftraceRTX sun "C:\Users\haako\AppData\Local\Temp\frender" "light_18_0" 68 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\haako\AppData\Local\Temp\frender" "LMGroup_Extra_Floor_MainArea" 4 0 0 comp_0.bin
+Running ftraceRTX diradd "C:\Users\haako\AppData\Local\Temp\frender" "LMGroup_Extra_Floor_MainArea_lights_Dir.lz4" 64 0 0 dircomp_0.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_1_3" 1924 0 3 lights0.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_2_3" 1924 0 3 lights1.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_3_3" 1924 0 3 lights2.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_4_3" 1924 0 3 lights3.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_5_3" 1924 0 3 lights4.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_6_3" 1924 0 3 lights5.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_7_3" 1924 0 3 lights6.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_8_3" 1924 0 3 lights7.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_9_3" 1924 0 3 lights8.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_10_3" 1924 0 3 lights9.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_11_3" 1924 0 3 lights10.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_12_3" 1924 0 3 lights11.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_13_3" 1924 0 3 lights12.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_14_3" 1924 0 3 lights13.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_15_3" 1924 0 3 lights14.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_16_3" 1924 0 3 lights15.bin
+Running ftraceRTX arealightprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_17_3" 1924 0 3 lights16.bin
+Running ftraceRTX batchpointlightprobeshlegacy "C:\Users\haako\AppData\Local\Temp\frender" "PointBatch_3_0_55" 1924 0 3 batchpointlight_3_0_55.bin
+Running ftraceRTX sunprobesh "C:\Users\haako\AppData\Local\Temp\frender" "light_18_3" 1924 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\haako\AppData\Local\Temp\frender" "probes" 4 0 3 comp_3.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_1_4" 4 0 4 lights0.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_2_4" 4 0 4 lights1.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_3_4" 4 0 4 lights2.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_4_4" 4 0 4 lights3.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_5_4" 4 0 4 lights4.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_6_4" 4 0 4 lights5.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_7_4" 4 0 4 lights6.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_8_4" 4 0 4 lights7.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_9_4" 4 0 4 lights8.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_10_4" 4 0 4 lights9.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_11_4" 4 0 4 lights10.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_12_4" 4 0 4 lights11.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_13_4" 4 0 4 lights12.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_14_4" 4 0 4 lights13.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_15_4" 4 0 4 lights14.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_16_4" 4 0 4 lights15.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_17_4" 4 0 4 lights16.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\haako\AppData\Local\Temp\frender" "PointBatch_4_0_55" 4 0 4 batchpointlight_4_0_55.bin
+Running ftraceRTX sun "C:\Users\haako\AppData\Local\Temp\frender" "light_18_4" 4 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_VLM" 4 0 4 comp_4.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_1_1" 4 0 1 lights0.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_2_1" 4 0 1 lights1.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_3_1" 4 0 1 lights2.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_4_1" 4 0 1 lights3.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_5_1" 4 0 1 lights4.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_6_1" 4 0 1 lights5.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_7_1" 4 0 1 lights6.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_8_1" 4 0 1 lights7.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_9_1" 4 0 1 lights8.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_10_1" 4 0 1 lights9.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_11_1" 4 0 1 lights10.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_12_1" 4 0 1 lights11.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_13_1" 4 0 1 lights12.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_14_1" 4 0 1 lights13.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_15_1" 4 0 1 lights14.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_16_1" 4 0 1 lights15.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_17_1" 4 0 1 lights16.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\haako\AppData\Local\Temp\frender" "PointBatch_1_0_55" 4 0 1 batchpointlight_1_0_55.bin
+Running ftraceRTX sun "C:\Users\haako\AppData\Local\Temp\frender" "light_18_1" 4 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LM0" 4 0 1 comp_1.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_1_2" 4 0 2 lights0.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_2_2" 4 0 2 lights1.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_3_2" 4 0 2 lights2.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_4_2" 4 0 2 lights3.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_5_2" 4 0 2 lights4.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_6_2" 4 0 2 lights5.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_7_2" 4 0 2 lights6.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_8_2" 4 0 2 lights7.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_9_2" 4 0 2 lights8.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_10_2" 4 0 2 lights9.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_11_2" 4 0 2 lights10.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_12_2" 4 0 2 lights11.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_13_2" 4 0 2 lights12.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_14_2" 4 0 2 lights13.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_15_2" 4 0 2 lights14.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_16_2" 4 0 2 lights15.bin
+Running ftraceRTX arealight "C:\Users\haako\AppData\Local\Temp\frender" "light_17_2" 4 0 2 lights16.bin
+Running ftraceRTX batchpointlightlegacy "C:\Users\haako\AppData\Local\Temp\frender" "PointBatch_2_0_55" 4 0 2 batchpointlight_2_0_55.bin
+Running ftraceRTX sun "C:\Users\haako\AppData\Local\Temp\frender" "light_18_2" 4 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LMA1" 4 0 2 comp_2.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "LMGroup_Extra_Floor_MainArea_diffuse" 4 16 0 "gi_LMGroup_Extra_Floor_MainArea0.bin" "LMGroup_Extra_Floor_MainArea_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_VLM_diffuse" 4 16 4 "gi_EXTRA_Interior_VLM0.bin" "EXTRA_Interior_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LM0_diffuse" 4 16 1 "gi_EXTRA_Interior_LM00.bin" "EXTRA_Interior_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LMA1_diffuse" 4 16 2 "gi_EXTRA_Interior_LMA10.bin" "EXTRA_Interior_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "LMGroup_Extra_Floor_MainArea_diffuse" 4 16 0 "gi_LMGroup_Extra_Floor_MainArea1.bin" "LMGroup_Extra_Floor_MainArea_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_VLM_diffuse" 4 16 4 "gi_EXTRA_Interior_VLM1.bin" "EXTRA_Interior_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LM0_diffuse" 4 16 1 "gi_EXTRA_Interior_LM01.bin" "EXTRA_Interior_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LMA1_diffuse" 4 16 2 "gi_EXTRA_Interior_LMA11.bin" "EXTRA_Interior_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "LMGroup_Extra_Floor_MainArea_diffuse" 4 16 0 "gi_LMGroup_Extra_Floor_MainArea2.bin" "LMGroup_Extra_Floor_MainArea_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_VLM_diffuse" 4 16 4 "gi_EXTRA_Interior_VLM2.bin" "EXTRA_Interior_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LM0_diffuse" 4 16 1 "gi_EXTRA_Interior_LM02.bin" "EXTRA_Interior_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LMA1_diffuse" 4 16 2 "gi_EXTRA_Interior_LMA12.bin" "EXTRA_Interior_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "LMGroup_Extra_Floor_MainArea_diffuse" 4 16 0 "gi_LMGroup_Extra_Floor_MainArea3.bin" "LMGroup_Extra_Floor_MainArea_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_VLM_diffuse" 4 16 4 "gi_EXTRA_Interior_VLM3.bin" "EXTRA_Interior_VLM_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LM0_diffuse" 4 16 1 "gi_EXTRA_Interior_LM03.bin" "EXTRA_Interior_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LMA1_diffuse" 4 16 2 "gi_EXTRA_Interior_LMA13.bin" "EXTRA_Interior_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgidir "C:\Users\haako\AppData\Local\Temp\frender" "LMGroup_Extra_Floor_MainArea_final" 68 16 0 "gi_LMGroup_Extra_Floor_MainArea4.bin" "LMGroup_Extra_Floor_MainArea_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgiprobesh "C:\Users\haako\AppData\Local\Temp\frender" "probes_final" 1924 16 3 "gi_probes4.bin" "probes_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_VLM_final" 4 16 4 "gi_EXTRA_Interior_VLM4.bin" "EXTRA_Interior_VLM_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LM0_final" 4 16 1 "gi_EXTRA_Interior_LM04.bin" "EXTRA_Interior_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LMA1_final" 4 16 2 "gi_EXTRA_Interior_LMA14.bin" "EXTRA_Interior_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running denoiser72 D "C:\Users\haako\AppData\Local\Temp\frender/LMGroup_Extra_Floor_MainArea_final_Dir.lz4" "C:\Users\haako\AppData\Local\Temp\frender/LMGroup_Extra_Floor_MainArea_final_Dir.lz4" 1024 0
+Running ftraceRTX addao "C:\Users\haako\AppData\Local\Temp\frender" "LMGroup_Extra_Floor_MainArea_final_HDR.lz4" 4 0 0 addao_0.bin
+Running denoiser72 c "C:\Users\haako\AppData\Local\Temp\frender/LMGroup_Extra_Floor_MainArea_final_HDR.lz4" "C:\Users\haako\AppData\Local\Temp\frender/LMGroup_Extra_Floor_MainArea_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\haako\AppData\Local\Temp\frender" "0" "LMGroup_Extra_Floor_MainArea_final_HDR.lz4" "LMGroup_Extra_Floor_MainArea_final_Dir.lz4
+Running ftraceRTX addsh "C:\Users\haako\AppData\Local\Temp\frender" "probes_final_" 4 0 3 shcomp_3.bin
+Running ftraceRTX addao "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LM0_final_HDR.lz4" 4 0 1 addao_1.bin
+Running denoiser72 c "C:\Users\haako\AppData\Local\Temp\frender/EXTRA_Interior_LM0_final_HDR.lz4" "C:\Users\haako\AppData\Local\Temp\frender/EXTRA_Interior_LM0_final_HDR.lz4" 2048 0
+Running seamfixer "C:\Users\haako\AppData\Local\Temp\frender" "1" "EXTRA_Interior_LM0_final_HDR.lz4"
+Running ftraceRTX addao "C:\Users\haako\AppData\Local\Temp\frender" "EXTRA_Interior_LMA1_final_HDR.lz4" 4 0 2 addao_2.bin
+Running denoiser72 c "C:\Users\haako\AppData\Local\Temp\frender/EXTRA_Interior_LMA1_final_HDR.lz4" "C:\Users\haako\AppData\Local\Temp\frender/EXTRA_Interior_LMA1_final_HDR.lz4" 1024 0
+Running seamfixer "C:\Users\haako\AppData\Local\Temp\frender" "2" "EXTRA_Interior_LMA1_final_HDR.lz4"
+Running halffloat2hdr "C:\Users\haako\AppData\Local\Temp\frender/LMGroup_Extra_Floor_MainArea_final_HDR.lz4" "F:/SDD_Prosjekter/2412Extra/Assets/Scenes/EXTRA_Interior/LMGroup_Extra_Floor_MainArea_final.hdr" 1024
+Running rgba2tga "C:\Users\haako\AppData\Local\Temp\frender/LMGroup_Extra_Floor_MainArea_final_Dir.lz4" "F:/SDD_Prosjekter/2412Extra/Assets/Scenes/EXTRA_Interior/LMGroup_Extra_Floor_MainArea_dir.tga" 
+Running halffloat2hdr "C:\Users\haako\AppData\Local\Temp\frender/EXTRA_Interior_LM0_final_HDR.lz4" "F:/SDD_Prosjekter/2412Extra/Assets/Scenes/EXTRA_Interior/EXTRA_Interior_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\haako\AppData\Local\Temp\frender/EXTRA_Interior_LMA1_final_HDR.lz4" "F:/SDD_Prosjekter/2412Extra/Assets/Scenes/EXTRA_Interior/EXTRA_Interior_LMA1_final.hdr" 1024
+Total cache size 268180992
+Total cache size after purge 268180992
+Total cache size 268180992
+Total cache size after purge 268180992
+[ 627/1567  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[1563/1567  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[1564/1567  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[1565/1567  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[1566/1567  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (0.39 seconds), 5 items updated, 1567 evaluated
+Total cache size 268180992
+Total cache size after purge 268180992
+Total cache size 268180992
+Total cache size after purge 268180992
+Total cache size 268180992
+Total cache size after purge 268180992
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/Player11ca19d9-inputdata.json
+*** Tundra requires additional run (0.06 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 1573 nodes, 4369 flattened edges (4365 ToBuild, 6 ToUse), maximum node priority 1174
+[ 410/1568  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libopenxr_pico.so
+[ 442/1568  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 616/1568  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libopenxr_loader.so
+[1564/1568  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[1565/1568  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[1566/1568  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[1567/1568  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (0.46 seconds), 7 items updated, 1568 evaluated
+Total cache size 268180992
+Total cache size after purge 268180992
+Done
+Done
+Done
+Done

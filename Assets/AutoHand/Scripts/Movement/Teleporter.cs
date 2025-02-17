@@ -125,6 +125,11 @@ namespace Autohand{
             }
         }
 
+        public void SetAimer(Transform newAimer)
+        {
+            aimer = newAimer;
+        }
+
         public void StartTeleport(){
             aiming = true;
             OnStartTeleport?.Invoke();
