@@ -76,10 +76,13 @@ public class HighScoreHandler : MonoBehaviour
                 break;
         }
 
-        if (index == 0)
+        if (index == 0) //add forhåndsdefinerte scores
         {
-            LoadScore("Rampen", "00:34:42");
+            LoadScore("Sjefen", "00:18:80");
             LoadScore("Engelen", "00:23:97");
+            LoadScore("Rampen", "00:34:42");
+            LoadScore("Lærlingen", "00:55:13");
+            LoadScore("Superwoman", "01:04:50");
         }
 
         SortScores();
