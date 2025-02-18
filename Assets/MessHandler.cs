@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using static MessHandler;
 using Random = System.Random;
@@ -15,6 +16,7 @@ public class MessHandler : MonoBehaviour
         public int numToClean = 3;
         public List<Mess> allMess = new List<Mess>();
         public List<Mess> remainingMess = new List<Mess>();
+        [SerializeField] public TextMeshProUGUI infoTxt;
     }
 
     [SerializeField] GameObject _messCleanedNotification;
@@ -54,6 +56,11 @@ public class MessHandler : MonoBehaviour
                 if(enableMesss)
                     messList.remainingMess.Add(mess);
             }
+
+            string numberText = (messList.numToClean - messList.remainingMess.Count) + " / " + messList.numToClean;
+
+            if (messList.infoTxt != null)
+                messList.infoTxt.text = numberText;
         }
     }
 
@@ -81,6 +88,9 @@ public class MessHandler : MonoBehaviour
 
                 Debug.Log(this + " removing mess " + mess + " from " + messList.tag + " -list");
                 Debug.Log(this + " with notification " + numberText);
+
+                if(messList.infoTxt != null)
+                    messList.infoTxt.text = numberText;
 
                 break;
             }

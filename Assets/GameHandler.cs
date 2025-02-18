@@ -40,7 +40,9 @@ public class GameHandler : MonoBehaviour
             return;
 
         _timer += Time.deltaTime;
-        _txtTimer.text = _timer.ToString("00:00:00");
+        //_txtTimer.text = _timer.ToString("00:00:00");
+        TimeSpan ts = TimeSpan.FromSeconds(_timer);
+        _txtTimer.text = String.Format(@"{0:mm\:ss\.ff}", ts);
 
         //if (_timer > _timeLimit)
         //    GameOver();
