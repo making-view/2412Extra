@@ -93,6 +93,12 @@ public class HighScoreHandler : MonoBehaviour
         //StartCoroutine(HighlightEntry(_entries[0]));
     }
 
+    public void ResetScores()
+    {
+        PlayerPrefs.DeleteAll();
+        _entries.Clear();
+    }
+
     private void SortScores()
     {
         _entries = _entries.OrderBy(x => x._scoreText.text).ToList();
