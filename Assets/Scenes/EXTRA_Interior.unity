@@ -68160,7 +68160,8 @@ MonoBehaviour:
     skyter den fremfor \xE5 endres\n* System for highscore-tavle (m\xE5nedens ansatt)\n*
     G\xF8nner blir holdt permanent n\xE5r man f\xF8rst griper den\n* Tavler for oversikt
     over m\xE5l underveis i spillet\n* La til popup ved fullf\xF8rte oppgaver\n*
-    Fikset diverse bugs og gjorde teleportering mer stabilt\n\n"
+    Fikset diverse bugs og gjorde teleportering mer stabilt\n* Byttet til copyright
+    free musikk\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
