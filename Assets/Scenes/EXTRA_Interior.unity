@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.058123816, g: 0.10545448, b: 0.09398853, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3685,7 +3685,7 @@ MonoBehaviour:
   _type: 2
   _messTransform: {fileID: 1585191023}
   _popupPosition: {fileID: 0}
-  _hitsToClear: 30
+  _hitsToClear: 20
   _progressThreshold: 0.4
 --- !u!82 &108333829
 AudioSource:
@@ -11008,7 +11008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400025260025357633, guid: a34689ff2bd9e9b4b83d3840bcff5a7d, type: 3}
       propertyPath: _hitsToClear
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400025260025357633, guid: a34689ff2bd9e9b4b83d3840bcff5a7d, type: 3}
       propertyPath: _progressThreshold
@@ -13350,7 +13350,7 @@ MonoBehaviour:
   _type: 2
   _messTransform: {fileID: 1254256176}
   _popupPosition: {fileID: 0}
-  _hitsToClear: 30
+  _hitsToClear: 20
   _progressThreshold: 0.4
 --- !u!82 &339356967
 AudioSource:
@@ -38176,7 +38176,7 @@ MonoBehaviour:
   _type: 2
   _messTransform: {fileID: 131399388}
   _popupPosition: {fileID: 0}
-  _hitsToClear: 30
+  _hitsToClear: 20
   _progressThreshold: 0.4
 --- !u!82 &678140984
 AudioSource:
@@ -65992,7 +65992,7 @@ MonoBehaviour:
   _type: 0
   _messTransform: {fileID: 0}
   _popupPosition: {fileID: 0}
-  _hitsToClear: 10
+  _hitsToClear: 8
   _progressThreshold: 0.4
 --- !u!82 &1336554462
 AudioSource:
@@ -67062,7 +67062,7 @@ MonoBehaviour:
   _type: 2
   _messTransform: {fileID: 1543381711}
   _popupPosition: {fileID: 0}
-  _hitsToClear: 30
+  _hitsToClear: 20
   _progressThreshold: 0.4
 --- !u!82 &1362758654
 AudioSource:
@@ -74436,7 +74436,7 @@ Transform:
   m_GameObject: {fileID: 1554661999}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.0946, y: -0.1325, z: -0.2349}
   m_LocalScale: {x: 13.996112, y: 13.996099, z: 13.99611}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -91207,7 +91207,7 @@ MonoBehaviour:
   _type: 2
   _messTransform: {fileID: 886711186}
   _popupPosition: {fileID: 0}
-  _hitsToClear: 30
+  _hitsToClear: 20
   _progressThreshold: 0.4
 --- !u!82 &1958831482
 AudioSource:
@@ -100086,7 +100086,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400025260025357633, guid: a34689ff2bd9e9b4b83d3840bcff5a7d, type: 3}
       propertyPath: _hitsToClear
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400025260025357633, guid: a34689ff2bd9e9b4b83d3840bcff5a7d, type: 3}
       propertyPath: _progressThreshold
@@ -100396,6 +100396,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 586681160}
     m_Modifications:
+    - target: {fileID: 433956268951638787, guid: c2dceec62202d7e43b6e6d07f2dfb36a, type: 3}
+      propertyPath: _nameText
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 3615802103641666451, guid: c2dceec62202d7e43b6e6d07f2dfb36a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -100654,7 +100658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5165475967812050780, guid: 1832bc660c14f4f4597341db941386be, type: 3}
       propertyPath: _hitsToClear
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5165475967812050780, guid: 1832bc660c14f4f4597341db941386be, type: 3}
       propertyPath: _progressThreshold

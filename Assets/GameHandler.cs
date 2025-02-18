@@ -97,7 +97,7 @@ public class GameHandler : MonoBehaviour
         _gameFinished = true;
         _gameRunning = false;
 
-        HighScoreHandler.instance.CreateEntry(_txtTimer.text);
+        HighScoreHandler.instance.AddNewScore(_txtTimer.text);
 
         //should take gun out of bubble mode and tp player to leaderboard
         //show UI for quitting or restarting

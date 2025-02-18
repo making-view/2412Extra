@@ -70,7 +70,7 @@ public class HighScoreHandler : MonoBehaviour
             if (playerName != null && playerName.Length > 0)
             {
                 index++;
-                AddEntry(playerName, playerScore);
+                LoadScore(playerName, playerScore);
             }
             else
                 break;
@@ -78,11 +78,12 @@ public class HighScoreHandler : MonoBehaviour
 
         if (index == 0)
         {
-            AddEntry("Rampen", "00:34:42");
-            AddEntry("Engelen", "00:23:97");
+            LoadScore("Rampen", "00:34:42");
+            LoadScore("Engelen", "00:23:97");
         }
 
         SortScores();
+        StartCoroutine(HighlightEntry(_entries[0]));
     }
 
     private void SortScores()
@@ -96,19 +97,16 @@ public class HighScoreHandler : MonoBehaviour
     }
 
 
-    public void AddEntry(string playerName, string playerScore)
+    public void LoadScore(string playerName, string playerScore)
     {
         GameObject go = GameObject.Instantiate(_entryPrefab, transform);
         HighScoreEntry entry = go.GetComponent<HighScoreEntry>();
         entry._nameText.text = playerName;
         entry._scoreText.text = playerScore;
         _entries.Add(entry);
-
-        SortScores();
-        StartCoroutine(HighlightEntry(entry));
     }
 
-    public void CreateEntry(string playerScore)
+    public void AddNewScore(string playerScore)
     {
         GameObject go = GameObject.Instantiate(_entryPrefab, transform);
         HighScoreEntry entry = go.GetComponent<HighScoreEntry>();
@@ -143,7 +141,7 @@ public class HighScoreHandler : MonoBehaviour
     private IEnumerator HighlightEntry(HighScoreEntry entry)
     {
         float timer = 2.0f;
-        Image image = entry.GetComponentInChildren<Image>();
+        Image image = entry._bgImage;
 
         Color startColor = image.color;
         Color toColor = Color.Lerp(startColor, Color.white, 0.5f);
