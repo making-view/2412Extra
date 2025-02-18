@@ -36,6 +36,9 @@ public class HighScoreHandler : MonoBehaviour
                 break;
         }
 
+        if (index == 0)
+            AddEntry("Sjefen", "00:34:42");
+
         SortScores();
     }
 
