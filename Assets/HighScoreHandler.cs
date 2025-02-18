@@ -30,6 +30,7 @@ public class HighScoreHandler : MonoBehaviour
     List<HighScoreEntry> _entries = new List<HighScoreEntry>();
     [SerializeField] TextMeshProUGUI _headerText;
     [SerializeField] bool _clearOnPlay = false;
+    private int _fastAnsatte = 0;
 
     public static HighScoreHandler instance;
 
@@ -83,10 +84,13 @@ public class HighScoreHandler : MonoBehaviour
             LoadScore("Rampen", "00:34:42");
             LoadScore("Lærlingen", "00:55:13");
             LoadScore("Superwoman", "01:04:50");
+            LoadScore("Musikeren", "02:20:06");
+
+            _fastAnsatte = _entries.Count;
         }
 
         SortScores();
-        StartCoroutine(HighlightEntry(_entries[0]));
+        //StartCoroutine(HighlightEntry(_entries[0]));
     }
 
     private void SortScores()
@@ -114,7 +118,7 @@ public class HighScoreHandler : MonoBehaviour
         GameObject go = GameObject.Instantiate(_entryPrefab, transform);
         HighScoreEntry entry = go.GetComponent<HighScoreEntry>();
         
-        int employeeNumber = _entries.Count + 1;
+        int employeeNumber = _entries.Count + 1 -_fastAnsatte;
         
         entry._nameText.text = "Ansatt #" + employeeNumber;
         entry._scoreText.text = playerScore;
