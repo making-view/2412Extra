@@ -124,7 +124,6 @@ public class HighScoreHandler : MonoBehaviour
         StartCoroutine(HighlightEntry(entry));
     }
 
-    //TODO save scores on level load as well
     private void OnApplicationQuit()
     {
         //save scores on quit
