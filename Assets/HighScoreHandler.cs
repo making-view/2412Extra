@@ -2,14 +2,34 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class HighScoreHandler : MonoBehaviour
 {
+    private List<string> months = new List<string>
+    {
+        "Januar",
+        "Februar",
+        "Mars",
+        "April",
+        "Mai",
+        "Juni",
+        "Juli",
+        "August",
+        "Oktober",
+        "November",
+        "Desember"
+    };
+
+
+
     [SerializeField] GameObject _entryPrefab;
     List<HighScoreEntry> _entries = new List<HighScoreEntry>();
+    [SerializeField] TextMeshProUGUI _headerText;
+    [SerializeField] bool _clearOnPlay = false;
 
     public static HighScoreHandler instance;
 
@@ -19,6 +39,26 @@ public class HighScoreHandler : MonoBehaviour
             instance = this;
         else
             Destroy(this);
+
+        string headerText = "Månedens ansatte \n" + months[DateTime.Now.Month - 1] + " " + DateTime.Now.Year.ToString();
+        if(_headerText != null)
+            _headerText.text = headerText;
+
+        if(_clearOnPlay && Application.isEditor)
+            PlayerPrefs.DeleteAll();
+
+        //clear playerprefs on new month
+        int monthWhenLastPlayed = PlayerPrefs.GetInt("lastMonth", 0);
+        if(monthWhenLastPlayed > 0 && monthWhenLastPlayed != DateTime.Now.Month)
+        {
+            Debug.LogWarning("we're in a new month, deleting old scores");
+            //we're in a new month
+            PlayerPrefs.DeleteAll();
+        }
+        PlayerPrefs.SetInt("lastMonth", DateTime.Now.Month);
+
+        //make sure scores are saved on scene reload and exit to menu
+        SceneTransitioner.instance.onLoadScene.AddListener(() => SaveScores());
 
         //load scores
         int index = 0;
@@ -37,7 +77,10 @@ public class HighScoreHandler : MonoBehaviour
         }
 
         if (index == 0)
-            AddEntry("Sjefen", "00:34:42");
+        {
+            AddEntry("Rampen", "00:34:42");
+            AddEntry("Engelen", "00:23:97");
+        }
 
         SortScores();
     }
@@ -80,10 +123,16 @@ public class HighScoreHandler : MonoBehaviour
         StartCoroutine(HighlightEntry(entry));
     }
 
+    //TODO save scores on level load as well
     private void OnApplicationQuit()
     {
-        //save scores
-        for(int i = 0; i < _entries.Count; i++)
+        //save scores on quit
+        SaveScores();
+    }
+
+    private void SaveScores()
+    {
+        for (int i = 0; i < _entries.Count; i++)
         {
             HighScoreEntry entry = _entries[i];
             PlayerPrefs.SetString("playerName" + i, entry._nameText.text);

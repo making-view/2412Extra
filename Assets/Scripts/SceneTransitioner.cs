@@ -2,6 +2,7 @@ using Autohand;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class SceneTransitioner : MonoBehaviour
@@ -10,8 +11,20 @@ public class SceneTransitioner : MonoBehaviour
     public static SceneTransitioner instance;
     [SerializeField] [Range(0.0f, 4.0f)] float _fadeTime = 1.0f;
 
+    public UnityEvent onLoadScene = new UnityEvent();
+    private bool _initialized = false;
+
+
     private void Start()
     {
+        MovePlayerToStartingPosition();
+    }
+
+    private void Initialize()
+    {
+        if (_initialized)
+            return;
+
         if (instance == null)
         {
             instance = this;
@@ -20,8 +33,12 @@ public class SceneTransitioner : MonoBehaviour
         else
             Destroy(this);
 
+        _initialized = true;
+    }
 
-        MovePlayerToStartingPosition();
+    private void OnEnable()
+    {
+        Initialize();
     }
 
     public void StartTransitionToScene(string sceneName)
@@ -45,6 +62,9 @@ public class SceneTransitioner : MonoBehaviour
         }
         PlayerManager.instance._screenFader.alpha = 1.0f;
 
+        //load new scene and fire events
+        onLoadScene.Invoke();
+        onLoadScene.RemoveAllListeners();
         SceneManager.LoadScene(sceneName);
 
         MovePlayerToStartingPosition();

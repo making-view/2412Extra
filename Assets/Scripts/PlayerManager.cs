@@ -8,8 +8,19 @@ public class PlayerManager : MonoBehaviour
     public CanvasGroup _screenFader;
     // Start is called before the first frame update
 
+    private bool _initialized = false;
+
     private void OnEnable()
     {
+        Initialize();
+    }
+
+    private void Initialize()
+    {
+        if (_initialized)
+            return;
+
+
         if (instance == null)
         {
             instance = this;
@@ -23,5 +34,7 @@ public class PlayerManager : MonoBehaviour
 
         if (_screenFader == null)
             _screenFader = GetComponentInChildren<CanvasGroup>();
+
+        _initialized = true;
     }
 }
