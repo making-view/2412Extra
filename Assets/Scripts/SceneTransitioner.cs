@@ -17,7 +17,15 @@ public class SceneTransitioner : MonoBehaviour
 
     private void Start()
     {
+        StartCoroutine(FadeInOnStart());
+    }
+
+    IEnumerator FadeInOnStart()
+    {
+        PlayerManager.instance._screenFader.alpha = 1.0f;
+        yield return null; //wait for tracking to be aquired before moving player
         MovePlayerToStartingPosition();
+        yield return StartCoroutine(Fade(1.0f, 0.0f)); //fade in
     }
 
     private void Initialize()
@@ -50,18 +58,7 @@ public class SceneTransitioner : MonoBehaviour
     {
         Debug.Log(this + ": going to scene " + sceneName);
 
-        //TODO make function for fading in and out. Call this on start to fade in
-        float timer = 0.0f;
-        float halfFade = _fadeTime / 2.0f;
-
-        while(timer < halfFade)
-        {
-            PlayerManager.instance._screenFader.alpha = timer / halfFade;
-            timer += Time.deltaTime;
-            yield return null;
-        }
-        PlayerManager.instance._screenFader.alpha = 1.0f;
-
+        yield return StartCoroutine(Fade(0.0f, 1.0f));
         //load new scene and fire events
         onLoadScene.Invoke();
         onLoadScene.RemoveAllListeners();
@@ -69,17 +66,23 @@ public class SceneTransitioner : MonoBehaviour
 
         MovePlayerToStartingPosition();
 
-        timer = 0.0f;
+        yield return StartCoroutine(Fade(1.0f, 0.0f));
+    }
+
+    IEnumerator Fade(float from, float to)
+    {
+        float timer = 0.0f;
+        float halfFade = _fadeTime / 2.0f;
+        PlayerManager.instance._screenFader.alpha = from;
+
         while (timer < halfFade)
         {
-            PlayerManager.instance._screenFader.alpha = 1.0f - (timer / halfFade);
+            float progress = Mathf.SmoothStep(from, to, timer / halfFade);
+            PlayerManager.instance._screenFader.alpha = progress;
             timer += Time.deltaTime;
             yield return null;
         }
-        PlayerManager.instance._screenFader.alpha = 0.0f;
-
-
-        yield return new WaitForSeconds(_fadeTime / 2.0f);
+        PlayerManager.instance._screenFader.alpha = to;
     }
 
     public void MovePlayerToStartingPosition()
@@ -92,10 +95,24 @@ public class SceneTransitioner : MonoBehaviour
             return;
         }
         
-        var playerBody = PlayerManager.instance.GetComponentInChildren<AutoHandPlayer>();
         Vector3 targetPos = startingPosition.position;
         Quaternion targetRot = startingPosition.rotation;
 
-        playerBody.SetPosition(targetPos, targetRot);
+        MovePlayerTo(targetPos, targetRot);
+    }
+
+    public void MovePlayerTo(Vector3 targetPos, Quaternion targetRot)
+    {
+        var trackingContainer = PlayerManager.instance.GetComponentInChildren<AutoHandPlayer>().trackingContainer;
+        var cameraTrans = PlayerManager.instance.GetComponentInChildren<Camera>().transform;
+
+        //fix rotation
+        trackingContainer.transform.rotation = Quaternion.Euler(0, trackingContainer.transform.eulerAngles.y + targetRot.eulerAngles.y - cameraTrans.eulerAngles.y, 0);
+
+        //move rig to point w rotation, but keep current height offset so that we can recenter in HLR module
+        var offset = new Vector3(cameraTrans.position.x - trackingContainer.transform.position.x, 0, cameraTrans.position.z - trackingContainer.transform.position.z);
+        //var newPosition = new Vector3(targetPos.x - offset.x, trackingContainer.transform.position.y, targetPos.z - offset.z);
+
+        PlayerManager.instance.GetComponentInChildren<AutoHandPlayer>().SetPosition(targetPos);
     }
 }

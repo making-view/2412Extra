@@ -187,38 +187,37 @@ Shader "FruitShaderUniversal"
 			HLSLPROGRAM
 
 			
-
-			#pragma multi_compile_fragment _ALPHATEST_ON
-			#define _NORMAL_DROPOFF_TS 1
-			#pragma shader_feature_local _RECEIVE_SHADOWS_OFF
-			#pragma multi_compile_fragment _ _SCREEN_SPACE_OCCLUSION
-			#pragma instancing_options renderinglayer
-			#pragma multi_compile_fragment _ LOD_FADE_CROSSFADE
-			#pragma multi_compile_fog
-			#define ASE_FOG 1
-			#define _NORMALMAP 1
-			#define ASE_VERSION 19801
-			#define ASE_SRP_VERSION 140009
+            #pragma multi_compile_fragment _ALPHATEST_ON
+            #define _NORMAL_DROPOFF_TS 1
+            #pragma shader_feature_local _RECEIVE_SHADOWS_OFF
+            #pragma multi_compile_fragment _ _SCREEN_SPACE_OCCLUSION
+            #pragma instancing_options renderinglayer
+            #pragma multi_compile_fragment _ LOD_FADE_CROSSFADE
+            #pragma multi_compile_fog
+            #define ASE_FOG 1
+            #define _NORMALMAP 1
+            #define ASE_VERSION 19801
+            #define ASE_SRP_VERSION 140009
 
 
 			
+            #pragma multi_compile _ DOTS_INSTANCING_ON
+		
 
 			#pragma multi_compile _ _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN
 			#pragma multi_compile _ _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS
 
 			
-            #pragma multi_compile _ EVALUATE_SH_MIXED EVALUATE_SH_VERTEX
-		
 
 			#pragma multi_compile_fragment _ _ADDITIONAL_LIGHT_SHADOWS
 			#pragma multi_compile_fragment _ _REFLECTION_PROBE_BLENDING
 			#pragma multi_compile_fragment _ _REFLECTION_PROBE_BOX_PROJECTION
 
 			
+			#pragma multi_compile_fragment _ _SHADOWS_SOFT
+           
 
 			
-			#pragma multi_compile_fragment _ _SHADOWS_SOFT _SHADOWS_SOFT_LOW _SHADOWS_SOFT_MEDIUM _SHADOWS_SOFT_HIGH
-           
 
 			#pragma multi_compile_fragment _ _DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3
 			#pragma multi_compile _ _LIGHT_LAYERS
@@ -226,6 +225,8 @@ Shader "FruitShaderUniversal"
 			#pragma multi_compile _ _FORWARD_PLUS
 
 			
+            #pragma multi_compile_fragment _ _WRITE_RENDERING_LAYERS
+		
 
 			#pragma multi_compile _ LIGHTMAP_SHADOW_MIXING
 			#pragma multi_compile _ SHADOWS_SHADOWMASK
@@ -243,16 +244,8 @@ Shader "FruitShaderUniversal"
 			#define SHADERPASS SHADERPASS_FORWARD
 
 			
-            #if ASE_SRP_VERSION >=140007
-			#include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl"
-			#endif
-		
 
 			
-			#if ASE_SRP_VERSION >=140007
-			#include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/RenderingLayers.hlsl"
-			#endif
-		
 
 			#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"
 			#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Texture.hlsl"
@@ -920,17 +913,18 @@ Shader "FruitShaderUniversal"
 			HLSLPROGRAM
 
 			
-
-			#pragma multi_compile _ALPHATEST_ON
-			#define _NORMAL_DROPOFF_TS 1
-			#pragma multi_compile_fragment _ LOD_FADE_CROSSFADE
-			#define ASE_FOG 1
-			#define _NORMALMAP 1
-			#define ASE_VERSION 19801
-			#define ASE_SRP_VERSION 140009
+            #pragma multi_compile _ALPHATEST_ON
+            #define _NORMAL_DROPOFF_TS 1
+            #pragma multi_compile_fragment _ LOD_FADE_CROSSFADE
+            #define ASE_FOG 1
+            #define _NORMALMAP 1
+            #define ASE_VERSION 19801
+            #define ASE_SRP_VERSION 140009
 
 
 			
+            #pragma multi_compile _ DOTS_INSTANCING_ON
+		
 
 			#pragma multi_compile_vertex _ _CASTING_PUNCTUAL_LIGHT_SHADOW
 
@@ -944,10 +938,6 @@ Shader "FruitShaderUniversal"
 			#define SHADERPASS SHADERPASS_SHADOWCASTER
 
 			
-            #if ASE_SRP_VERSION >=140007
-			#include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl"
-			#endif
-		
 
 			#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"
 			#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Texture.hlsl"
@@ -1249,17 +1239,18 @@ Shader "FruitShaderUniversal"
 			HLSLPROGRAM
 
 			
-
-			#pragma multi_compile _ALPHATEST_ON
-			#define _NORMAL_DROPOFF_TS 1
-			#pragma multi_compile_fragment _ LOD_FADE_CROSSFADE
-			#define ASE_FOG 1
-			#define _NORMALMAP 1
-			#define ASE_VERSION 19801
-			#define ASE_SRP_VERSION 140009
+            #pragma multi_compile _ALPHATEST_ON
+            #define _NORMAL_DROPOFF_TS 1
+            #pragma multi_compile_fragment _ LOD_FADE_CROSSFADE
+            #define ASE_FOG 1
+            #define _NORMALMAP 1
+            #define ASE_VERSION 19801
+            #define ASE_SRP_VERSION 140009
 
 
 			
+            #pragma multi_compile _ DOTS_INSTANCING_ON
+		
 
 			#pragma vertex vert
 			#pragma fragment frag
@@ -1271,10 +1262,6 @@ Shader "FruitShaderUniversal"
 			#define SHADERPASS SHADERPASS_DEPTHONLY
 
 			
-            #if ASE_SRP_VERSION >=140007
-			#include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl"
-			#endif
-		
 
 			#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"
 			#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Texture.hlsl"
@@ -2139,21 +2126,22 @@ Shader "FruitShaderUniversal"
 			HLSLPROGRAM
 
 			
-
-			
-
-			#pragma multi_compile _ALPHATEST_ON
-			#define _NORMAL_DROPOFF_TS 1
-			#pragma multi_compile_fragment _ LOD_FADE_CROSSFADE
-			#define ASE_FOG 1
-			#define _NORMALMAP 1
-			#define ASE_VERSION 19801
-			#define ASE_SRP_VERSION 140009
+            #pragma multi_compile _ALPHATEST_ON
+            #define _NORMAL_DROPOFF_TS 1
+            #pragma multi_compile_fragment _ LOD_FADE_CROSSFADE
+            #define ASE_FOG 1
+            #define _NORMALMAP 1
+            #define ASE_VERSION 19801
+            #define ASE_SRP_VERSION 140009
 
 
 			
+            #pragma multi_compile _ DOTS_INSTANCING_ON
+		
 
 			
+            #pragma multi_compile_fragment _ _WRITE_RENDERING_LAYERS
+		
 
 			#pragma vertex vert
 			#pragma fragment frag
@@ -2166,16 +2154,8 @@ Shader "FruitShaderUniversal"
 			//#define SHADERPASS SHADERPASS_DEPTHNORMALS
 
 			
-            #if ASE_SRP_VERSION >=140007
-			#include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl"
-			#endif
-		
 
 			
-			#if ASE_SRP_VERSION >=140007
-			#include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/RenderingLayers.hlsl"
-			#endif
-		
 
 			#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"
 			#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Texture.hlsl"
@@ -2575,36 +2555,39 @@ Shader "FruitShaderUniversal"
 			HLSLPROGRAM
 
 			
-
-			#pragma multi_compile_fragment _ALPHATEST_ON
-			#define _NORMAL_DROPOFF_TS 1
-			#pragma shader_feature_local _RECEIVE_SHADOWS_OFF
-			#pragma instancing_options renderinglayer
-			#pragma multi_compile_fragment _ LOD_FADE_CROSSFADE
-			#pragma multi_compile_fog
-			#define ASE_FOG 1
-			#define _NORMALMAP 1
-			#define ASE_VERSION 19801
-			#define ASE_SRP_VERSION 140009
+            #pragma multi_compile_fragment _ALPHATEST_ON
+            #define _NORMAL_DROPOFF_TS 1
+            #pragma shader_feature_local _RECEIVE_SHADOWS_OFF
+            #pragma instancing_options renderinglayer
+            #pragma multi_compile_fragment _ LOD_FADE_CROSSFADE
+            #pragma multi_compile_fog
+            #define ASE_FOG 1
+            #define _NORMALMAP 1
+            #define ASE_VERSION 19801
+            #define ASE_SRP_VERSION 140009
 
 
 			
+            #pragma multi_compile _ DOTS_INSTANCING_ON
+		
 
 			#pragma multi_compile _ _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _MAIN_LIGHT_SHADOWS_SCREEN
 			#pragma multi_compile_fragment _ _REFLECTION_PROBE_BLENDING
 			#pragma multi_compile_fragment _ _REFLECTION_PROBE_BOX_PROJECTION
 
 			
+			#pragma multi_compile_fragment _ _SHADOWS_SOFT
+           
 
 			
-			#pragma multi_compile_fragment _ _SHADOWS_SOFT _SHADOWS_SOFT_LOW _SHADOWS_SOFT_MEDIUM _SHADOWS_SOFT_HIGH
-           
 
 			#pragma multi_compile_fragment _ _DBUFFER_MRT1 _DBUFFER_MRT2 _DBUFFER_MRT3
 			#pragma multi_compile_fragment _ _GBUFFER_NORMALS_OCT
 			#pragma multi_compile_fragment _ _RENDER_PASS_ENABLED
 
 			
+            #pragma multi_compile_fragment _ _WRITE_RENDERING_LAYERS
+		
 
 			#pragma multi_compile _ LIGHTMAP_SHADOW_MIXING
 			#pragma multi_compile _ _MIXED_LIGHTING_SUBTRACTIVE
@@ -2623,16 +2606,8 @@ Shader "FruitShaderUniversal"
 			#define SHADERPASS SHADERPASS_GBUFFER
 
 			
-            #if ASE_SRP_VERSION >=140007
-			#include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl"
-			#endif
-		
 
 			
-			#if ASE_SRP_VERSION >=140007
-			#include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/RenderingLayers.hlsl"
-			#endif
-		
 
 			#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Color.hlsl"
 			#include "Packages/com.unity.render-pipelines.core/ShaderLibrary/Texture.hlsl"
@@ -3172,15 +3147,16 @@ Shader "FruitShaderUniversal"
 			HLSLPROGRAM
 
 			
-
-			#define _NORMAL_DROPOFF_TS 1
-			#define ASE_FOG 1
-			#define _NORMALMAP 1
-			#define ASE_VERSION 19801
-			#define ASE_SRP_VERSION 140009
+            #define _NORMAL_DROPOFF_TS 1
+            #define ASE_FOG 1
+            #define _NORMALMAP 1
+            #define ASE_VERSION 19801
+            #define ASE_SRP_VERSION 140009
 
 
 			
+            #pragma multi_compile _ DOTS_INSTANCING_ON
+		
 
 			#pragma vertex vert
 			#pragma fragment frag
@@ -3209,10 +3185,6 @@ Shader "FruitShaderUniversal"
 			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/ShaderGraphFunctions.hlsl"
 
 			
-            #if ASE_SRP_VERSION >=140007
-			#include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl"
-			#endif
-		
 
 			#include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/ShaderPass.hlsl"
 
@@ -3444,15 +3416,16 @@ Shader "FruitShaderUniversal"
 			HLSLPROGRAM
 
 			
-
-			#define _NORMAL_DROPOFF_TS 1
-			#define ASE_FOG 1
-			#define _NORMALMAP 1
-			#define ASE_VERSION 19801
-			#define ASE_SRP_VERSION 140009
+            #define _NORMAL_DROPOFF_TS 1
+            #define ASE_FOG 1
+            #define _NORMALMAP 1
+            #define ASE_VERSION 19801
+            #define ASE_SRP_VERSION 140009
 
 
 			
+            #pragma multi_compile _ DOTS_INSTANCING_ON
+		
 
 			#pragma vertex vert
 			#pragma fragment frag
@@ -3481,10 +3454,6 @@ Shader "FruitShaderUniversal"
 			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/ShaderGraphFunctions.hlsl"
 
 			
-            #if ASE_SRP_VERSION >=140007
-			#include_with_pragmas "Packages/com.unity.render-pipelines.universal/ShaderLibrary/DOTS.hlsl"
-			#endif
-		
 
 			#include "Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/ShaderPass.hlsl"
 
@@ -3783,4 +3752,4 @@ WireConnection;1;3;26;0
 WireConnection;1;4;26;1
 WireConnection;1;6;19;4
 ASEEND*/
-//CHKSM=E16841B34D5D310E91299BE00155DD8351B41243
+//CHKSM=F3F8D15D1C60AAC0E79F61CA49D284554F4B798F
