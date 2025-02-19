@@ -23759,7 +23759,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9efe8459055863947b5c7412ee5e5243, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.37502193
+      value: -0.385
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9efe8459055863947b5c7412ee5e5243, type: 3}
       propertyPath: m_LocalPosition.y
@@ -94917,6 +94917,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1553697910662330023, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3908837429278674167, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5312394011863151350, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.132736
@@ -94961,6 +94969,10 @@ PrefabInstance:
       propertyPath: TriggerModule.primitives.Array.data[0]
       value: 
       objectReference: {fileID: 1640190190}
+    - target: {fileID: 8218522431185683139, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c59c98eb33986f42a96cf1c858536ff, type: 2}
     - target: {fileID: 8950472910933596756, guid: 5213ea54aaba4d24cba0ea77b64b2683, type: 3}
       propertyPath: jointBreakForce
       value: 1e+17
