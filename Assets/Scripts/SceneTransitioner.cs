@@ -106,13 +106,7 @@ public class SceneTransitioner : MonoBehaviour
         var trackingContainer = PlayerManager.instance.GetComponentInChildren<AutoHandPlayer>().trackingContainer;
         var cameraTrans = PlayerManager.instance.GetComponentInChildren<Camera>().transform;
 
-        //fix rotation
         trackingContainer.transform.rotation = Quaternion.Euler(0, trackingContainer.transform.eulerAngles.y + targetRot.eulerAngles.y - cameraTrans.eulerAngles.y, 0);
-
-        //move rig to point w rotation, but keep current height offset so that we can recenter in HLR module
-        var offset = new Vector3(cameraTrans.position.x - trackingContainer.transform.position.x, 0, cameraTrans.position.z - trackingContainer.transform.position.z);
-        //var newPosition = new Vector3(targetPos.x - offset.x, trackingContainer.transform.position.y, targetPos.z - offset.z);
-
         PlayerManager.instance.GetComponentInChildren<AutoHandPlayer>().SetPosition(targetPos);
     }
 }

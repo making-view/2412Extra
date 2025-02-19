@@ -15,6 +15,7 @@ public class Watergun : MonoBehaviour
     private Rigidbody _rigidbody = null;
     private Grabbable _grabbable = null;
     [SerializeField] private GameObject _goop = null;
+    [SerializeField] private Transform _rayOrigin = null;
 
     [SerializeField] private float _maxGoop = 3.0f;
     [SerializeField] private float _recoilStrength = 1.0f;
@@ -42,6 +43,19 @@ public class Watergun : MonoBehaviour
             grabbable.onGrab.AddListener((hand, grabbalbe) => {_grabbingHands.Add(hand);});
             grabbable.onRelease.AddListener((hand, grabbalbe) => {_grabbingHands.Remove(hand);});
         }
+        var tpPointer = PlayerManager.instance.GetComponentInChildren<Teleporter>();
+        var grabbableExtra = GetComponentInChildren<GrabbableExtraEvents>();
+
+        //move tp pointer to gun while holding it
+        grabbableExtra.OnLastRelease.AddListener((hand, grabbable) => tpPointer.SetAimer(tpPointer.transform));
+        grabbableExtra.OnFirstGrab.AddListener((hand, grabbable) => tpPointer.SetAimer(_rayOrigin));
+
+        //drop gun on scene load
+        SceneTransitioner.instance.onLoadScene.AddListener(() =>
+        {
+            foreach (Hand hand in _grabbingHands)
+                hand.ForceReleaseGrab();
+        });
     }
 
     public void StartFiring()

@@ -79,18 +79,28 @@ public class HighScoreHandler : MonoBehaviour
 
         if (index == 0) //add forhåndsdefinerte scores
         {
-            LoadScore("Engelen", "00:23:97");   //gold
-            LoadScore("Rampen", "00:34:42");    //silver
-            LoadScore("Lærlingen", "00:55:13"); //bronze
+            LoadScore("Engelen", "00:23:97")._profileBGImage.color = new Color(255 / 255f, 215 / 255f, 0 / 255f);        //gold
+            LoadScore("Rampen", "00:34:42")._profileBGImage.color = new Color(192 / 255f, 192 / 255f, 192 / 255f);       //silver
+            LoadScore("Lærlingen", "00:55:13")._profileBGImage.color = new Color(205 / 255f, 127 / 255f, 50 / 255f);     //bronze
 
             //randomly add some making view internal scores
-            if (UnityEngine.Random.Range(1, 3) > 1)
+            if (UnityEngine.Random.Range(1, 10) == 1)
                 LoadScore("Sjefen", "00:18:80");
 
-            if (UnityEngine.Random.Range(1, 3) > 1)
+            if (UnityEngine.Random.Range(1, 5) == 1)
                 LoadScore("Fagsjefen", "01:04:50");
-                
+
             _fastAnsatte = _entries.Count;
+        }
+
+        foreach (var entry in _entries) //set gold silver and bronze colors when loading as well
+        {
+            if(entry._nameText.text == "Engelen")
+                entry._profileBGImage.color = new Color(255 / 255f, 215 / 255f, 0 / 255f);
+            else if (entry._nameText.text == "Rampen")
+                entry._profileBGImage.color = new Color(192 / 255f, 192 / 255f, 192 / 255f);
+            else if (entry._nameText.text == "Lærlingen")
+                entry._profileBGImage.color = new Color(205 / 255f, 127 / 255f, 50 / 255f);
         }
 
         SortScores();
@@ -114,13 +124,15 @@ public class HighScoreHandler : MonoBehaviour
     }
 
 
-    public void LoadScore(string playerName, string playerScore)
+    public HighScoreEntry LoadScore(string playerName, string playerScore)
     {
         GameObject go = GameObject.Instantiate(_entryPrefab, transform);
         HighScoreEntry entry = go.GetComponent<HighScoreEntry>();
         entry._nameText.text = playerName;
         entry._scoreText.text = playerScore;
         _entries.Add(entry);
+
+        return entry;
     }
 
     public void AddNewScore(string playerScore)
