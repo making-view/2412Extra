@@ -83,7 +83,7 @@ public class HighScoreHandler : MonoBehaviour
             LoadScore("Engelen", "00:23:97");
             LoadScore("Rampen", "00:34:42");
             LoadScore("Lærlingen", "00:55:13");
-            LoadScore("Superwoman", "01:04:50");
+            LoadScore("Fagsjefen", "01:04:50");
             LoadScore("Musikeren", "02:20:06");
 
             _fastAnsatte = _entries.Count;
@@ -152,7 +152,7 @@ public class HighScoreHandler : MonoBehaviour
 
     private IEnumerator HighlightEntry(HighScoreEntry entry)
     {
-        float timer = 2.0f;
+        float timer = 8.0f;
         Image image = entry._bgImage;
 
         Color startColor = image.color;
