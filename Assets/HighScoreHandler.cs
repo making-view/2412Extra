@@ -79,13 +79,17 @@ public class HighScoreHandler : MonoBehaviour
 
         if (index == 0) //add forhåndsdefinerte scores
         {
-            LoadScore("Sjefen", "00:18:80");
-            LoadScore("Engelen", "00:23:97");
-            LoadScore("Rampen", "00:34:42");
-            LoadScore("Lærlingen", "00:55:13");
-            LoadScore("Fagsjefen", "01:04:50");
-            LoadScore("Musikeren", "02:20:06");
+            LoadScore("Engelen", "00:23:97");   //gold
+            LoadScore("Rampen", "00:34:42");    //silver
+            LoadScore("Lærlingen", "00:55:13"); //bronze
 
+            //randomly add some making view internal scores
+            if (UnityEngine.Random.Range(1, 3) > 1)
+                LoadScore("Sjefen", "00:18:80");
+
+            if (UnityEngine.Random.Range(1, 3) > 1)
+                LoadScore("Fagsjefen", "01:04:50");
+                
             _fastAnsatte = _entries.Count;
         }
 
