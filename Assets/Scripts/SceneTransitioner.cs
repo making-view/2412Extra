@@ -64,6 +64,7 @@ public class SceneTransitioner : MonoBehaviour
         onLoadScene.RemoveAllListeners();
         SceneManager.LoadScene(sceneName);
 
+        yield return null;
         MovePlayerToStartingPosition();
 
         yield return StartCoroutine(Fade(1.0f, 0.0f));
@@ -91,9 +92,11 @@ public class SceneTransitioner : MonoBehaviour
 
         if(startingPosition == null)
         {
-            Debug.LogError("No starting position found");
+            Debug.LogError(this + " No starting position found");
             return;
         }
+
+        Debug.Log(this + " Found starting pos. Moving player");
         
         Vector3 targetPos = startingPosition.position;
         Quaternion targetRot = startingPosition.rotation;

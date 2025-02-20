@@ -10,17 +10,16 @@ public class MediaEventHandler : MonoBehaviour
     MediaPlayer _mediaPlayer;
     // Start is called before the first frame update
 
-    [SerializeField] MediaReference firstVideo;
-    [SerializeField] MediaReference secondVideo;
+    [SerializeField] MediaReference _firstVideo;
+    [SerializeField] MediaReference _secondVideo;
 
     bool _firstVideoDone = false;
 
     void Start()
     {
-        _mediaPlayer.OpenMedia(firstVideo.MediaPath);
-
         _mediaPlayer = GetComponent<MediaPlayer>();
         _mediaPlayer.Events.AddListener((mediaPlayer, eventType, errorCode) => HandledEvent(mediaPlayer, eventType, errorCode));
+        _mediaPlayer.OpenMedia(_firstVideo.MediaPath);
     }
 
     private void HandledEvent(MediaPlayer mediaPlayer, MediaPlayerEvent.EventType eventType, ErrorCode errorCode)
@@ -80,7 +79,7 @@ public class MediaEventHandler : MonoBehaviour
             _firstVideoDone = true;
             //Do quiz here?
             //Play other video
-            _mediaPlayer.OpenMedia(secondVideo.MediaPath);
+            _mediaPlayer.OpenMedia(_secondVideo.MediaPath);
         }
         else
         {
