@@ -42,6 +42,6 @@ public class ButtonMenuHandler : MonoBehaviour
     private void StartVideo()
     {
         Debug.Log("Starting video");
-        //SceneTransitioner.instance.StartTransitionToScene("EXTRA_Videoplayer");
+        SceneTransitioner.instance.StartTransitionToScene("EXTRA_Videoplayer");
     }
 }
