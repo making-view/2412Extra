@@ -16,9 +16,17 @@ public class GameHandler : MonoBehaviour
     
     //TODO make into list with timers?
     [SerializeField] private TextMeshProUGUI _txtTimer;
+    private AudioSource _backgroundMusic;
 
-    [SerializeField] private AudioSource _backgroundMusic;
+    [Space]
+    [SerializeField] private AudioSource _rampenAudio;
+    [SerializeField] private AudioClip _rampenGamePrepare;
+    [SerializeField] private AudioClip _lightsOn;
 
+    [Space]
+    [Header("Stuff to enable and disable when starting game")]
+    [SerializeField] private List<GameObject> _enableOnGameReady = new List<GameObject>();
+    [SerializeField] private List<GameObject> _disableOnGameReady = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +38,12 @@ public class GameHandler : MonoBehaviour
 
         _backgroundMusic = GetComponent<AudioSource>();
 
-        //should set up interactions for starting stopping, UI, score etc.
+
+        foreach (GameObject go in _disableOnGameReady)
+            go.SetActive(true);
+
+        foreach (GameObject go in _enableOnGameReady)
+            go.SetActive(false);
     }
 
     // Update is called once per frame
@@ -43,17 +56,36 @@ public class GameHandler : MonoBehaviour
         //_txtTimer.text = _timer.ToString("00:00:00");
         TimeSpan ts = TimeSpan.FromSeconds(_timer);
         _txtTimer.text = String.Format(@"{0:mm\:ss\.ff}", ts);
-
-        //if (_timer > _timeLimit)
-        //    GameOver();
     }
 
-    private void GameOver()
+    public void StartPreparingGame()
     {
-        Debug.Log(this + " No time left. Fininshing game");
+        StartCoroutine(PrepareGame());
+    }
 
-        //subtract points for missing elements
-        ShowScore();
+    //Todo make this coroutine with sfx and visuals
+    private IEnumerator PrepareGame()
+    {
+        _gameFinished = false;
+        _gameRunning = false;
+        _timer = 0;
+
+        //TODO turn of lights and play audio, use fade or actual lights
+        PlayerManager.instance._screenFader.alpha = 1.0f;
+        _rampenAudio.PlayOneShot(_rampenGamePrepare);
+        yield return new WaitForSeconds(2.0f);
+        _rampenAudio.PlayOneShot(_lightsOn);
+        PlayerManager.instance._screenFader.alpha = 0.0f;
+
+
+        //open gates and remove blocking collider TODO sfx and slight delay?
+        foreach (GameObject go in _disableOnGameReady)
+            go.SetActive(false);
+
+        foreach (GameObject go in _enableOnGameReady)
+            go.SetActive(true);
+
+        MessHandler.instance.ReadyMess();
     }
 
     //called from start button

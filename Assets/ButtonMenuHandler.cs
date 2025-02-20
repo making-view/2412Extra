@@ -29,16 +29,19 @@ public class ButtonMenuHandler : MonoBehaviour
     private void StartIntro()
     {
         Debug.Log("Starting intro");
+        //SceneTransitioner.instance.StartTransitionToScene("EXTRA_Tutorial");
     }
 
     private void StartGame()
     {
         Debug.Log("Starting game");
-        SceneTransitioner.instance.StartTransitionToScene("EXTRA_Interior");
+        //SceneTransitioner.instance.StartTransitionToScene("EXTRA_Interior");
+        GameHandler.instance.StartPreparingGame();
     }
 
     private void StartVideo()
     {
         Debug.Log("Starting video");
+        //SceneTransitioner.instance.StartTransitionToScene("EXTRA_Videoplayer");
     }
 }

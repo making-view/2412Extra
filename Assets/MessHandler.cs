@@ -7,6 +7,7 @@ using UnityEngine;
 using static MessHandler;
 using Random = System.Random;
 
+
 public class MessHandler : MonoBehaviour
 {
     [Serializable]
@@ -32,6 +33,12 @@ public class MessHandler : MonoBehaviour
         else
             instance = this;
 
+        //ReadyMess();
+    }
+
+    //Readies a random subset off mess and opens the gate
+    public void ReadyMess()
+    {
         foreach (MessList messList in _messCategories)
         {
             //add all messes in scene that matches tag of messList
@@ -53,7 +60,7 @@ public class MessHandler : MonoBehaviour
                 bool enableMesss = i < messList.numToClean;
                 mess.EnableMess(enableMesss);
 
-                if(enableMesss)
+                if (enableMesss)
                     messList.remainingMess.Add(mess);
             }
 
@@ -63,6 +70,7 @@ public class MessHandler : MonoBehaviour
                 messList.infoTxt.text = numberText;
         }
     }
+
 
     public void MessCleaned(Mess mess)
     {
