@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.05816312, g: 0.10550847, b: 0.094009556, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14536,8 +14536,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 0}
-  m_SizeDelta: {x: 125, y: 125}
+  m_AnchoredPosition: {x: 11, y: 0}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &361380509
 MonoBehaviour:
@@ -14559,7 +14559,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 97d99ea6fbd28b344980ac89da21da4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b2b3e0e83a0f87c499f6a5b29da038d7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -43457,8 +43457,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 0}
-  m_SizeDelta: {x: 125, y: 125}
+  m_AnchoredPosition: {x: 11, y: 0}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &747908381
 MonoBehaviour:
@@ -43480,7 +43480,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 97d99ea6fbd28b344980ac89da21da4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 26edbf2b8db128d4bb1924a47beb3681, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -53455,8 +53455,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 20, y: 0}
-  m_SizeDelta: {x: 125, y: 125}
+  m_AnchoredPosition: {x: 11, y: 0}
+  m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &971427359
 MonoBehaviour:
@@ -53478,7 +53478,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 97d99ea6fbd28b344980ac89da21da4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 70b7bc7003f361544b31ae1768e61641, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
