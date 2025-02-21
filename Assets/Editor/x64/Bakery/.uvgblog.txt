@@ -6701,3 +6701,1140 @@ C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il
 *** Tundra build success (34.82 seconds), 32 items updated, 1659 evaluated
 Total cache size 267941545
 Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 440/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 441/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[1658/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (7.69 seconds), 6 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/Player11ca19d9-inputdata.json
+*** Tundra requires additional run (0.06 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 1594 nodes, 4465 flattened edges (4461 ToBuild, 6 ToUse), maximum node priority 1223
+[           0s] Delete 76 artifact files that are no longer in use. (like Library\Bee\artifacts\Android\6kuq4\_dummy_for_header_discovery)
+[  65/1589  0s] WriteResponseFile Library/Bee/artifacts/rsp/10987554484332699930.rsp
+[  66/1589  0s] WriteResponseFile Library/Bee/artifacts/rsp/12221667402831721131.rsp
+[  67/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/e5wu1bhot3rm.o
+[  68/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/pxvip01mdmwe.o
+[  69/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/mel0ns3ih6fk.o
+[  70/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/32tphe3dkcut.o
+[  71/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/0jj7f649nwdz.o
+[  72/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/x08oey65rgx4.o
+[  73/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/2r8g95k9utsv.o
+[  74/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/opw5ldcxdasd.o
+[  75/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/ww1dnw7h0n59.o
+[  76/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/xi8hrf0mvuka.o
+[  77/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/ufwqvf0wegfx.o
+[  78/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/xbl9to8uhodh.o
+[  79/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/bmmc03ikxnbs.o
+[  80/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/gpuqb65jfewy.o
+[  81/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/ok7yfy9uet2f.o
+[  82/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/uzxzp71ize4f.o
+[  84/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/it46gtgptu64.o
+[  85/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/vdkghsil48eo.o
+[  86/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/xdnqits8i3pf.o
+[  87/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/9pb5yjd6x3br.o
+[  88/1589  2s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/zhdwafgkw0ke.o
+[  89/1589  2s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/stawmjm5t4en.o
+[  90/1589  2s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/exu8aj97lebd.o
+[  91/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/0t1y0eba1vk5.o
+[  92/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/wqsoys3mhr2a.o
+[  93/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/usarsgarl8wm.o
+[  94/1589  2s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/e5fznxrzcmkc.o
+[  95/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/mgupc7ieepdo.o
+[  96/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/pe2mdnogw5dg.o
+[  97/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/w2rij5agjn22.o
+[  98/1589  2s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/0lsw4kk5kfb3.o
+[  99/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/h8l9oehuxih9.o
+[ 100/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/07h1ezobcwxw.o
+[ 101/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/kt0rxl0ds8ks.o
+[ 102/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/krwrqmfytyx3.o
+[ 103/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/guzsxt0rso60.o
+[ 104/1589  3s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/pr3ne3umnw1w.o
+[ 105/1589  2s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/bmgoql5vii94.o
+[ 106/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/uj5emc1olj8r.o
+[ 107/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/plucotlo1lgc.o
+[ 108/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/0su0trcl4n4j.o
+[ 109/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/wy2d96hg0k4j.o
+[ 110/1589  2s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/3w1u6gwdumzb.o
+[ 111/1589  3s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/qiufdl7x85u9.o
+[ 112/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/eys7l5dcbe2y.o
+[ 113/1589  0s] WriteResponseFile Library/Bee/artifacts/rsp/12438370367218343051.rsp
+[ 114/1589  2s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/epbrn6iq120e.o
+[ 115/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/k0iuhz2r0k05.o
+[ 116/1589  4s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/bm5gmptvg63h.o
+[ 117/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/bmgtt1x76w59.o
+[ 118/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/43c9wffe58g6.o
+[ 119/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/uuc8glu4mn9k.o
+[ 120/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/74a6sfpkmseo.o
+[ 121/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/hh3pndcg7tit.o
+[ 122/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/xaxlnwp55ptv.o
+[ 123/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/vyo52dlwrojf.o
+[ 124/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/5w9gh7fw997k.o
+[ 125/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/ujrp707yemd9.o
+[ 126/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/74hkjmfujab7.o
+[ 127/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/s6xboyk1mwua.o
+[ 128/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/f7sqg5vwib8o.o
+[ 129/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/3qsjg7mf8ber.o
+[ 130/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/f3bq5ubwzp30.o
+[ 131/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/irszup0oyhpp.o
+[ 132/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/h2k3dcpud894.o
+[ 133/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/407u6qxac4zh.o
+[ 134/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/6s8o0s3cxtek.o
+[ 135/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/sue5c9ddityr.o
+[ 136/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/vsv71r4ft0zs.o
+[ 137/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/7k6a06mwe480.o
+[ 138/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/zahfsh2zdr4t.o
+[ 139/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/1qf9yjznf1qi.o
+[ 140/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/bjxnddid2qk3.o
+[ 141/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/d3zepgxua56v.o
+[ 142/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/59akgdjrt0jo.o
+[ 143/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/sxe8aid2r5ld.o
+[ 144/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/c9dtje0vu2i4.o
+[ 145/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/qdsrsaapldjh.o
+[ 146/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/8dluznuntp3f.o
+[ 147/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/c4ermhf9qtzl.o
+[ 148/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/581bbitu08b4.o
+[ 149/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/f5mys1fvst4n.o
+[ 150/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/7bck8bntks0r.o
+[ 151/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/fdn190fsxxik.o
+[ 152/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/qtb3ac9rgjxv.o
+[ 153/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/p3jbmpcyrkta.o
+[ 154/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/rufxjvo2hog2.o
+[ 155/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/5vxyrwwhoy5f.o
+[ 156/1589  3s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/4mgzdzl20wwu.o
+[ 157/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/l1p0grqykfjf.o
+[ 171/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/29my8r5b3ax2.o
+[ 173/1589  5s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/sae6fbtqjcir.o
+[ 174/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/z27rgrsfvewf.o
+[ 252/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/i300wb6e0js8.o
+[ 254/1589  0s] WriteText Library/Bee/artifacts/csharpactions/build.gradle_175u.info
+[ 255/1589  0s] WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info
+[ 256/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so
+[ 257/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/f92oxe2mos6g.o
+[ 270/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar
+[ 274/1589  0s] WriteText F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint
+[ 347/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 350/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/fvvnqcpaxnmb.o
+[ 351/1589  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 352/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[ 353/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 354/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/pvx6j44v37pj.o
+[ 355/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/99nqp3kz51qp.o
+[ 356/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/wl4amcf4vyop.o
+[ 357/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/3eqftdvlirru.o
+[ 358/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/4thnseghp6if.o
+[ 359/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/apnk541sszt6.o
+[ 360/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/gilrahzvrp2f.o
+[ 361/1589  0s] ActionGenerateProjectFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+8 others)
+[ 362/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/i39a80qrcc8v.o
+[ 363/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/2rcl4ygr3mgd.o
+[ 364/1589  3s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/342e6si9gvrx.o
+[ 365/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/z3nhuo8dcq3d.o
+[ 366/1589  2s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/07rmk2pzkbfy.o
+[ 367/1589  2s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/07xa0jfy0d2c.o
+[ 368/1589  3s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/m2jumlnk55zh.o
+[ 369/1589  1s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/0fdvhy53zb3u.o
+[ 370/1589  0s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/c4atyjc6ryca.o
+[ 371/1589  7s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/hoqhp5p38106.o
+[ 372/1589  7s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/m8s5cvwirgl2.o
+[ 373/1589  2s] C_Android_arm64 Library/Bee/artifacts/Android/87lik/o4qwvcvamq3p.o
+[ 374/1589 10s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 393/1589  0s] Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o
+[ 395/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt
+[ 396/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine-FeaturesChecked.txt
+[ 399/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Configuration-FeaturesChecked.txt
+[ 400/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipeline.Universal.ShaderLibrary-FeaturesChecked.txt
+[ 401/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.ConformanceAutomation-FeaturesChecked.txt
+[ 402/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/AVProVideo.Demos-FeaturesChecked.txt
+[ 405/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.OculusQuestSupport-FeaturesChecked.txt
+[ 406/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/ControllerSample-FeaturesChecked.txt
+[ 408/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/AVProVideo.Extensions.UnityUI-FeaturesChecked.txt
+[ 409/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.Management-FeaturesChecked.txt
+[ 412/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXRPico-FeaturesChecked.txt
+[ 413/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Autohand.XR-FeaturesChecked.txt
+[ 414/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.InputSystem.ForUI-FeaturesChecked.txt
+[ 415/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.Hands-FeaturesChecked.txt
+[ 416/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.RuntimeDebugger-FeaturesChecked.txt
+[ 417/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/BakeryRuntimeAssembly-FeaturesChecked.txt
+[ 419/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/AVProVideo.Runtime-FeaturesChecked.txt
+[ 420/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Burst-FeaturesChecked.txt
+[ 421/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/AutoHandAssembly-FeaturesChecked.txt
+[ 422/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.CoreUtils-FeaturesChecked.txt
+[ 423/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.Interaction.Toolkit-FeaturesChecked.txt
+[ 424/1589  0s] ICallRegistrationGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp
+[ 425/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt
+[ 426/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/AVProVideo.Extensions.Timeline-FeaturesChecked.txt
+[ 428/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Xml-FeaturesChecked.txt
+[ 431/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt
+[ 432/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.UI-FeaturesChecked.txt
+[ 433/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+[ 434/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb
+[ 435/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXRPico.dll
+[ 436/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXRPico.pdb
+[ 439/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll
+[ 440/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb
+[ 441/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb
+[ 442/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+[ 443/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.dll
+[ 444/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.pdb
+[ 445/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.dll
+[ 446/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.pdb
+[ 447/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Universal.Runtime.dll
+[ 448/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.MetaQuestSupport-FeaturesChecked.txt
+[ 449/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Universal.Runtime.pdb
+[ 450/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.ForUI.dll
+[ 451/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.ForUI.pdb
+[ 452/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.dll
+[ 453/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.pdb
+[ 454/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/NaughtyAttributes.Core.pdb
+[ 455/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/NaughtyAttributes.Core.dll
+[ 458/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/PICO.Platform.dll
+[ 459/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb
+[ 460/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll
+[ 463/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb
+[ 464/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System-FeaturesChecked.txt
+[ 465/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AVProVideo.Runtime.dll
+[ 466/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AVProVideo.Runtime.pdb
+[ 467/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AVProVideo.Extensions.UnityUI.dll
+[ 468/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AVProVideo.Extensions.UnityUI.pdb
+[ 469/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AVProVideo.Extensions.Timeline.dll
+[ 470/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AVProVideo.Extensions.Timeline.pdb
+[ 473/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AVProVideo.Extensions.VisualEffectGraph.pdb
+[ 474/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AVProVideo.Extensions.VisualEffectGraph.dll
+[ 475/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AutoHandAssembly.dll
+[ 478/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.dll
+[ 481/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Autohand.XR.dll
+[ 482/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AutoHandAssembly.pdb
+[ 488/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb
+[ 489/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll
+[ 491/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 492/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.dll
+[ 493/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.pdb
+[ 496/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 498/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/BakeryRuntimeAssembly.pdb
+[ 499/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/BakeryRuntimeAssembly.dll
+[ 501/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.pdb
+[ 506/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.dll
+[ 507/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Autohand.XR.pdb
+[ 510/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AVProVideo.Demos.dll
+[ 516/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AVProVideo.Demos.pdb
+[ 517/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/analytics.json
+[ 518/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb
+[ 521/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.pdb
+[ 522/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll
+[ 523/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/ControllerSample.dll
+[ 524/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/mscorlib-FeaturesChecked.txt
+[ 525/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/ControllerSample.pdb
+[ 530/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.dll
+[ 531/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.pdb
+[ 532/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll
+[ 535/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/NaughtyAttributes.Core-FeaturesChecked.txt
+[ 536/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.dll
+[ 537/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.pdb
+[ 538/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Oculus.pdb
+[ 539/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Oculus.dll
+[ 540/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.pdb
+[ 541/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll
+[ 542/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+[ 543/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+[ 544/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb
+[ 545/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.PICOSupport.pdb
+[ 546/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb
+[ 547/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb
+[ 548/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll
+[ 554/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.PICOSupport.dll
+[ 558/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll
+[ 559/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll
+[ 565/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Hands.pdb
+[ 569/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Hands.dll
+[ 570/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/PICO.Platform.pdb
+[ 571/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll
+[ 572/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb
+[ 573/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll
+[ 574/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Autohand.OpenXR.dll
+[ 575/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Autohand.OpenXR.pdb
+[ 576/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.CoreUtils.dll
+[ 577/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.CoreUtils.pdb
+[ 578/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll
+[ 579/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb
+[ 580/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll
+[ 581/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll
+[ 582/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.SpatialTracking-FeaturesChecked.txt
+[ 583/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Autohand.OpenXR-FeaturesChecked.txt
+[ 584/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.TextMeshPro-FeaturesChecked.txt
+[ 585/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/AVProVideo.Extensions.VisualEffectGraph-FeaturesChecked.txt
+[ 586/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.MockRuntime-FeaturesChecked.txt
+[ 587/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR.Features.PICOSupport-FeaturesChecked.txt
+[ 588/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.Oculus-FeaturesChecked.txt
+[ 589/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.OpenXR-FeaturesChecked.txt
+[ 590/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.Mathematics-FeaturesChecked.txt
+[ 591/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/System.Core-FeaturesChecked.txt
+[ 592/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Universal.Runtime-FeaturesChecked.txt
+[ 593/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 594/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.InputSystem-FeaturesChecked.txt
+[ 595/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.XR.Interaction.Toolkit.Samples.StarterAssets-FeaturesChecked.txt
+[ 596/1589  0s] Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o
+[ 597/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/PICO.Platform-FeaturesChecked.txt
+[ 598/1589  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Unity.RenderPipelines.Core.Runtime-FeaturesChecked.txt
+[ 599/1589  0s] Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)
+[ 600/1589  1s] Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so
+[ 601/1589  0s] Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so
+[ 602/1589  0s] Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so
+[ 603/1589  0s] Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so
+[ 604/1589  0s] Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so
+[ 605/1589  7s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\12221667402831721131.rsp
+[ 606/1589  8s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 607/1589  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/lib_burst_generated.so
+*** Tundra requires additional run (19.63 seconds), 274 items updated, 1589 evaluated
+*** Additional run caused by: contents change of F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/cpp
+Finished compiling graph: 1417 nodes, 3934 flattened edges (3930 ToBuild, 6 ToUse), maximum node priority 1046
+[           0s] Delete 193 artifact files that are no longer in use. (like F:\SDD_Prosjekter\2412Extra\Library\Bee\Android\Prj\IL2CPP\Il2CppBackup\il2cppOutput\Unity.XR.Interaction.Toolkit.Samples.StarterAssets_Debugger.c)
+[ 174/1412  0s] WriteResponseFile Library/Bee/artifacts/rsp/12438370367218343051.rsp
+[ 607/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt
+[ 609/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xxd0bgup5iek.o
+[ 610/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2whaohqvpan3.o
+[ 611/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1g564bakcm5q.o
+[ 612/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7twa4zh46nb.o
+[ 613/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xg0jj9vgehl5.o
+[ 614/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mf61s8ofuthf.o
+[ 615/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/sy03x4l3akwy.o
+[ 616/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3fg3q9e9khyc.o
+[ 617/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/34fw76nyelr5.o
+[ 618/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jk9zsj3e3ouq.o
+[ 619/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2zeyynjjnuwr.o
+[ 620/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9dddfkqgjaug.o
+[ 621/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/98506hiux2bp.o
+[ 622/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vchst9qqffaj.o
+[ 623/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4czdh7f1t80s.o
+[ 624/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lf5gk1q662fw.o
+[ 625/1412  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jjpen8bn0olt.o
+[ 626/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lfoktu61ewvc.o
+[ 627/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4f1bmvqtl1l9.o
+[ 628/1412  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cb00uma1rd4n.o
+[ 629/1412  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8j6355a0yb28.o
+[ 630/1412  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/azb7g8qosfz7.o
+[ 631/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cmqldpv2ckz3.o
+[ 632/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/beac625bcx76.o
+[ 633/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zeo4c1prrx90.o
+[ 634/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vkanjjr6zxai.o
+[ 635/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/00lei0qlhzlk.o
+[ 636/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6o42sud5r52z.o
+[ 637/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8nb1f0za7mat.o
+[ 638/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qfvqpwdpkkvn.o
+[ 639/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ajggy6ga7ek9.o
+[ 640/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7dzxumj8x753.o
+[ 641/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9eu6wygbcws9.o
+[ 642/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/fst329rgoaky.o
+[ 643/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/thjyj9ia34iw.o
+[ 644/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pxiiejfvu99o.o
+[ 645/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hnb7x42dkjz7.o
+[ 646/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6l5ivcxdot31.o
+[ 647/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bivw4k80zwdi.o
+[ 648/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2lj58r0lkkj2.o
+[ 649/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xbpecyuf8zmz.o
+[ 650/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pvklv1vylvo6.o
+[ 651/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/t7gczp1lefx3.o
+[ 652/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/fhrimgu0unpx.o
+[ 653/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ohju3kidqj6z.o
+[ 654/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zaqquobi408z.o
+[ 655/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/aalpum8mmhmg.o
+[ 656/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w0edtdoqmx6c.o
+[ 657/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9njohfq2mpix.o
+[ 658/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qukqhzp324ig.o
+[ 659/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9wmr7qzliywv.o
+[ 660/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/08jsqeqgry1j.o
+[ 661/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wh9pnxy7izh1.o
+[ 662/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z2sey4sm01dl.o
+[ 663/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1dzoockngi2m.o
+[ 664/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bc0zr3m5m203.o
+[ 665/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2wxzjh15tq40.o
+[ 666/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tjpv08kojw0i.o
+[ 667/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hm78d5p3gtor.o
+[ 668/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kpmbb537bxtx.o
+[ 669/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7yt5ye3s2wtf.o
+[ 670/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ucqfn0djlm8e.o
+[ 671/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0kh7ysj2y5l6.o
+[ 672/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/h8s0a749ku0m.o
+[ 673/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3yy14jbgnsty.o
+[ 674/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wao6b8rd28dd.o
+[ 675/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/801iali7icu8.o
+[ 676/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pp2tjz2vi4e3.o
+[ 677/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/m1e6mmor75mh.o
+[ 678/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/q3uq45tdqxw4.o
+[ 679/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/an8z2ekh7d55.o
+[ 680/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1wvomi5kjgx4.o
+[ 681/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/okl4j6v10gxz.o
+[ 682/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pj8i1ycrprno.o
+[ 683/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/39udeukznjhq.o
+[ 684/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uikpre10u36f.o
+[ 685/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/98b5coruksqu.o
+[ 686/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g67tr3vw1tze.o
+[ 687/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hwl4vvtseeox.o
+[ 688/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g3flfejsdjd1.o
+[ 689/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w5xh0nwnugub.o
+[ 690/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bw4ps8cb0dtv.o
+[ 691/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vgbzvq9iscqh.o
+[ 692/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i5lar153lbf8.o
+[ 693/1412  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2bpsb57ph2zg.o
+[ 694/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lqd1s9b8v5lf.o
+[ 695/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8o2anbjnewfg.o
+[ 696/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/o7oquusscs1q.o
+[ 697/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/avcvujnojiup.o
+[ 698/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ava5l2fu0bk0.o
+[ 699/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gld4bcmvo90a.o
+[ 700/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hp0kk6myxnk9.o
+[ 701/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/myxhdps6z72u.o
+[ 702/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yl6hnjrseh68.o
+[ 703/1412  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2csit8esaoa1.o
+[ 704/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/n0vjhqv6fzpy.o
+[ 705/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/szwvealnadgo.o
+[ 706/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0rm1tte9p9sk.o
+[ 707/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/b7rebapx50ej.o
+[ 708/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hj41dbfeml6p.o
+[ 709/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/v59fw27xllpr.o
+[ 710/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9vvh0fg9apr8.o
+[ 711/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/u3g2kqakdiyb.o
+[ 712/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1pqo2qb19s63.o
+[ 713/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4ys04n0c7ape.o
+[ 714/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zxmiykfml2zu.o
+[ 715/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/aorbjugu2rq1.o
+[ 716/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/30ndxdf1ojg4.o
+[ 717/1412  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/no3t2zwyt8cm.o
+[ 718/1412  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[ 719/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kzdemgx8wsvd.o
+[ 720/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/l5q0pwjjvwzj.o
+[ 721/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pzqkccvgllas.o
+[ 722/1412  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/x6ljk426zb1m.o
+[ 723/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ybq9lr2cq22e.o
+[ 724/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/sn89y8mzs1ht.o
+[ 725/1412  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/brehqzgg7xiq.o
+[ 726/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/k7twhisesado.o
+[ 727/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9f7uye0vyp9l.o
+[ 728/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4hdrjanvslb5.o
+[ 729/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/be64s9e48hio.o
+[ 730/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9u47s4ww3fml.o
+[ 731/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/adm6tstsxxl8.o
+[ 732/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2ksv1gh9cbef.o
+[ 733/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/f9h8gnraiom1.o
+[ 734/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kw0ny3pr0pu4.o
+[ 735/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/b7vn1n7mwhgn.o
+[ 736/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cziao2z4fjv3.o
+[ 737/1412  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ncrt9tmz0caj.o
+[ 738/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/igdhvml8owh2.o
+[ 739/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2u71x3paahjd.o
+[ 740/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/03o7g6etoprl.o
+[ 741/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ocyx9u8g6nsm.o
+[ 742/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pvaakqdfmvfp.o
+[ 743/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/of1jdviz0ra2.o
+[ 744/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z5fl9tqt2scu.o
+[ 745/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5eh21pb6zg7w.o
+[ 746/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0j80dlzvi5ol.o
+[ 747/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bjyekf8atl8n.o
+[ 748/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2d7bqrafwkar.o
+[ 749/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/d96e76d28wti.o
+[ 750/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6kf8aurlq480.o
+[ 751/1412  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zlsn9sn2jzpo.o
+[ 752/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vb7sh4kytfbw.o
+[ 753/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yk5g9hzey9nh.o
+[ 754/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bdqx51u45yeo.o
+[ 755/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/y729kdgb7bjc.o
+[ 756/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kmjqj7hiltga.o
+[ 757/1412  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mhrxpv1je9al.o
+[ 758/1412  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ju9nktx261tl.o
+[ 759/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tpfdf2w7ncod.o
+[ 760/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/p3csix2c4q8p.o
+[ 761/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9qk4e3teahz5.o
+[ 762/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3vg5awz5rktl.o
+[ 763/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/apnshbxywuq9.o
+[ 764/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/s2gckogfkpsw.o
+[ 765/1412  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vmxsxglwr6zj.o
+[ 766/1412  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0fgf3clm9s36.o
+[ 767/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ioxpnyg7kw50.o
+[ 768/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/a56y39c9w9yy.o
+[ 769/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8z6lyrbcv3vl.o
+[ 770/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0aadd0xathaw.o
+[ 771/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/m7km9ypvqz1v.o
+[ 772/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xemy3be2i76m.o
+[ 773/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/oyln4ij9gjns.o
+[ 774/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ighql03xfdj6.o
+[ 775/1412  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ozcxbu2lossf.o
+[ 776/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rgfqaxvzgl20.o
+[ 777/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4sq55m3dwafu.o
+[ 778/1412  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w5cbrkst6v7k.o
+[ 779/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3mfz0uk78i9p.o
+[ 780/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/romelt03xr1m.o
+[ 781/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pd3adc1nawf3.o
+[ 782/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3glpwgxpz1ap.o
+[ 783/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hwzsjdqpon58.o
+[ 784/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/az7xqu8y1yx3.o
+[ 785/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nii26a6svkjn.o
+[ 786/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5025b1dvjmpb.o
+[ 787/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rr4hexzb20sh.o
+[ 788/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tmzfzd3wprjv.o
+[ 789/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ot2cr83wue05.o
+[ 790/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/y5fw2fbozia3.o
+[ 791/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dwml6hofnerv.o
+[ 792/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/eq4gkdbbrflv.o
+[ 793/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/f3fp2iapwfc8.o
+[ 794/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/h5o7l72ban2v.o
+[ 795/1412  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3j98vkool4gw.o
+[ 796/1412  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/p7wdw9iksu9u.o
+[ 797/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/04f38latj0bv.o
+[ 798/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7rl1byilhu4t.o
+[ 799/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rfz35bzrwyk1.o
+[ 800/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vyugsqi7srva.o
+[ 801/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pj49alu1yamk.o
+[ 802/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5al31ql48hj9.o
+[ 803/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wspcvxqci6o3.o
+[ 804/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5tncp7qrvuzo.o
+[ 805/1412  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/fr2tvy83g1eb.o
+[ 806/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hxce36c5lntk.o
+[ 807/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9luc0316khjk.o
+[ 808/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kvknnud3rw4v.o
+[ 809/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/32mq9nuzcz64.o
+[ 810/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/owen25epy6dm.o
+[ 811/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/am9r47d5n9fr.o
+[ 812/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lrc78uda3cox.o
+[ 813/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7rkzbhbw2hpv.o
+[ 814/1412  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/65eha729t5oo.o
+[ 815/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/aulln83bc9o2.o
+[ 816/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ue2gx411wp99.o
+[ 817/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/665vcl5fq5mf.o
+[ 818/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/v9o92hi9ex0l.o
+[ 819/1412  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3imzlnalauyo.o
+[ 820/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3mvnxomtdybi.o
+[ 821/1412  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z2nou8tgkrk6.o
+[ 822/1412  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j292308xpxzl.o
+[ 823/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r2461e6166zv.o
+[ 824/1412  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0a84eoafot1l.o
+[ 825/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/u3mcxo4zpdug.o
+[ 826/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z3wxwk3gslk1.o
+[ 827/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wgiggmfvbqce.o
+[ 828/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qu5sqg2bdbnj.o
+[ 829/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/e263kqmybjvq.o
+[ 830/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/htxkwr2tsbiq.o
+[ 831/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/h8xrj8l26n3g.o
+[ 832/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g3gygsj5u3y9.o
+[ 833/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w9ww4w80uz8p.o
+[ 834/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/imp7zdh42zc6.o
+[ 835/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w63kyvb6d5c8.o
+[ 836/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z9invvpa98he.o
+[ 837/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hy3naiwhtwy7.o
+[ 838/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3v3gmxvbcipa.o
+[ 839/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7qdtkhkk8dq.o
+[ 840/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lwk6yijx7yb2.o
+[ 841/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tcz4cof9fuep.o
+[ 842/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ky04o5fnbj3z.o
+[ 843/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ywxq1flqxohe.o
+[ 844/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zddrd4ehvx11.o
+[ 845/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/t0p3z2ykjjoh.o
+[ 846/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ob7qhbb6tfmm.o
+[ 847/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4f7l4gzhj735.o
+[ 848/1412  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/iupmjlszlvi6.o
+[ 849/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/x5esvf9sfyxc.o
+[ 850/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i9l8d8fzgpcq.o
+[ 851/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/t1oatn1z9l7c.o
+[ 852/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2q3pf3dok95z.o
+[ 853/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/m79zo5nked5t.o
+[ 854/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/o8f015b5j16d.o
+[ 855/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w6w946p2t1cv.o
+[ 856/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/q7buk8f1t8qo.o
+[ 857/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/osrd04vr71or.o
+[ 858/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hb01ztzqhlug.o
+[ 859/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/l90edlz7ohrg.o
+[ 860/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/a888jvqx76py.o
+[ 861/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4hfuy90xrly5.o
+[ 862/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jq1575e08yrz.o
+[ 863/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ci8uhokz9ubf.o
+[ 864/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/y1hvvf3hwoh3.o
+[ 865/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/se2lwb6uxwpg.o
+[ 866/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7d15sy632vee.o
+[ 867/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9wmijuwat7hj.o
+[ 868/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/aq6rgtt0ixd8.o
+[ 869/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/su3zotm3crsf.o
+[ 870/1412  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/c93ca96bb2lm.o
+[ 871/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ixk14l3w1p1o.o
+[ 872/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/n9ydj51emhpk.o
+[ 873/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/v1cgkhs2qxra.o
+[ 874/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mcdhbhbdc2yc.o
+[ 875/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6h9otkk4ejos.o
+[ 876/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qncwuxf5knbp.o
+[ 877/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/viscttrsa6ek.o
+[ 878/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mhd34ua1ul8f.o
+[ 879/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1h9adlmxmzct.o
+[ 880/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9l8f29f6och3.o
+[ 881/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qmzdjm2fut2c.o
+[ 882/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lclnpq36mura.o
+[ 883/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/oma7owob6kb5.o
+[ 884/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1lbi7cau4hby.o
+[ 885/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/crvt2h5cn1wp.o
+[ 886/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j03xo7kkgjsm.o
+[ 887/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9hmbwdd2evws.o
+[ 888/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vh12li8f3w9w.o
+[ 889/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rykxy9f1pqvn.o
+[ 890/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vncxz44uav1h.o
+[ 891/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uz0te9884de0.o
+[ 892/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/h4rn8omfahqw.o
+[ 893/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ehsy8wfxcajw.o
+[ 894/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8llmden26xvt.o
+[ 895/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3vke19hvi1up.o
+[ 896/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2s4okh7f1anq.o
+[ 897/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gqj7p2fjpuhs.o
+[ 898/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/grahxdzvw3mf.o
+[ 899/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mqn26m5ocmnd.o
+[ 900/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qy2gd0065t64.o
+[ 901/1412  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xwnr8u2ug9uc.o
+[ 902/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nz499ecu8pkb.o
+[ 903/1412  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mk5395j5qw8p.o
+[ 904/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/a2fvuylb5ssh.o
+[ 905/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9zoszfaz348i.o
+[ 906/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wge5umwix55q.o
+[ 907/1412  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2808b1grvzt9.o
+[ 908/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cnw1e8kdr4qs.o
+[ 909/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/06mvou5rm40u.o
+[ 910/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nn9jtuocksz5.o
+[ 911/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gx4q1rmd6klg.o
+[ 912/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bdmofocffidk.o
+[ 913/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/66fvo4r750zg.o
+[ 914/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/n1mto1ejn8ul.o
+[ 915/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xn41ki5487h4.o
+[ 916/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/v23prsbfy6wx.o
+[ 917/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/434ulpytm3b5.o
+[ 918/1412  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/fynd7nfyxriz.o
+[ 919/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jrtx10gatqey.o
+[ 920/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ta1s43wdor9b.o
+[ 921/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lkcvjfa051oq.o
+[ 922/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7wojdau3v7jf.o
+[ 923/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/st2lawx50vhn.o
+[ 924/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/f97jmtapcq45.o
+[ 925/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/t1bx7ac0b6e0.o
+[ 926/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nta050ocz8la.o
+[ 927/1412  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7z8rpfy2tkk9.o
+[ 928/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hxsz74sph9mv.o
+[ 929/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/mn2t1zay4mzw.o
+[ 930/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/o9698gvhrac1.o
+[ 931/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/criv4uo9wnp3.o
+[ 932/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/n9ym714pb83w.o
+[ 933/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/14718syt6ltl.o
+[ 934/1412  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/iurpyk61kv56.o
+[ 935/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/m1714plg8up7.o
+[ 936/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9msea46pfgda.o
+[ 937/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5izsxqm925ul.o
+[ 938/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/zfhz7kz5o8sc.o
+[ 939/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/b86aqbexo5t5.o
+[ 940/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/o2ing4y4b7k9.o
+[ 941/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xg6ku3hlyoqj.o
+[ 942/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tmn1pguysluz.o
+[ 943/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cs28fgx9q888.o
+[ 944/1412  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/o036i5lyv1x2.o
+[ 945/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nhh194tgxgnw.o
+[ 946/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ut4v6jwr91sm.o
+[ 947/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2mafg3jyrtop.o
+[ 948/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nc1nzqf3wegk.o
+[ 949/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qq9o98sp27o8.o
+[ 950/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g0dbzs532lm1.o
+[ 951/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/an01bjxhvile.o
+[ 952/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ghs068qngsll.o
+[ 953/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/p653oyz7kl47.o
+[ 954/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1eqyvn3znr79.o
+[ 955/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ua8v8dbu63x4.o
+[ 956/1412  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lqbtuxocrhd5.o
+[ 957/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1t7wnhqw89lc.o
+[ 958/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7ky68fxtmyuv.o
+[ 959/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0b9itlzc0oce.o
+[ 960/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/br0wimx8ah1o.o
+[ 961/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/430lvbg4vma1.o
+[ 962/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yxcgdexz64mw.o
+[ 963/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9oayoq9euynk.o
+[ 964/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5pf11261xgnq.o
+[ 965/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3k0i3v70sdmj.o
+[ 966/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/n87c0qld4yy9.o
+[ 967/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z574zmp8t3we.o
+[ 968/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wstllb918mq7.o
+[ 969/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xcnm56mppkwz.o
+[ 970/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jod22y084j9o.o
+[ 971/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gyv0825pduq3.o
+[ 972/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3copkvhu4dd8.o
+[ 973/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pi27nu1r4qz0.o
+[ 974/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/h8w90knzbb2q.o
+[ 975/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lkl0awjcoodq.o
+[ 976/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hkfg5n4xskvh.o
+[ 977/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4cc2wh7lt33h.o
+[ 978/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/oxlxr3hb4f2x.o
+[ 979/1412  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/a52akgorurba.o
+[ 980/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[ 981/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[ 982/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/PICO.Platform__1.cpp
+[ 983/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/PICO.Platform_CodeGen.c
+[ 984/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml_CodeGen.c
+[ 985/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCodeRegistration.cpp
+[ 986/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/ControllerSample.cpp
+[ 987/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/ControllerSample_CodeGen.c
+[ 988/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Autohand.XR_CodeGen.c
+[ 989/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.RuntimeDebugger_CodeGen.c
+[ 990/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.ConformanceAutomation.cpp
+[ 991/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.cpp
+[ 992/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.ConformanceAutomation_CodeGen.c
+[ 993/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppInvokerTable.cpp
+[ 994/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MetaQuestSupport.cpp
+[ 995/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__38.cpp
+[ 996/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__35.cpp
+[ 997/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__32.cpp
+[ 998/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__36.cpp
+[ 999/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__30.cpp
+[1000/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__33.cpp
+[1001/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__37.cpp
+[1002/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__34.cpp
+[1003/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__39.cpp
+[1004/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__31.cpp
+[1005/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__3.cpp
+[1006/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/__Generated_CodeGen.c
+[1008/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit_CodeGen.c
+[1009/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit__6.cpp
+[1010/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit__8.cpp
+[1011/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit__3.cpp
+[1012/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit__2.cpp
+[1013/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit__1.cpp
+[1014/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit__5.cpp
+[1015/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit__4.cpp
+[1016/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit__7.cpp
+[1017/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit.cpp
+[1018/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime_CodeGen.c
+[1019/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Autohand.OpenXR.cpp
+[1020/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Autohand.OpenXR_CodeGen.c
+[1021/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__8.cpp
+[1022/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.OculusQuestSupport_CodeGen.c
+[1023/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__18.cpp
+[1024/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__15.cpp
+[1025/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__12.cpp
+[1026/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__16.cpp
+[1027/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__10.cpp
+[1028/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__13.cpp
+[1029/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__17.cpp
+[1030/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__14.cpp
+[1031/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__19.cpp
+[1032/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__11.cpp
+[1033/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__1.cpp
+[1034/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppUnresolvedIndirectCallStubs.cpp
+[1035/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestTextureModule.cpp
+[1036/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem_CodeGen.c
+[1037/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem.ForUI.cpp
+[1038/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem.ForUI_CodeGen.c
+[1039/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__11.cpp
+[1040/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__10.cpp
+[1041/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem.cpp
+[1042/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__4.cpp
+[1043/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__7.cpp
+[1044/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__3.cpp
+[1045/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__2.cpp
+[1046/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__8.cpp
+[1047/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__5.cpp
+[1048/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__1.cpp
+[1049/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__6.cpp
+[1050/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem__9.cpp
+[1051/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MetaQuestSupport_CodeGen.c
+[1052/1412  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1418mqwqzm5n.o
+[1053/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__4.cpp
+[1054/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+[1055/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Oculus.cpp
+[1056/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Oculus_CodeGen.c
+[1057/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[1058/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__9.cpp
+[1059/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__11.cpp
+[1060/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics_CodeGen.c
+[1061/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__10.cpp
+[1062/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics.cpp
+[1063/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__3.cpp
+[1064/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__1.cpp
+[1065/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__6.cpp
+[1066/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__4.cpp
+[1067/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__2.cpp
+[1068/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__8.cpp
+[1069/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__7.cpp
+[1070/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__5.cpp
+[1071/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__9.cpp
+[1072/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule_CodeGen.c
+[1073/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__7.cpp
+[1074/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__48.cpp
+[1075/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__45.cpp
+[1076/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__42.cpp
+[1077/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__46.cpp
+[1078/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__40.cpp
+[1079/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__47.cpp
+[1080/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__43.cpp
+[1081/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__49.cpp
+[1082/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__44.cpp
+[1083/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__41.cpp
+[1084/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__4.cpp
+[1085/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__18.cpp
+[1086/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__15.cpp
+[1087/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__12.cpp
+[1088/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__16.cpp
+[1089/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__10.cpp
+[1090/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__17.cpp
+[1091/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__13.cpp
+[1092/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__14.cpp
+[1093/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__11.cpp
+[1094/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__2.cpp
+[1095/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__1.cpp
+[1096/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System_CodeGen.c
+[1097/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__3.cpp
+[1098/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCFieldValuesTable.cpp
+[1099/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__68.cpp
+[1100/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__65.cpp
+[1101/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__62.cpp
+[1102/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__60.cpp
+[1103/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__66.cpp
+[1104/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__63.cpp
+[1105/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__67.cpp
+[1106/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__64.cpp
+[1107/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__69.cpp
+[1108/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__61.cpp
+[1109/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__6.cpp
+[1110/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods.cpp
+[1111/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__1.cpp
+[1112/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__5.cpp
+[1113/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__8.cpp
+[1114/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__4.cpp
+[1115/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__3.cpp
+[1116/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__7.cpp
+[1117/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__9.cpp
+[1118/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__2.cpp
+[1119/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__6.cpp
+[1120/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__11.cpp
+[1121/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__12.cpp
+[1122/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__19.cpp
+[1123/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__13.cpp
+[1124/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__15.cpp
+[1125/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__20.cpp
+[1126/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__14.cpp
+[1127/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__18.cpp
+[1128/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__16.cpp
+[1129/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__17.cpp
+[1130/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__10.cpp
+[1131/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues2.cpp
+[1132/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues1.cpp
+[1133/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp
+[1134/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues.cpp
+[1135/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/__Generated.cpp
+[1136/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.Timeline_CodeGen.c
+[1137/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues.cpp
+[1138/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.UnityUI.cpp
+[1139/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.Timeline.cpp
+[1140/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Demos.cpp
+[1141/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Runtime__1.cpp
+[1142/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Demos_CodeGen.c
+[1143/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.UnityUI_CodeGen.c
+[1144/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Runtime.cpp
+[1145/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Runtime_CodeGen.c
+[1146/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_CodeGen.c
+[1147/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst__2.cpp
+[1148/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst__1.cpp
+[1149/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst_CodeGen.c
+[1150/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst.Unsafe.cpp
+[1151/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst.Unsafe_CodeGen.c
+[1152/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__6.cpp
+[1153/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime.cpp
+[1154/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__4.cpp
+[1155/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__1.cpp
+[1156/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__2.cpp
+[1157/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__3.cpp
+[1158/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__5.cpp
+[1159/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+[1160/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1161/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security.cpp
+[1162/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.OculusQuestSupport.cpp
+[1163/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.cpp
+[1164/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core_CodeGen.c
+[1165/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__88.cpp
+[1166/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__85.cpp
+[1167/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__86.cpp
+[1168/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__82.cpp
+[1169/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__80.cpp
+[1170/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__83.cpp
+[1171/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__87.cpp
+[1172/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__84.cpp
+[1173/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__89.cpp
+[1174/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__81.cpp
+[1175/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__8.cpp
+[1176/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro_CodeGen.c
+[1177/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro.cpp
+[1178/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__5.cpp
+[1179/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__2.cpp
+[1180/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__3.cpp
+[1181/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__4.cpp
+[1182/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__6.cpp
+[1183/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__1.cpp
+[1184/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Management_CodeGen.c
+[1185/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.VisualEffectGraph_CodeGen.c
+[1186/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Management.cpp
+[1187/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule__2.cpp
+[1188/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule__3.cpp
+[1189/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c
+[1190/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
+[1191/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule__1.cpp
+[1192/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__28.cpp
+[1193/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__22.cpp
+[1194/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__25.cpp
+[1195/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__26.cpp
+[1196/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__20.cpp
+[1197/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__23.cpp
+[1198/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__27.cpp
+[1199/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__24.cpp
+[1200/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__29.cpp
+[1201/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__21.cpp
+[1202/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security_CodeGen.c
+[1203/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__2.cpp
+[1204/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.CoreUtils_CodeGen.c
+[1205/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.CoreUtils.cpp
+[1206/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit.Samples.StarterAssets_CodeGen.c
+[1207/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule.cpp
+[1208/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputModule.cpp
+[1209/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VideoModule.cpp
+[1210/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule.cpp
+[1211/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule.cpp
+[1212/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1213/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule.cpp
+[1214/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule.cpp
+[1215/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule.cpp
+[1216/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__10.cpp
+[1217/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__13.cpp
+[1218/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__14.cpp
+[1219/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__12.cpp
+[1220/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__11.cpp
+[1221/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c
+[1222/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c
+[1223/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c
+[1224/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c
+[1225/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c
+[1226/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputModule_CodeGen.c
+[1227/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
+[1228/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VideoModule_CodeGen.c
+[1230/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule.cpp
+[1231/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__7.cpp
+[1232/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__6.cpp
+[1233/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule.cpp
+[1234/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__5.cpp
+[1235/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule.cpp
+[1236/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__8.cpp
+[1237/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__9.cpp
+[1238/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__1.cpp
+[1239/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__3.cpp
+[1240/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TilemapModule_CodeGen.c
+[1241/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__2.cpp
+[1242/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c
+[1243/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainModule_CodeGen.c
+[1244/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule_CodeGen.c
+[1245/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c
+[1246/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__4.cpp
+[1247/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SharedInternalsModule.cpp
+[1248/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp
+[1249/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
+[1250/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c
+[1251/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpatialTracking_CodeGen.c
+[1252/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__1.cpp
+[1253/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__3.cpp
+[1254/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__4.cpp
+[1255/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainModule.cpp
+[1256/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule.cpp
+[1258/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule_CodeGen.c
+[1259/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
+[1260/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__2.cpp
+[1261/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SubsystemsModule.cpp
+[1262/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule.cpp
+[1263/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AndroidJNIModule.cpp
+[1264/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
+[1265/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule.cpp
+[1266/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule_CodeGen.c
+[1267/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.GridModule_CodeGen.c
+[1268/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.XRModule_CodeGen.c
+[1269/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VRModule_CodeGen.c
+[1270/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule__1.cpp
+[1271/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VFXModule.cpp
+[1272/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI.cpp
+[1274/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine_CodeGen.c
+[1275/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule.cpp
+[1276/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__3.cpp
+[1277/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__1.cpp
+[1278/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__2.cpp
+[1279/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VRModule.cpp
+[1280/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI_CodeGen.c
+[1281/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.XRModule.cpp
+[1282/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule.cpp
+[1283/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpriteShapeModule_CodeGen.c
+[1284/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
+[1285/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule.cpp
+[1286/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule.cpp
+[1287/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VFXModule_CodeGen.c
+[1288/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpatialTracking.cpp
+[1289/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.PICOSupport_CodeGen.c
+[1290/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MockRuntime_CodeGen.c
+[1291/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppRgctxTable.c
+[1292/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__3.cpp
+[1293/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppTypeDefinitions.c
+[1294/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib_CodeGen.c
+[1295/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core.cpp
+[1296/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BakeryRuntimeAssembly.cpp
+[1297/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BakeryRuntimeAssembly_CodeGen.c
+[1298/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.PICOSupport__2.cpp
+[1299/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.PICOSupport__1.cpp
+[1300/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule_CodeGen.c
+[1301/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__58.cpp
+[1302/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1303/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__55.cpp
+[1304/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__52.cpp
+[1305/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__56.cpp
+[1306/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__50.cpp
+[1307/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__53.cpp
+[1308/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__57.cpp
+[1309/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__59.cpp
+[1310/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__54.cpp
+[1311/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__51.cpp
+[1312/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__5.cpp
+[1313/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.VisualEffectGraph.cpp
+[1315/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MockRuntime.cpp
+[1316/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__6.cpp
+[1317/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXRPico_CodeGen.c
+[1318/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.PICOSupport.cpp
+[1319/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR_CodeGen.c
+[1320/1412  9s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ubz5fpu6dd3r.o
+[1321/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.cpp
+[1322/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR__1.cpp
+[1323/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXRPico.cpp
+[1324/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime_CodeGen.c
+[1325/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AutoHandAssembly_CodeGen.c
+[1326/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AutoHandAssembly.cpp
+[1327/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AutoHandAssembly__3.cpp
+[1328/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AutoHandAssembly__1.cpp
+[1329/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AutoHandAssembly__5.cpp
+[1330/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AutoHandAssembly__2.cpp
+[1331/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Hands.cpp
+[1332/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Hands_CodeGen.c
+[1333/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AutoHandAssembly__4.cpp
+[1334/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml.cpp
+[1335/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__9.cpp
+[1336/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__78.cpp
+[1337/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__75.cpp
+[1338/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__72.cpp
+[1339/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__70.cpp
+[1340/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__76.cpp
+[1341/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__73.cpp
+[1342/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__77.cpp
+[1343/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__74.cpp
+[1344/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__79.cpp
+[1345/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__71.cpp
+[1346/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__7.cpp
+[1347/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.RuntimeDebugger.cpp
+[1348/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/NaughtyAttributes.Core_CodeGen.c
+[1349/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib.cpp
+[1350/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/NaughtyAttributes.Core.cpp
+[1351/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericAdjustorThunkTable.c
+[1352/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[1353/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericInstDefinitions.c
+[1354/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericClassTable.c
+[1355/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodTable.c
+[1356/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodPointerTable.c
+[1357/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipeline.Universal.ShaderLibrary_CodeGen.c
+[1358/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Autohand.XR.cpp
+[1359/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Configuration_CodeGen.c
+[1360/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Configuration.cpp
+[1361/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics.cpp
+[1362/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__2.cpp
+[1363/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime.cpp
+[1364/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__5.cpp
+[1365/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipeline.Universal.ShaderLibrary.cpp
+[1366/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCTypeValuesTable.cpp
+[1367/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppInteropDataTable.cpp
+[1368/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/analytics.json
+[1369/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__9.cpp
+[1370/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__2.cpp
+[1371/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__5.cpp
+[1372/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__4.cpp
+[1373/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__3.cpp
+[1374/1412  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/onelu5z48cao.o
+[1375/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__8.cpp
+[1376/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__1.cpp
+[1377/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__7.cpp
+[1378/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__6.cpp
+[1379/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__1.cpp
+[1380/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/PICO.Platform.cpp
+[1381/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst.cpp
+[1382/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4afcdb6az3d6.o
+[1383/1412  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1384/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2tvp3vnhjtd1.o
+[1385/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qy6nqtre98vn.o
+[1386/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9l142snd867m.o
+[1387/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rvwcfdw3ops4.o
+[1388/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hqrurh6a5wpw.o
+[1389/1412  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7mdo4e2hh1gd.o
+[1390/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hes1nm9jg51h.o
+[1391/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vagjat1lm658.o
+[1392/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/fpcftcwvgc0b.o
+[1393/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1kk8z1qhx85a.o
+[1394/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z3o285iewmvy.o
+[1395/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7e0b9j8592gw.o
+[1396/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gzmagep2k3vq.o
+[1397/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3iizo94bevb9.o
+[1398/1412  5s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2cg2igr2ob53.o
+[1399/1412  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2j1lu5xw518r.o
+[1400/1412  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/enk0ezfjh38m.o
+[1401/1412 11s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/wwpcv8xbvzlh.o
+[BUSY      15s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z0ss8hlj6h8z.o
+[1402/1412 20s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z0ss8hlj6h8z.o
+[1403/1412  2s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1404/1412  0s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1405/1412  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1406/1412  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1407/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1408/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1409/1412  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1410/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+[1411/1412  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+*** Tundra build success (82.96 seconds - 0:01:22), 800 items updated, 1412 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/Player11ca19d9-inputdata.json
+*** Tundra requires additional run (0.05 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 1418 nodes, 3936 flattened edges (3932 ToBuild, 6 ToUse), maximum node priority 1046
+[ 366/1413  0s] WriteText Library/Bee/artifacts/csharpactions/build.gradle_175u.info
+[ 368/1413  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libopenxr_loader.so
+[ 369/1413  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libopenxr_pico.so
+[ 370/1413  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 371/1413  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 372/1413  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 373/1413  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[ 374/1413  0s] ActionGenerateProjectFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+8 others)
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 375/1413  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+*** Tundra requires additional run (7.21 seconds), 9 items updated, 1413 evaluated
+*** Additional run caused by: contents change of Library/Bee/artifacts/Android/ManagedStripped
+Finished compiling graph: 1417 nodes, 3933 flattened edges (3929 ToBuild, 6 ToUse), maximum node priority 1045
+[           0s] Delete 11 artifact files that are no longer in use. (like F:\SDD_Prosjekter\2412Extra\Library\Bee\Android\Prj\IL2CPP\Il2CppBackup\Managed\icallsummary.txt)
+[1411/1412  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (0.31 seconds), 1 items updated, 1412 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Done
+Done
+Done
+Done
