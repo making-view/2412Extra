@@ -7,19 +7,28 @@ using UnityEngine;
 
 public class MediaEventHandler : MonoBehaviour
 {
-    MediaPlayer _mediaPlayer;
+    public MediaPlayer mediaPlayer;
     // Start is called before the first frame update
 
-    [SerializeField] MediaReference _firstVideo;
-    [SerializeField] MediaReference _secondVideo;
+    public MediaReference firstVideo;
+    public MediaReference secondVideo;
 
     bool _firstVideoDone = false;
 
+    public static MediaEventHandler instance;
+
     void Start()
     {
-        _mediaPlayer = GetComponent<MediaPlayer>();
-        _mediaPlayer.Events.AddListener((mediaPlayer, eventType, errorCode) => HandledEvent(mediaPlayer, eventType, errorCode));
-        _mediaPlayer.OpenMedia(_firstVideo.MediaPath);
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+            Destroy(this);
+
+
+        mediaPlayer = GetComponent<MediaPlayer>();
+        mediaPlayer.Events.AddListener((mediaPlayer, eventType, errorCode) => HandledEvent(mediaPlayer, eventType, errorCode));
     }
 
     private void HandledEvent(MediaPlayer mediaPlayer, MediaPlayerEvent.EventType eventType, ErrorCode errorCode)
@@ -79,7 +88,7 @@ public class MediaEventHandler : MonoBehaviour
             _firstVideoDone = true;
             //Do quiz here?
             //Play other video
-            _mediaPlayer.OpenMedia(_secondVideo.MediaPath);
+            mediaPlayer.OpenMedia(secondVideo.MediaPath);
         }
         else
         {
