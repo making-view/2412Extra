@@ -13,7 +13,7 @@ public class Watergun : MonoBehaviour
 
     private ParticleSystem _particles = null;
     private Rigidbody _rigidbody = null;
-    private Grabbable _grabbable = null;
+
     [SerializeField] private GameObject _goop = null;
     [SerializeField] private Transform _rayOrigin = null;
 
@@ -34,8 +34,7 @@ public class Watergun : MonoBehaviour
     {
         _particles = GetComponentInChildren<ParticleSystem>();
         _timePerBubble = 1.0f / _particles.emission.rateOverTime.constantMax;
-        _grabbable = GetComponentInChildren<Grabbable>();
-        _rigidbody = GetComponentInChildren<Rigidbody>();
+        _rigidbody = GetComponent<Rigidbody>();
 
         //keep track of all hands grabbing gun
         foreach(Grabbable grabbable in GetComponentsInChildren<Grabbable>())
@@ -44,18 +43,17 @@ public class Watergun : MonoBehaviour
             grabbable.onRelease.AddListener((hand, grabbalbe) => {_grabbingHands.Remove(hand);});
         }
         var tpPointer = PlayerManager.instance.GetComponentInChildren<Teleporter>();
-        var grabbableExtra = GetComponentInChildren<GrabbableExtraEvents>();
+        var grabbableExtras = GetComponentsInChildren<GrabbableExtraEvents>();
 
-        //move tp pointer to gun while holding it
-        grabbableExtra.OnLastRelease.AddListener((hand, grabbable) => tpPointer.SetAimer(tpPointer.transform));
-        grabbableExtra.OnFirstGrab.AddListener((hand, grabbable) => tpPointer.SetAimer(_rayOrigin));
 
-        //drop gun on scene load
-        SceneTransitioner.instance.onLoadScene.AddListener(() =>
+        foreach(GrabbableExtraEvents grabbableExtra in grabbableExtras)
         {
-            foreach (Hand hand in _grabbingHands)
-                hand.ForceReleaseGrab();
-        });
+            grabbableExtra.OnLastRelease.AddListener((hand, grabbable) => tpPointer.SetAimer(tpPointer.transform));
+            grabbableExtra.OnFirstGrab.AddListener((hand, grabbable) => tpPointer.SetAimer(_rayOrigin));
+        }
+        //move tp pointer to gun while holding it
+
+
     }
 
     public void StartFiring()
@@ -143,5 +141,28 @@ public class Watergun : MonoBehaviour
             //Debug.Log("Sending haptic to " + hand.name);
             hand.PlayHapticVibration(_timePerBubble / 2f, 0.5f);
         }
+    }
+
+    private void OnEnable()
+    {
+        //drop gun on scene load
+        SceneTransitioner.instance.onLoadScene.AddListener(() =>
+        {
+            ReleaseHands();
+        });
+    }
+
+    private void OnDisable()
+    {
+        SceneTransitioner.instance.onLoadScene.RemoveListener(() =>
+        {
+            ReleaseHands();
+        });
+    }
+
+    private void ReleaseHands()
+    {
+        for (int i = 0; i < _grabbingHands.Count; i++)
+            _grabbingHands[i].ForceReleaseGrab();
     }
 }

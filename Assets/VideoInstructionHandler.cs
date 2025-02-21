@@ -7,16 +7,31 @@ using UnityEngine;
 public class VideoInstructionHandler : MonoBehaviour
 {
     [SerializeField] List<CanvasGroup> _instructionCanvases = new List<CanvasGroup>();
-    private float _instructionDuration = 4.0f;
+    [SerializeField] private Transform _cameraTrans;
+    private float _instructionDuration = 5.0f;
 
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(ShowInstructionsAndStartVideo());
+
+        if(_cameraTrans == null)
+            _cameraTrans = PlayerManager.instance.GetComponentInChildren<Camera>().transform;
+    }
+
+    private void Update()
+    {
+        float yDiff = _cameraTrans.rotation.y - transform.rotation.y;
+
+        //transform.LookAt(transform.position + _cameraTrans.forward * 10f, Vector3.up);
+        transform.Rotate(Vector3.up, yDiff);
     }
 
     private void OnEnable()
     {
+        if (PlayerManager.instance == null)
+            return;
+
         //attach teleport on pressed til å vise boundary, og on release til å gjemme det
         foreach (Teleporter teleporter in PlayerManager.instance.GetComponentsInChildren<Teleporter>())
         {
@@ -28,6 +43,11 @@ public class VideoInstructionHandler : MonoBehaviour
 
     private void OnDisable()
     {
+        if (PlayerManager.instance == null)
+            return;
+
+        Debug.Log(this + " trying to remove its listeners on disable");
+
         foreach (Teleporter teleporter in PlayerManager.instance.GetComponentsInChildren<Teleporter>())
         {
             teleporter.OnStartTeleport.RemoveListener(() => ShowInstructions(1f));
@@ -53,6 +73,8 @@ public class VideoInstructionHandler : MonoBehaviour
             yield return null;
             _instructionDuration -= Time.deltaTime;
         }
+
+        ShowInstructions(0f);
 
         //start first video
         MediaEventHandler.instance.mediaPlayer.OpenMedia(MediaEventHandler.instance.firstVideo);

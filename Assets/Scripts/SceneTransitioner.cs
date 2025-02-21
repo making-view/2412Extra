@@ -61,6 +61,7 @@ public class SceneTransitioner : MonoBehaviour
         yield return StartCoroutine(Fade(0.0f, 1.0f));
         //load new scene and fire events
         onLoadScene.Invoke();
+        yield return null;
         onLoadScene.RemoveAllListeners();
         SceneManager.LoadScene(sceneName);
 

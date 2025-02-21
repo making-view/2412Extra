@@ -5500,3 +5500,1204 @@ C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il
 *** Tundra build success (32.80 seconds), 186 items updated, 1658 evaluated
 Total cache size 267941545
 Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 439/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 440/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 441/1658  1s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 442/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 443/1658 12s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[1657/1658  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (12.56 seconds), 6 items updated, 1658 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 439/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 440/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 441/1658  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 442/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 443/1658  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 662/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 663/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json
+[ 664/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 665/1658  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 667/1658  0s] ClassRegistrationGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp
+[BUSY       6s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+[ 674/1658  6s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 676/1658  9s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\12221667402831721131.rsp
+[ 840/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bjwge69o5qbc.o
+[ 841/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/x2c64zu28k4q.o
+[ 842/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j8oylxe17ewt.o
+[ 843/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7twa4zh46nb.o
+[ 844/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4xmxlrinqtu6.o
+[ 846/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cutkfnm65jm0.o
+[ 847/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r0wspgsy26go.o
+[ 848/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xb0r2mk9na4d.o
+[ 858/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bvvn1ne4dczm.o
+[ 862/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2yeg5j9poay3.o
+[ 867/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dq9eowtkm9m4.o
+[ 868/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ri8g3y2r5exa.o
+[ 869/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2rgon9csw5dm.o
+[ 908/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hvhhas9hkjxa.o
+[ 913/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/x5j3yubpv4f9.o
+[ 946/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i1hdx5f1u6vi.o
+[ 970/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/p54wmoul0g82.o
+[ 988/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bfjarbpdf7e0.o
+[ 999/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5d7pgram0pr0.o
+[1003/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nslzhtd6b9za.o
+[1027/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g7oe8y39sfkr.o
+[1033/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9qk4e3teahz5.o
+[1034/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bbdbf7zw4b25.o
+[1047/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w07owascrnjx.o
+[1052/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tqatbn5u57gj.o
+[1053/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/81th3jms3xc9.o
+[1054/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uendsv29vhef.o
+[1066/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5u7l2ib38ms0.o
+[1068/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/copodm829qkd.o
+[1072/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lbt8pqyqygud.o
+[1079/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9c775qui8qgt.o
+[1094/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/323kpc0qwtzp.o
+[1121/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rmehv3vor7wb.o
+[1123/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3xcsyc02cwph.o
+[1137/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[1138/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[1146/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xfsxsn75hqo4.o
+[1150/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule_Debugger.c
+[1152/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/ControllerSample_Debugger.c
+[1170/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Autohand.XR_Debugger.c
+[1172/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipeline.Universal.ShaderLibrary_Debugger.c
+[1191/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_Debugger.c
+[1206/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Autohand.OpenXR_Debugger.c
+[1207/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit.Samples.StarterAssets_Debugger.c
+[1211/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SharedInternalsModule_Debugger.c
+[1217/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule_Debugger.c
+[1222/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem.ForUI_Debugger.c
+[1230/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.RuntimeDebugger_Debugger.c
+[1231/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+[1235/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.ConformanceAutomation_Debugger.c
+[1239/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Oculus_Debugger.c
+[1312/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCFieldValuesTable.cpp
+[1314/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues2.cpp
+[1317/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp
+[1319/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.UnityUI_Debugger.c
+[1321/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Demos_Debugger.c
+[1335/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.Timeline_Debugger.c
+[1349/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+[1350/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_Debugger.c
+[1354/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1357/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MockRuntime_Debugger.c
+[1385/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Management_Debugger.c
+[1386/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule_Debugger.c
+[1393/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[1403/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule_Debugger.c
+[1415/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security_Debugger.c
+[1418/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule_Debugger.c
+[1419/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainModule_Debugger.c
+[1423/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule_Debugger.c
+[1428/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule_Debugger.c
+[1429/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule_Debugger.c
+[1452/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpatialTracking_Debugger.c
+[1473/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule_Debugger.c
+[1478/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule_Debugger.c
+[1481/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1482/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VFXModule_Debugger.c
+[1484/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputModule_Debugger.c
+[1487/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VideoModule_Debugger.c
+[1498/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule_Debugger.c
+[1514/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SubsystemsModule_Debugger.c
+[1515/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VRModule_Debugger.c
+[1516/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule_Debugger.c
+[1517/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule_Debugger.c
+[1520/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.XRModule_Debugger.c
+[1522/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppRgctxTable.c
+[1525/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1528/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BakeryRuntimeAssembly_Debugger.c
+[1533/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MetaQuestSupport_Debugger.c
+[1552/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.OculusQuestSupport_Debugger.c
+[1567/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2hiy0tmwmb39.o
+[1569/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXRPico_Debugger.c
+[1571/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Hands_Debugger.c
+[1591/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.VisualEffectGraph_Debugger.c
+[1596/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/NaughtyAttributes.Core_Debugger.c
+[1608/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppTypeDefinitions.c
+[1627/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[1628/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7pp1zbel7u23.o
+[1629/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uol5bx1vnjy3.o
+[1630/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vxxmssw8o02x.o
+[1631/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gnolpzphwes3.o
+[1632/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v58nqh1b3fg.o
+[1633/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tkzya9t8yucw.o
+[1634/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/n0botkhbt2ph.o
+[1635/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/416e9k4xxjwo.o
+[1636/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yb22zbtdgfyl.o
+[1637/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hznoci2cpc46.o
+[1638/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1eiqofpe4yst.o
+[1639/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rvv5ojtnfuxg.o
+[1640/1658  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1641/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jq1575e08yrz.o
+[1642/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7qdtkhkk8dq.o
+[1643/1658  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lf5gk1q662fw.o
+[1644/1658  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kpmbb537bxtx.o
+[1645/1658  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/t1bx7ac0b6e0.o
+[1646/1658  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pzqkccvgllas.o
+[1647/1658  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xwnr8u2ug9uc.o
+[1648/1658  8s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[BUSY       6s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1649/1658  8s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1650/1658  0s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1651/1658  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1652/1658  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1653/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1654/1658  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1655/1658  1s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1656/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+[1657/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+*** Tundra build success (37.70 seconds), 138 items updated, 1658 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 439/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 440/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 441/1658  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 442/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 443/1658  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 665/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json
+[1650/1658  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1651/1658  0s] ClassRegistrationGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp
+*** Tundra build success (7.81 seconds), 8 items updated, 1658 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 439/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 440/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 441/1658  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 442/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 443/1658  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[1657/1658  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (7.41 seconds), 6 items updated, 1658 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 439/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 440/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 441/1658  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 442/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 443/1658  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 660/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 661/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 662/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb
+[ 663/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll
+[ 664/1658  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/UnityEngine.CoreModule-FeaturesChecked.txt
+[ 665/1658  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 667/1658  0s] ICallRegistrationGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp
+[ 668/1658  0s] Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o
+[ 669/1658  3s] Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so
+[ 670/1658  0s] Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so
+[ 671/1658  0s] Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so
+[ 672/1658  0s] Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so
+[ 673/1658  0s] Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so
+[ 674/1658  8s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\12221667402831721131.rsp
+[ 801/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bjwge69o5qbc.o
+[ 802/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bvvn1ne4dczm.o
+[ 804/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7twa4zh46nb.o
+[ 813/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j8oylxe17ewt.o
+[ 814/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4xmxlrinqtu6.o
+[ 817/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xb0r2mk9na4d.o
+[ 825/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2rgon9csw5dm.o
+[ 828/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dq9eowtkm9m4.o
+[ 829/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/x2c64zu28k4q.o
+[ 839/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/x5j3yubpv4f9.o
+[ 847/1658  9s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 852/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hvhhas9hkjxa.o
+[ 855/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bfjarbpdf7e0.o
+[ 860/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/p54wmoul0g82.o
+[ 869/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5d7pgram0pr0.o
+[ 891/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6hzrw5e0h8es.o
+[ 907/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g7oe8y39sfkr.o
+[ 908/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r0wspgsy26go.o
+[ 916/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ri8g3y2r5exa.o
+[ 920/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cutkfnm65jm0.o
+[ 921/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2yeg5j9poay3.o
+[ 926/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bbdbf7zw4b25.o
+[ 931/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i1hdx5f1u6vi.o
+[ 934/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nslzhtd6b9za.o
+[ 944/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uendsv29vhef.o
+[ 948/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9qk4e3teahz5.o
+[ 951/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5u7l2ib38ms0.o
+[ 964/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9c775qui8qgt.o
+[ 965/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r53333tu3qph.o
+[ 971/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/copodm829qkd.o
+[ 978/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/81th3jms3xc9.o
+[ 980/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tqatbn5u57gj.o
+[ 983/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w07owascrnjx.o
+[ 999/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lbt8pqyqygud.o
+[1005/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2hiy0tmwmb39.o
+[1011/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/sqpl38w90mcv.o
+[1021/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/s4s9eyrm3byn.o
+[1023/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rmehv3vor7wb.o
+[1024/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/323kpc0qwtzp.o
+[1026/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5al31ql48hj9.o
+[1029/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xfsxsn75hqo4.o
+[1033/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/grrwp1vhtbcy.o
+[1038/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3xcsyc02cwph.o
+[1041/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7pp1zbel7u23.o
+[1048/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qr21jqloyid5.o
+[1051/1658  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lf5gk1q662fw.o
+[1055/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jq1575e08yrz.o
+[1062/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v58nqh1b3fg.o
+[1065/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gnolpzphwes3.o
+[1066/1658  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kpmbb537bxtx.o
+[1067/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1eiqofpe4yst.o
+[1071/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yb22zbtdgfyl.o
+[1076/1658  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hwzsjdqpon58.o
+[1081/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vxxmssw8o02x.o
+[1083/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uol5bx1vnjy3.o
+[1084/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xh5oiarwgg03.o
+[1132/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/32gwgn6rk94q.o
+[1135/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tkzya9t8yucw.o
+[1136/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[1137/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[1138/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/lib_burst_generated.so
+[1140/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/PICO.Platform_Debugger.c
+[1145/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule_Debugger.c
+[1146/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule_Debugger.c
+[1147/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/ControllerSample_Debugger.c
+[1150/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipeline.Universal.ShaderLibrary_Debugger.c
+[1152/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Autohand.XR_Debugger.c
+[1170/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_Debugger.c
+[1185/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit_Debugger.c
+[1189/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Autohand.OpenXR_Debugger.c
+[1191/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit.Samples.StarterAssets_Debugger.c
+[1206/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SharedInternalsModule_Debugger.c
+[1207/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule_Debugger.c
+[1211/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z6k74chadubm.o
+[1212/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem.ForUI_Debugger.c
+[1226/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/n0botkhbt2ph.o
+[1229/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.RuntimeDebugger_Debugger.c
+[1230/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+[1233/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Oculus_Debugger.c
+[1235/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.ConformanceAutomation_Debugger.c
+[1250/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem_Debugger.c
+[1277/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCFieldValuesTable.cpp
+[1312/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics_Debugger.c
+[1314/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues2.cpp
+[1317/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp
+[1319/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Demos_Debugger.c
+[1321/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.UnityUI_Debugger.c
+[1322/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.Timeline_Debugger.c
+[1331/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Runtime_Debugger.c
+[1339/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib_Debugger.c
+[1348/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[1349/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+[1350/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_Debugger.c
+[1352/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst_Debugger.c
+[1355/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1358/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MockRuntime_Debugger.c
+[1379/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.PICOSupport_Debugger.c
+[1381/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Management_Debugger.c
+[1385/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule_Debugger.c
+[1386/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule_Debugger.c
+[1392/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro_Debugger.c
+[1398/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime_Debugger.c
+[1408/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security_Debugger.c
+[1412/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.CoreUtils_Debugger.c
+[1418/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule_Debugger.c
+[1419/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainModule_Debugger.c
+[1427/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule_Debugger.c
+[1428/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule_Debugger.c
+[1429/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule_Debugger.c
+[1434/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpatialTracking_Debugger.c
+[1468/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule_Debugger.c
+[1472/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule_Debugger.c
+[1473/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1478/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule_Debugger.c
+[1479/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VFXModule_Debugger.c
+[1481/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__2.cpp
+[1482/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
+[1483/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VideoModule_Debugger.c
+[1484/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputModule_Debugger.c
+[1491/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule_Debugger.c
+[1503/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule_Debugger.c
+[1505/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SubsystemsModule_Debugger.c
+[1506/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AndroidJNIModule_Debugger.c
+[1507/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule_Debugger.c
+[1514/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI_Debugger.c
+[1515/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VRModule_Debugger.c
+[1516/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule_Debugger.c
+[1517/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.XRModule_Debugger.c
+[1520/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppRgctxTable.c
+[1522/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1525/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MetaQuestSupport_Debugger.c
+[1526/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime_Debugger.c
+[1528/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppTypeDefinitions.c
+[1533/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BakeryRuntimeAssembly_Debugger.c
+[1548/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.OculusQuestSupport_Debugger.c
+[1555/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule_Debugger.c
+[1559/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXRPico_Debugger.c
+[1569/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR_Debugger.c
+[1571/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hznoci2cpc46.o
+[1577/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Hands_Debugger.c
+[1583/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.VisualEffectGraph_Debugger.c
+[1596/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AutoHandAssembly_Debugger.c
+[1601/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/NaughtyAttributes.Core_Debugger.c
+[1623/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[1624/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCTypeValuesTable.cpp
+[1627/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System_Debugger.c
+[1628/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rvv5ojtnfuxg.o
+[1629/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/416e9k4xxjwo.o
+[1630/1658  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i6ac2cos956z.o
+[1631/1658  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1632/1658  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0ha3954wt8pm.o
+[1633/1658  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7qdtkhkk8dq.o
+[1634/1658  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/56a49oay49k8.o
+[1635/1658  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g5qkwxvgqsb3.o
+[1636/1658  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ljzqb9xeupyo.o
+[1637/1658  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vklvtabspn1b.o
+[1638/1658  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/t1bx7ac0b6e0.o
+[1639/1658  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/izyb11ltnbly.o
+[1640/1658  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/swpj131425yb.o
+[1641/1658  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/iwk95glflkkg.o
+[1642/1658  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/b8b4cvurfq8p.o
+[1643/1658  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2ys2g72l3deb.o
+[1644/1658  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pzqkccvgllas.o
+[1645/1658  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xdg68i4cyw77.o
+[1646/1658  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xwnr8u2ug9uc.o
+[1647/1658  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1648/1658 12s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/f97jmtapcq45.o
+[1649/1658  4s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1650/1658  1s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1651/1658  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1652/1658  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1653/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1654/1658  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1655/1658  1s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1656/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+[1657/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+*** Tundra build success (38.16 seconds), 195 items updated, 1658 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 439/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 440/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 441/1658  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 442/1658  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 443/1658  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[1657/1658  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (7.40 seconds), 6 items updated, 1658 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Rebuilding DAG because directory contents changed: Assets/StreamingAssets
+*** Tundra requires additional run (0.06 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 1664 nodes, 4605 flattened edges (4601 ToBuild, 6 ToUse), maximum node priority 1223
+[ 378/1659  0s] WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_uc4u.info
+[ 439/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/ExtrajævelenPreview.mp4
+[ 440/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 441/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[1658/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (7.72 seconds), 8 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/Player11ca19d9-inputdata.json
+*** Tundra requires additional run (0.06 seconds), 0 items updated, 0 evaluated
+Finished compiling graph: 1664 nodes, 4605 flattened edges (4601 ToBuild, 6 ToUse), maximum node priority 1223
+[  73/1659  0s] WriteResponseFile Library/Bee/artifacts/rsp/10987554484332699930.rsp
+[ 440/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 441/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[1658/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (7.81 seconds), 7 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 669/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 670/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 673/1659  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 675/1659  4s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 677/1659  8s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\12221667402831721131.rsp
+[1226/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[1476/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_Debugger.c
+[1634/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1635/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1641/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[1642/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1647/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1648/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1eiqofpe4yst.o
+[BUSY       6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1649/1659  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1650/1659  4s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1651/1659  1s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1652/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1653/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1654/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1655/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1656/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1657/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+[1658/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+*** Tundra build success (31.24 seconds), 26 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 738/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[1655/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[1656/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[1657/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[1658/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (0.38 seconds), 5 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 440/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 441/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 671/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 672/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 673/1659  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 675/1659  3s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 677/1659  8s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\12221667402831721131.rsp
+[1187/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[1493/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_Debugger.c
+[1613/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1634/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1641/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[1642/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1647/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1648/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1eiqofpe4yst.o
+[BUSY       6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1649/1659  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1650/1659  4s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1651/1659  0s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1652/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1653/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1654/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1655/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1656/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1657/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+[1658/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+*** Tundra build success (31.24 seconds), 28 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 671/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 672/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 673/1659  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 675/1659  4s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 677/1659  8s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\12221667402831721131.rsp
+[1279/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[1442/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_Debugger.c
+[1616/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1635/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1641/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[1642/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1647/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1648/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1eiqofpe4yst.o
+[BUSY       6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1649/1659  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1650/1659  4s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1651/1659  1s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1652/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1653/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1654/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1655/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1656/1659  1s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1657/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+[1658/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+*** Tundra build success (31.20 seconds), 26 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 671/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 672/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 673/1659  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 675/1659  5s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 677/1659  8s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\12221667402831721131.rsp
+[1250/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[1571/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_Debugger.c
+[1635/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1638/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1641/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[1642/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1647/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1648/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1eiqofpe4yst.o
+[BUSY       6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1649/1659  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1650/1659  4s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1651/1659  0s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1652/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1653/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1654/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1655/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1656/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1657/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+[1658/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+*** Tundra build success (30.65 seconds), 26 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 671/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 672/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 673/1659  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 675/1659  4s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 677/1659  8s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\12221667402831721131.rsp
+[1299/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[1542/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_Debugger.c
+[1631/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1632/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1641/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[1643/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1647/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1648/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1eiqofpe4yst.o
+[BUSY       6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1649/1659  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1650/1659  4s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1651/1659  0s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1652/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1653/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1654/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1655/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1656/1659  1s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1657/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+[1658/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+*** Tundra build success (30.64 seconds), 26 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 440/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 441/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[1658/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (7.79 seconds), 6 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 811/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[1655/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[1656/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[1657/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[1658/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (0.40 seconds), 5 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 671/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 672/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 673/1659  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 675/1659  4s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 677/1659  8s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\12221667402831721131.rsp
+[ 840/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bvvn1ne4dczm.o
+[ 842/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7twa4zh46nb.o
+[ 846/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xb0r2mk9na4d.o
+[ 859/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2rgon9csw5dm.o
+[ 866/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bfjarbpdf7e0.o
+[ 869/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r0wspgsy26go.o
+[ 870/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hvhhas9hkjxa.o
+[ 877/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ri8g3y2r5exa.o
+[ 885/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/p54wmoul0g82.o
+[ 887/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5d7pgram0pr0.o
+[ 899/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2yeg5j9poay3.o
+[ 926/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i1hdx5f1u6vi.o
+[ 931/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g7oe8y39sfkr.o
+[ 941/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nslzhtd6b9za.o
+[ 950/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/6hzrw5e0h8es.o
+[ 956/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5u7l2ib38ms0.o
+[ 957/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bbdbf7zw4b25.o
+[ 961/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uendsv29vhef.o
+[ 966/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9qk4e3teahz5.o
+[ 972/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/81th3jms3xc9.o
+[ 977/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/copodm829qkd.o
+[ 981/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w07owascrnjx.o
+[ 983/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9c775qui8qgt.o
+[1000/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lbt8pqyqygud.o
+[1006/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2hiy0tmwmb39.o
+[1007/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r53333tu3qph.o
+[1022/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/sqpl38w90mcv.o
+[1028/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/s4s9eyrm3byn.o
+[1029/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xfsxsn75hqo4.o
+[1031/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/323kpc0qwtzp.o
+[1034/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rmehv3vor7wb.o
+[1042/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/grrwp1vhtbcy.o
+[1050/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7pp1zbel7u23.o
+[1053/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/qr21jqloyid5.o
+[1057/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v58nqh1b3fg.o
+[1058/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gnolpzphwes3.o
+[1060/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jq1575e08yrz.o
+[1073/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1eiqofpe4yst.o
+[1078/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lf5gk1q662fw.o
+[1095/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yb22zbtdgfyl.o
+[1109/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xh5oiarwgg03.o
+[1127/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kpmbb537bxtx.o
+[1138/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[1139/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[1141/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/PICO.Platform_Debugger.c
+[1146/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule_Debugger.c
+[1147/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule_Debugger.c
+[1148/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/ControllerSample_Debugger.c
+[1153/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Autohand.XR_Debugger.c
+[1186/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit_Debugger.c
+[1190/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Autohand.OpenXR_Debugger.c
+[1192/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit.Samples.StarterAssets_Debugger.c
+[1208/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule_Debugger.c
+[1226/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem_Debugger.c
+[1227/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.RuntimeDebugger_Debugger.c
+[1230/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[1231/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+[1234/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Oculus_Debugger.c
+[1251/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics_Debugger.c
+[1278/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCFieldValuesTable.cpp
+[1313/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues2.cpp
+[1315/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp
+[1318/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Demos_Debugger.c
+[1320/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.UnityUI_Debugger.c
+[1323/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Runtime_Debugger.c
+[1332/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib_Debugger.c
+[1340/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst_Debugger.c
+[1349/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1350/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+[1351/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_Debugger.c
+[1355/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MockRuntime_Debugger.c
+[1356/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.PICOSupport_Debugger.c
+[1359/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime_Debugger.c
+[1380/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro_Debugger.c
+[1382/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Management_Debugger.c
+[1386/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule_Debugger.c
+[1387/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule_Debugger.c
+[1403/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security_Debugger.c
+[1405/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.CoreUtils_Debugger.c
+[1409/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1416/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rvv5ojtnfuxg.o
+[1419/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule_Debugger.c
+[1420/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainModule_Debugger.c
+[1428/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule_Debugger.c
+[1429/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule_Debugger.c
+[1430/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule_Debugger.c
+[1435/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpatialTracking_Debugger.c
+[1471/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule_Debugger.c
+[1479/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule_Debugger.c
+[1482/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VFXModule_Debugger.c
+[1484/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputModule_Debugger.c
+[1485/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule_Debugger.c
+[1492/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule_Debugger.c
+[1505/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SubsystemsModule_Debugger.c
+[1506/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI_Debugger.c
+[1507/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AndroidJNIModule_Debugger.c
+[1508/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule_Debugger.c
+[1516/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule_Debugger.c
+[1517/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.XRModule_Debugger.c
+[1518/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule_Debugger.c
+[1521/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppRgctxTable.c
+[1523/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1527/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppTypeDefinitions.c
+[1529/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BakeryRuntimeAssembly_Debugger.c
+[1538/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime_Debugger.c
+[1556/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXRPico_Debugger.c
+[1560/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR_Debugger.c
+[1570/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Hands_Debugger.c
+[1588/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AutoHandAssembly_Debugger.c
+[1597/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[1598/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericInstDefinitions.c
+[1624/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System_Debugger.c
+[1627/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/n0botkhbt2ph.o
+[1628/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/32gwgn6rk94q.o
+[1629/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/416e9k4xxjwo.o
+[1630/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/z6k74chadubm.o
+[1631/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i6ac2cos956z.o
+[1632/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ywxq1flqxohe.o
+[1633/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1634/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/0ha3954wt8pm.o
+[1635/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7qdtkhkk8dq.o
+[1636/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/56a49oay49k8.o
+[1637/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ljzqb9xeupyo.o
+[1638/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g5qkwxvgqsb3.o
+[1639/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/t1bx7ac0b6e0.o
+[1640/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vklvtabspn1b.o
+[1641/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/izyb11ltnbly.o
+[1642/1659  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/swpj131425yb.o
+[1643/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/iwk95glflkkg.o
+[1644/1659  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/b8b4cvurfq8p.o
+[1645/1659  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2ys2g72l3deb.o
+[1646/1659  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pzqkccvgllas.o
+[1647/1659  3s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xdg68i4cyw77.o
+[1648/1659  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xwnr8u2ug9uc.o
+[1649/1659  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1650/1659  4s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1651/1659  0s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1652/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1653/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1654/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1655/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1656/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1657/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+[1658/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+*** Tundra build success (32.25 seconds), 152 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 440/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 441/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[1658/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (7.71 seconds), 6 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 440/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 441/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[1658/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (7.69 seconds), 6 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 440/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 441/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[1658/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (7.43 seconds), 6 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 440/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 441/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 671/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 672/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 673/1659  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 675/1659  3s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 677/1659  8s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\12221667402831721131.rsp
+[1221/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[1315/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+[1344/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCFieldValuesTable.cpp
+[1354/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+[1362/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues2.cpp
+[1365/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp
+[1473/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1553/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_Debugger.c
+[1567/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1605/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[1633/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[1635/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1636/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppTypeDefinitions.c
+[1638/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[1639/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7twa4zh46nb.o
+[1640/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9qk4e3teahz5.o
+[1641/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1642/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1eiqofpe4yst.o
+[1643/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lf5gk1q662fw.o
+[1644/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kpmbb537bxtx.o
+[1645/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7qdtkhkk8dq.o
+[1646/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/t1bx7ac0b6e0.o
+[1647/1659  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/pzqkccvgllas.o
+[1648/1659  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xwnr8u2ug9uc.o
+[1649/1659  6s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1650/1659  4s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1651/1659  0s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1652/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1653/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1654/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1655/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1656/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1657/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+[1658/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+*** Tundra build success (31.97 seconds), 44 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 752/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[1655/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[1656/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[1657/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[1658/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+*** Tundra build success (0.38 seconds), 5 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 670/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 672/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 673/1659  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 675/1659  4s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 677/1659  8s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\12221667402831721131.rsp
+[ 855/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bvvn1ne4dczm.o
+[ 857/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7twa4zh46nb.o
+[ 866/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bjwge69o5qbc.o
+[ 867/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/j8oylxe17ewt.o
+[ 870/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/x2c64zu28k4q.o
+[ 871/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4xmxlrinqtu6.o
+[ 874/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/dq9eowtkm9m4.o
+[ 878/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2rgon9csw5dm.o
+[ 879/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r0wspgsy26go.o
+[ 880/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/g7oe8y39sfkr.o
+[ 884/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/cutkfnm65jm0.o
+[ 891/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/ri8g3y2r5exa.o
+[ 895/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xb0r2mk9na4d.o
+[ 927/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/x5j3yubpv4f9.o
+[ 949/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/p54wmoul0g82.o
+[ 954/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bfjarbpdf7e0.o
+[ 957/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2yeg5j9poay3.o
+[ 991/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hvhhas9hkjxa.o
+[1001/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/i1hdx5f1u6vi.o
+[1027/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5d7pgram0pr0.o
+[1039/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uendsv29vhef.o
+[1042/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/5u7l2ib38ms0.o
+[1055/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/bbdbf7zw4b25.o
+[1058/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9qk4e3teahz5.o
+[1067/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/nslzhtd6b9za.o
+[1069/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/81th3jms3xc9.o
+[1070/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/w07owascrnjx.o
+[1076/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/lbt8pqyqygud.o
+[1077/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tqatbn5u57gj.o
+[1093/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/copodm829qkd.o
+[1103/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/323kpc0qwtzp.o
+[1123/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/9c775qui8qgt.o
+[1138/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[1147/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule_Debugger.c
+[1148/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/ControllerSample_Debugger.c
+[1151/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipeline.Universal.ShaderLibrary_Debugger.c
+[1153/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[1171/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Autohand.XR_Debugger.c
+[1172/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestTextureModule_Debugger.c
+[1192/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/3xcsyc02cwph.o
+[1207/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Autohand.OpenXR_Debugger.c
+[1208/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Interaction.Toolkit.Samples.StarterAssets_Debugger.c
+[1210/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SharedInternalsModule_Debugger.c
+[1216/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule_Debugger.c
+[1230/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InputSystem.ForUI_Debugger.c
+[1231/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.RuntimeDebugger_Debugger.c
+[1234/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+[1235/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Oculus_Debugger.c
+[1254/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.ConformanceAutomation_Debugger.c
+[1315/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp
+[1316/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues2.cpp
+[1320/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.UnityUI_Debugger.c
+[1322/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Demos_Debugger.c
+[1338/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.Timeline_Debugger.c
+[1350/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+[1351/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_Debugger.c
+[1355/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1359/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MockRuntime_Debugger.c
+[1386/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Management_Debugger.c
+[1387/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule_Debugger.c
+[1403/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule_Debugger.c
+[1409/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security_Debugger.c
+[1410/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[1419/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TerrainModule_Debugger.c
+[1420/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule_Debugger.c
+[1423/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule_Debugger.c
+[1429/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule_Debugger.c
+[1430/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpatialTracking_Debugger.c
+[1473/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule_Debugger.c
+[1474/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule_Debugger.c
+[1479/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VFXModule_Debugger.c
+[1482/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule_Debugger.c
+[1483/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1485/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VideoModule_Debugger.c
+[1502/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputModule_Debugger.c
+[1507/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule_Debugger.c
+[1515/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule_Debugger.c
+[1516/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SubsystemsModule_Debugger.c
+[1517/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VRModule_Debugger.c
+[1521/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule_Debugger.c
+[1523/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.XRModule_Debugger.c
+[1526/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1529/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.MetaQuestSupport_Debugger.c
+[1534/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppRgctxTable.c
+[1550/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/BakeryRuntimeAssembly_Debugger.c
+[1570/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXR.Features.OculusQuestSupport_Debugger.c
+[1572/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.OpenXRPico_Debugger.c
+[1589/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.XR.Hands_Debugger.c
+[1592/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AVProVideo.Extensions.VisualEffectGraph_Debugger.c
+[1594/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/NaughtyAttributes.Core_Debugger.c
+[1627/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[1628/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rmehv3vor7wb.o
+[1629/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gnolpzphwes3.o
+[1630/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/uol5bx1vnjy3.o
+[1631/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/2hiy0tmwmb39.o
+[1632/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xfsxsn75hqo4.o
+[1633/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/7pp1zbel7u23.o
+[1634/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v58nqh1b3fg.o
+[1635/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/vxxmssw8o02x.o
+[1636/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/tkzya9t8yucw.o
+[1637/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/yb22zbtdgfyl.o
+[1638/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/n0botkhbt2ph.o
+[1639/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/416e9k4xxjwo.o
+[1640/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/hznoci2cpc46.o
+[1641/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1eiqofpe4yst.o
+[1642/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/rvv5ojtnfuxg.o
+[1643/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1644/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/jq1575e08yrz.o
+[1645/1659  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/kpmbb537bxtx.o
+[1646/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7qdtkhkk8dq.o
+[1647/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/t1bx7ac0b6e0.o
+[1648/1659  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xwnr8u2ug9uc.o
+[1649/1659  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1650/1659  4s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1651/1659  0s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1652/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1653/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1654/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1655/1659  1s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1656/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1657/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+[1658/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+*** Tundra build success (31.79 seconds), 130 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+Total cache size 267941545
+Total cache size after purge 267941545
+[ 442/1659  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 443/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[BUSY       6s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+[ 444/1659  7s] UnityLinker F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\10987554484332699930.rsp
+[ 671/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 672/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 673/1659  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 675/1659  4s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 677/1659  8s] IL2CPP_CodeGen F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_phng.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\12221667402831721131.rsp
+[1232/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[1241/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+[1632/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1633/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1634/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_Debugger.c
+[1635/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[1637/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[1640/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1643/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[1644/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7twa4zh46nb.o
+[1645/1659  0s] GuidGenerator F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1646/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1eiqofpe4yst.o
+[1647/1659  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/r7qdtkhkk8dq.o
+[1648/1659  4s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/xwnr8u2ug9uc.o
+[1649/1659  7s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/1v7uvkhtb6mc.o
+[1650/1659  5s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1651/1659  1s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1652/1659  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1653/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1654/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1655/1659  1s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1656/1659  1s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1657/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+[1658/1659  0s] CopyFiles F:/SDD_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+*** Tundra build success (34.82 seconds), 32 items updated, 1659 evaluated
+Total cache size 267941545
+Total cache size after purge 267941545

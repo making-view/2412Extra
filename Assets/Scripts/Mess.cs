@@ -106,6 +106,9 @@ public class Mess : MonoBehaviour
         }
         else
         {
+            _confetti.SetActive(false);
+            _hitsToClear = _maxHits;
+
             switch (_type)
             {
                 case TransitionType.size:
@@ -187,6 +190,7 @@ public class Mess : MonoBehaviour
             }
         }
     }
+
 
     private void Update()
     {
