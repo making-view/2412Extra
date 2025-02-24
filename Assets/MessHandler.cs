@@ -33,7 +33,18 @@ public class MessHandler : MonoBehaviour
         else
             instance = this;
 
+        HideMessOnStart();
         //ReadyMess();
+    }
+
+    private void HideMessOnStart()
+    {
+        foreach (MessList messList in _messCategories)
+        {
+            List<Mess> messes = FindObjectsByType<Mess>(FindObjectsSortMode.None).ToList().Where((x) => x.tag.Equals(messList.tag)).ToList();
+            foreach ( Mess  mess in messes)
+                mess.EnableMess(false);
+        }
     }
 
     //Readies a random subset off mess and opens the gate
