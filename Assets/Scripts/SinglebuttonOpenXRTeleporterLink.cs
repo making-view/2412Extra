@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR;
 using Autohand;
+using Unity.XR.PXR;
 
 public class SinglebuttonOpenXRTeleporterLink : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class SinglebuttonOpenXRTeleporterLink : MonoBehaviour
 
     private void Start()
     {
+        hand = GetComponent<Teleporter>();
         _waterGun = PlayerManager.instance.GetComponentInChildren<Watergun>();
     }
 
