@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: tag
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 86ce296de6afae440a6ba95905025a6b, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 86ce296de6afae440a6ba95905025a6b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -276,8 +276,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: X / X
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 86ce296de6afae440a6ba95905025a6b, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 86ce296de6afae440a6ba95905025a6b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -507,9 +507,9 @@ MonoBehaviour:
   _icon: {fileID: 402612095290504161}
   _txtTag: {fileID: 2854756111896456376}
   _txtNum: {fileID: 8396774766131047269}
-  _imgRenhold: {fileID: 21300000, guid: 97d99ea6fbd28b344980ac89da21da4b, type: 3}
-  _imgKvalitet: {fileID: 21300000, guid: 97d99ea6fbd28b344980ac89da21da4b, type: 3}
-  _imgPrisOgVare: {fileID: 21300000, guid: 97d99ea6fbd28b344980ac89da21da4b, type: 3}
+  _imgRenhold: {fileID: 21300000, guid: b2b3e0e83a0f87c499f6a5b29da038d7, type: 3}
+  _imgKvalitet: {fileID: 21300000, guid: 26edbf2b8db128d4bb1924a47beb3681, type: 3}
+  _imgPrisOgVare: {fileID: 21300000, guid: 70b7bc7003f361544b31ae1768e61641, type: 3}
   _imgExtrabonus: {fileID: 21300000, guid: 97d99ea6fbd28b344980ac89da21da4b, type: 3}
   _animCurve:
     serializedVersion: 2
