@@ -4,28 +4,28 @@ using UnityEngine;
 
 public class Float : MonoBehaviour
 {
-    public float verticalRange = 1.0f;
-    public float spin = 10.0f;
-
-    private float offset;
+    [SerializeField] private float  _verticalRange = 1.0f;
+    [SerializeField] private float  _spin = 10.0f;
+    [SerializeField] private float  _speed = 1.0f;
+    private float _offset;
 
     Vector3 position;
 
     // Start is called before the first frame update
     void Start()
     {
-        offset = Random.Range(0, 2 * Mathf.PI);
+        _offset = Random.Range(0, 2 * Mathf.PI);
         position = transform.localPosition;
     }
 
     // Update is called once per frame
     void Update()
     {
-        float newY = position.y + Mathf.Sin(Time.timeSinceLevelLoad + offset) * verticalRange;
+        float newY = position.y + Mathf.Sin(Time.timeSinceLevelLoad * _speed + _offset) * _verticalRange;
         
-        if(spin != 0)
+        if(_spin != 0)
         {
-            float newRot = transform.rotation.eulerAngles.y + spin * Time.deltaTime;
+            float newRot = transform.rotation.eulerAngles.y + _spin * Time.deltaTime;
             transform.rotation = Quaternion.Euler(0, newRot, 0);
         }
 
