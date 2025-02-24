@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GameHandler : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class GameHandler : MonoBehaviour
 
     private bool _gameRunning = false;
     private bool _gameFinished = false;
+
+    public UnityEvent onGameReady = new UnityEvent();
+    public UnityEvent onGameStarted = new UnityEvent();
 
     private float _timer = 0;
     [SerializeField] private float _timeLimit = 120f;
@@ -66,11 +70,14 @@ public class GameHandler : MonoBehaviour
     //Todo make this coroutine with sfx and visuals
     private IEnumerator PrepareGame()
     {
+        if (_gameRunning)
+            _backgroundMusic.Stop();
+
         _gameFinished = false;
         _gameRunning = false;
         _timer = 0;
 
-        //TODO turn of lights and play audio, use fade or actual lights
+        //turn off lights and play audio, use fade or actual lights
         PlayerManager.instance._screenFader.alpha = 1.0f;
         _rampenAudio.PlayOneShot(_rampenGamePrepare);
         yield return new WaitForSeconds(2.0f);
@@ -86,6 +93,8 @@ public class GameHandler : MonoBehaviour
             go.SetActive(true);
 
         MessHandler.instance.ReadyMess();
+
+        onGameReady.Invoke();
     }
 
     //called from start button
@@ -102,6 +111,8 @@ public class GameHandler : MonoBehaviour
 
         confetti.SetActive(false);
         _backgroundMusic.Play();
+
+        onGameStarted.Invoke();
 
         //should make messes interactable and put gun in bubble-mode
 

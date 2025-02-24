@@ -12,8 +12,11 @@ public class TutorialCanvas : MonoBehaviour
     {
         none,
         teleportButton,
+        grabGun,
         useGun
     }
+
+    public UnityEvent onTutorialCompleted = new UnityEvent();
 
     //Type decides when to hide the tutorial. E.g teleport tutorial is hidden after teleport
     [SerializeField] private TutorialType _type;
@@ -78,28 +81,16 @@ public class TutorialCanvas : MonoBehaviour
                     teleporter.OnTeleport.AddListener(() => CompleteTutorial());
                 break;
             case TutorialType.useGun:
+                GameHandler.instance.onGameStarted.AddListener(() => CompleteTutorial());
+                break;
+            case TutorialType.grabGun:
+                foreach (GrabbableExtraEvents extraEvents in FindObjectOfType<Watergun>().GetComponentsInChildren<GrabbableExtraEvents>())
+                    extraEvents.OnFirstGrab.AddListener((hand, grabbable) => CompleteTutorial());
                 break;
         }
+        //TODO maybe remove these listeners on scene load
 
         _initialized = true;
-    }
-
-    private void OnDisable()
-    {
-        if (PlayerManager.instance == null)
-            return;
-
-        switch (_type)
-        {
-            case TutorialType.none:
-                break;
-            case TutorialType.teleportButton:
-                foreach (Teleporter teleporter in PlayerManager.instance.GetComponentsInChildren<Teleporter>())
-                    teleporter.OnTeleport.AddListener(() => CompleteTutorial());
-                break;
-            case TutorialType.useGun:
-                break;
-        }
     }
 
     private void CompleteTutorial()
@@ -134,6 +125,7 @@ public class TutorialCanvas : MonoBehaviour
         if (mediaplayer != null)
             mediaplayer.Stop();
 
+        onTutorialCompleted.Invoke();
         gameObject.SetActive(false);
     }
 }
