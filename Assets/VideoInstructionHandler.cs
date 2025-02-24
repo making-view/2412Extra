@@ -8,7 +8,7 @@ public class VideoInstructionHandler : MonoBehaviour
 {
     [SerializeField] List<CanvasGroup> _instructionCanvases = new List<CanvasGroup>();
     [SerializeField] private Transform _cameraTrans;
-    private float _instructionDuration = 5.0f;
+    [SerializeField] private float _instructionDuration = 5.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -21,10 +21,11 @@ public class VideoInstructionHandler : MonoBehaviour
 
     private void Update()
     {
-        float yDiff = _cameraTrans.rotation.y - transform.rotation.y;
+        Vector3 playerFacing = _cameraTrans.forward;
+        playerFacing.y = 0;
+        Quaternion wantedRotation = Quaternion.LookRotation(playerFacing);
 
-        //transform.LookAt(transform.position + _cameraTrans.forward * 10f, Vector3.up);
-        transform.Rotate(Vector3.up, yDiff);
+        transform.rotation = Quaternion.Slerp(transform.rotation, wantedRotation, Time.deltaTime * 2);
     }
 
     private void OnEnable()
