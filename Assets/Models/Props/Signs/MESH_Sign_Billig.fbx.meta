@@ -3,7 +3,12 @@ guid: 8309d8e7db3960c4a88b10aeb7a9b5be
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_SignsAtlas
+    second: {fileID: 2100000, guid: 1f64fa45013ed50449cc4ada6526600b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
