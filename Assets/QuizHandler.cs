@@ -1,3 +1,4 @@
+using Autohand;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,6 +14,11 @@ public class QuizHandler : MonoBehaviour
         public int correctAnswerIndex = 0;
     }
 
+    [SerializeField] PhysicsGadgetButton _btnFirst;
+    [SerializeField] PhysicsGadgetButton _btnSecond;
+    [SerializeField] PhysicsGadgetButton _btnThird;
+
+    [Space]
     [SerializeField] List<QuizQuestion> questions = new List<QuizQuestion>();
 
     void Start()
