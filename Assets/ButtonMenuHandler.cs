@@ -6,23 +6,23 @@ using UnityEngine.SceneManagement;
 
 public class ButtonMenuHandler : MonoBehaviour
 {
-    [SerializeField] PhysicsGadgetButton _btnPlayIntro;
     [SerializeField] PhysicsGadgetButton _btnPlayGame;
-    [SerializeField] PhysicsGadgetButton _btnPlayVideo;
+    [SerializeField] PhysicsGadgetButton _btnPlayVideoRampen;
+    [SerializeField] PhysicsGadgetButton _btnPlayVideoEngelen;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        if(_btnPlayIntro == null || _btnPlayGame == null || _btnPlayVideo == null)
+        if(_btnPlayVideoEngelen == null || _btnPlayGame == null || _btnPlayVideoRampen == null)
         {
             Debug.LogError(this + " is missing buttons");
             return;
         }
 
-        _btnPlayIntro.OnPressed.AddListener(() => StartIntro()); //lock other buttons?
         _btnPlayGame.OnPressed.AddListener(() => StartGame()); //lock other buttons?
-        _btnPlayVideo.OnPressed.AddListener(() => StartVideo()); //lock other buttons?
+        _btnPlayVideoRampen.OnPressed.AddListener(() => StartVideoRampen()); //lock other buttons?
+        _btnPlayVideoEngelen.OnPressed.AddListener(() => StartVideoEngelen()); //lock other buttons?
     }
 
 
@@ -39,9 +39,15 @@ public class ButtonMenuHandler : MonoBehaviour
         GameHandler.instance.StartPreparingGame();
     }
 
-    private void StartVideo()
+    private void StartVideoRampen()
     {
-        Debug.Log("Starting video");
-        SceneTransitioner.instance.StartTransitionToScene("EXTRA_Videoplayer");
+        Debug.Log("Starting video rampen");
+        SceneTransitioner.instance.StartTransitionToScene("EXTRA_Videoplayer_Rampen");
+    }
+
+    private void StartVideoEngelen()
+    {
+        Debug.Log("Starting video engelen");
+        SceneTransitioner.instance.StartTransitionToScene("EXTRA_Videoplayer_Engelen");
     }
 }

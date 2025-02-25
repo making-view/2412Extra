@@ -67,7 +67,22 @@ public class VideoInstructionHandler : MonoBehaviour
 
     private IEnumerator ShowInstructionsAndStartVideo()
     {
-        while(_instructionDuration > 0)
+        float videoOverlap = _instructionDuration / 4f;
+
+        while(_instructionDuration > videoOverlap)
+        {
+            float opacity = Mathf.Clamp(_instructionDuration, 0f, 1f);
+            ShowInstructions(opacity);
+            yield return null;
+            _instructionDuration -= Time.deltaTime;
+        }
+
+        //start video
+        MediaEventHandler.instance.mediaPlayer.OpenMedia(MediaEventHandler.instance.videoToPlay);
+
+        //TODO debug skip to end of video to test quiz
+
+        while (_instructionDuration > 0f)
         {
             float opacity = Mathf.Clamp(_instructionDuration, 0f, 1f);
             ShowInstructions(opacity);
@@ -76,8 +91,5 @@ public class VideoInstructionHandler : MonoBehaviour
         }
 
         ShowInstructions(0f);
-
-        //start first video
-        MediaEventHandler.instance.mediaPlayer.OpenMedia(MediaEventHandler.instance.firstVideo);
     }
 }

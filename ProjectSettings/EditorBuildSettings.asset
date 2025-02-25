@@ -21,8 +21,11 @@ EditorBuildSettings:
     path: Assets/Scenes/EXTRA_Interior.unity
     guid: 4e9fef26e6adb88479ad1b9834a32d94
   - enabled: 1
-    path: Assets/Scenes/EXTRA_Videoplayer.unity
+    path: Assets/Scenes/EXTRA_Videoplayer_Rampen.unity
     guid: 71a371812ed623244a62dffd798efb51
+  - enabled: 1
+    path: Assets/Scenes/EXTRA_Videoplayer_Engelen.unity
+    guid: 9bdd3b54208f9634caa3b555548e6801
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

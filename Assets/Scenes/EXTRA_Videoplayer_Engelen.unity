@@ -476,6 +476,73 @@ Transform:
   - {fileID: 1226072304}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -8.79, z: 0}
+--- !u!1 &391132033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 391132034}
+  - component: {fileID: 391132035}
+  m_Layer: 0
+  m_Name: QuizSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &391132034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391132033}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.117133245, y: 1.3073555, z: -0.46108454}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &391132035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391132033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 693e30d4d2725204da6ca01edcb67f5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions:
+  - name: "Sp\xF8rsm\xE5l 1: \tHvorfor er det viktig \xE5 smile til kundene?"
+    questionAlternatives:
+    - "1. Fordi det gj\xF8r kunden mer villig til \xE5 kj\xF8pe dyre varer."
+    - "2. Fordi et smil gj\xF8r at kundene f\xF8ler seg sett og velkomne."
+    - "3. Fordi det gir deg bedre resultater p\xE5 medarbeidersamtaler."
+    correctAnswerIndex: 2
+  - name: "Sp\xF8rsm\xE5l 2: \tHvordan kan du skape en god opplevelse for kunden
+      ved \xE5 si hei?"
+    questionAlternatives:
+    - "1. Ved \xE5 ignorere faste kunder for \xE5 spare tid \u2013 de kjenner deg
+      jo allerede."
+    - "2. Ved \xE5 hilse, v\xE6re litt pratsom med de som \xF8nsker det og vise at
+      du \tkjenner dem igjen."
+    - "3. Ved \xE5 unng\xE5 small talk og kun snakke om varene i butikken."
+    correctAnswerIndex: 2
+  - name: "Sp\xF8rsm\xE5l 3: \tHva inneb\xE6rer det \xE5 \"vise vei\" i kundeservice?"
+    questionAlternatives:
+    - "1. V\xE6re oppmerksom p\xE5 kundene og aktivt hjelpe dem med \xE5 finne det
+      de \ttrenger."
+    - "2. Vente p\xE5 at kundene sp\xF8r direkte om hjelp."
+    - "3. Fokusere p\xE5 dine egne oppgaver og la andre ansatte hjelpe kundene."
+    correctAnswerIndex: 1
 --- !u!1 &617125055
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,8 +1299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mediaPlayer: {fileID: 978079752}
-  firstVideo: {fileID: 11400000, guid: 073904cb00e91424fa0cf9157d7d3828, type: 2}
-  secondVideo: {fileID: 11400000, guid: 350afca362c06244682e5b83ce685e45, type: 2}
+  videoToPlay: {fileID: 11400000, guid: 073904cb00e91424fa0cf9157d7d3828, type: 2}
 --- !u!1 &1214325620
 GameObject:
   m_ObjectHideFlags: 1
@@ -1855,3 +1921,4 @@ SceneRoots:
   - {fileID: 1214325622}
   - {fileID: 665500385}
   - {fileID: 193254351}
+  - {fileID: 391132034}
