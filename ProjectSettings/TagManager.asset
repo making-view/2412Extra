@@ -11,6 +11,7 @@ TagManager:
   - Extrabonus
   - StartingPosition
   - TrackingContainer
+  - ReturningPosition
   layers:
   - Default
   - TransparentFX

@@ -1,6 +1,7 @@
 using Autohand;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
@@ -12,27 +13,26 @@ public class SceneTransitioner : MonoBehaviour
     [SerializeField] [Range(0.0f, 4.0f)] float _fadeTime = 1.0f;
 
     public UnityEvent onLoadScene = new UnityEvent();
-    private bool _initialized = false;
+
+    //Set to true when exiting main scene so that next time it loads near game and video stations
+    private bool _shouldStartAtEntrance = true;
 
 
     private void Start()
     {
         StartCoroutine(FadeInOnStart());
+        SetupTeleportTutorial();
     }
 
     IEnumerator FadeInOnStart()
     {
         PlayerManager.instance._screenFader.alpha = 1.0f;
-        yield return null; //wait for tracking to be aquired before moving player
-        MovePlayerToStartingPosition();
+        StartCoroutine(MovePlayerDelayed());
         yield return StartCoroutine(Fade(1.0f, 0.0f)); //fade in
     }
 
-    private void Initialize()
+    private void OnEnable()
     {
-        if (_initialized)
-            return;
-
         if (instance == null)
         {
             instance = this;
@@ -40,13 +40,6 @@ public class SceneTransitioner : MonoBehaviour
         }
         else
             Destroy(this);
-
-        _initialized = true;
-    }
-
-    private void OnEnable()
-    {
-        Initialize();
     }
 
     public void StartTransitionToScene(string sceneName)
@@ -65,9 +58,30 @@ public class SceneTransitioner : MonoBehaviour
         onLoadScene.RemoveAllListeners();
         SceneManager.LoadScene(sceneName);
 
+        StartCoroutine(MovePlayerDelayed());
+
+        yield return StartCoroutine(Fade(1.0f, 0.0f));
+
+        SetupTeleportTutorial();
+    }
+
+    private void SetupTeleportTutorial()
+    {
+        foreach (TutorialCanvas tutorial in GameObject.FindObjectsOfType<TutorialCanvas>(true))
+        {
+            if (tutorial.GetTutorialType() == TutorialCanvas.TutorialType.teleportButton)
+            {
+                tutorial.gameObject.SetActive(true);
+                tutorial.onTutorialCompleted.AddListener(() => _shouldStartAtEntrance = false);
+            }
+        }
+    }
+
+    IEnumerator MovePlayerDelayed()
+    {
+        PlayerManager.instance._screenFader.alpha = 1.0f;
         yield return null;
         MovePlayerToStartingPosition();
-
         yield return StartCoroutine(Fade(1.0f, 0.0f));
     }
 
@@ -89,7 +103,13 @@ public class SceneTransitioner : MonoBehaviour
 
     public void MovePlayerToStartingPosition()
     {
-        var startingPosition = GameObject.FindGameObjectWithTag("StartingPosition").transform;
+        //if game has not been restarted or paused, check for a resturn position
+        //if found, go to this instead 
+
+        Transform startingPosition = GameObject.FindGameObjectWithTag("ReturningPosition")?.transform;
+
+        if(startingPosition == null || _shouldStartAtEntrance)
+            startingPosition = GameObject.FindGameObjectWithTag("StartingPosition")?.transform;
 
         if(startingPosition == null)
         {
@@ -113,4 +133,52 @@ public class SceneTransitioner : MonoBehaviour
         trackingContainer.transform.rotation = Quaternion.Euler(0, trackingContainer.transform.eulerAngles.y + targetRot.eulerAngles.y - cameraTrans.eulerAngles.y, 0);
         PlayerManager.instance.GetComponentInChildren<AutoHandPlayer>().SetPosition(targetPos);
     }
+
+    private void OnApplicationPause(bool pause)
+    {
+        if (pause) //on pause, mark player to start at entrance and reset tutorials done
+        {
+            _shouldStartAtEntrance = true;
+            PlayerPrefs.SetInt("TeleportTutorialDone", 0);
+            PlayerPrefs.SetInt("GunTutorialsDone", 0);
+        }
+        else      //on unpause, move player to entrance
+        {
+            //reload scene if we're in the game scene
+            string sceneName = SceneManager.GetActiveScene().name;
+
+            Debug.Log(this + " Unapusing in scene " + sceneName);
+
+            StopAllCoroutines();
+
+            if (sceneName == "EXTRA_Interior")
+                StartTransitionToScene(sceneName);
+            else
+                StartCoroutine(MovePlayerDelayed());
+        }
+    }
+
+    //void OnApplicationFocus(bool focus)
+    //{
+    //    if (!focus) //on pause, mark player to start at entrance and reset tutorials done
+    //    {
+    //        _shouldStartAtEntrance = true;
+    //        PlayerPrefs.SetInt("TeleportTutorialDone", 0);
+    //        PlayerPrefs.SetInt("GunTutorialsDone", 0);
+    //    }
+    //    else      //on unpause, move player to entrance
+    //    {
+    //        //reload scene if we're in the game scene
+    //        string sceneName = SceneManager.GetActiveScene().name;
+
+    //        Debug.Log(this + " Unapusing in scene " + sceneName);
+
+    //        StopAllCoroutines();
+
+    //        if (sceneName == "EXTRA_Interior")
+    //            StartTransitionToScene(sceneName);
+    //        else
+    //            StartCoroutine(MovePlayerDelayed());
+    //    }
+    //}
 }

@@ -29,9 +29,12 @@ public class Watergun : MonoBehaviour
 
     public List<Hand> _grabbingHands = new List<Hand>();
 
+    public static Watergun instance = null;
 
     private void Start()
     {
+        instance = this;
+
         _particles = GetComponentInChildren<ParticleSystem>();
         _timePerBubble = 1.0f / _particles.emission.rateOverTime.constantMax;
         _rigidbody = GetComponent<Rigidbody>();

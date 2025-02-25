@@ -8,7 +8,7 @@ using UnityEngine.Events;
 
 public class TutorialCanvas : MonoBehaviour
 {
-    private enum TutorialType
+    public enum TutorialType
     {
         none,
         teleportButton,
@@ -24,6 +24,7 @@ public class TutorialCanvas : MonoBehaviour
     List<CanvasGroup> _instructionCanvases = new List<CanvasGroup>();
     private Transform _cameraTrans;
     [SerializeField] private float _fadeDuration = 1.0f;
+    [SerializeField] private float _invokeDelay = 0.0f;
 
     [SerializeField] private bool _followPlayerRotation = false;
     [SerializeField] private bool _followPlayerPosition = false;
@@ -40,6 +41,9 @@ public class TutorialCanvas : MonoBehaviour
 
         Initialize();
     }
+
+    public TutorialType GetTutorialType()
+    { return _type; }
 
     private void Update()
     {
@@ -67,10 +71,34 @@ public class TutorialCanvas : MonoBehaviour
 
     private void Initialize()
     {
-        if (_initialized)
-            return;
-        
+        //check playerprefs if tutorial was completed without device pausing
+
+        switch (_type)
+        {
+            case TutorialType.none:
+                break;
+            case TutorialType.teleportButton:
+                if (PlayerPrefs.GetInt("TeleportTutorialDone", 0) == 1) //don't activate self if tp tutorial already done
+                {
+                    gameObject.SetActive(false);
+                    return;
+                }
+                break;
+            case TutorialType.grabGun:
+            case TutorialType.useGun:
+                if (PlayerPrefs.GetInt("GunTutorialsDone", 0) == 1) //don't activate self if gun tutorial already done
+                {
+                    gameObject.SetActive(false);
+                    return;
+                }
+                break;
+        }
+
+        SetOpacity(1.0f);
         _completed = false;
+
+        if (_initialized) //make sure we don't initialize bindings twice
+            return;
 
         switch (_type)
         {
@@ -88,20 +116,55 @@ public class TutorialCanvas : MonoBehaviour
                     extraEvents.OnFirstGrab.AddListener((hand, grabbable) => CompleteTutorial());
                 break;
         }
-        //TODO maybe remove these listeners on scene load
+
 
         _initialized = true;
     }
 
+    private void OnDisable()
+    {
+        switch (_type)
+        {
+            case TutorialType.none:
+                break;
+            case TutorialType.teleportButton:
+                foreach (Teleporter teleporter in PlayerManager.instance.GetComponentsInChildren<Teleporter>())
+                    teleporter.OnTeleport.RemoveListener(() => CompleteTutorial());
+                break;
+            case TutorialType.useGun:
+                GameHandler.instance.onGameStarted.RemoveListener(() => CompleteTutorial());
+                break;
+            case TutorialType.grabGun:
+                foreach (GrabbableExtraEvents extraEvents in FindObjectOfType<Watergun>().GetComponentsInChildren<GrabbableExtraEvents>())
+                    extraEvents.OnFirstGrab.RemoveListener((hand, grabbable) => CompleteTutorial());
+                break;
+        }
+
+        _initialized = false;
+    }
+
     private void CompleteTutorial()
     {
-        if(_completed) return;
+        if (_completed) return;
 
         _completed = true;
         StartCoroutine(FadeAway());
+
+        //mark tutorial as done so it won't be reloaded until application has been paused
+        switch (_type)
+        {
+            case TutorialType.none:
+                break;
+            case TutorialType.teleportButton:
+                PlayerPrefs.SetInt("TeleportTutorialDone", 1);
+                break;
+            case TutorialType.useGun:
+                PlayerPrefs.SetInt("GunTutorialsDone", 1);
+                break;
+        }
     }
 
-    private void SetOpacity(float opacity)
+        private void SetOpacity(float opacity)
     {
         foreach (CanvasGroup group in _instructionCanvases)
         {
@@ -124,6 +187,8 @@ public class TutorialCanvas : MonoBehaviour
         var mediaplayer = GetComponentInChildren<MediaPlayer>();
         if (mediaplayer != null)
             mediaplayer.Stop();
+
+        yield return new WaitForSeconds(_invokeDelay);
 
         onTutorialCompleted.Invoke();
         gameObject.SetActive(false);
