@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Linq;
 using UnityEngine;
 
 public class MediaEventHandler : MonoBehaviour
@@ -15,6 +16,8 @@ public class MediaEventHandler : MonoBehaviour
     bool _firstVideoDone = false;
 
     public static MediaEventHandler instance;
+
+    [SerializeField] private bool _skipToQuizInEditor = true;
 
     void Start()
     {
@@ -35,13 +38,33 @@ public class MediaEventHandler : MonoBehaviour
         switch (eventType)
         {
             case MediaPlayerEvent.EventType.FinishedPlaying:
-                OnVideoFinished();
+                StartCoroutine(OnVideoFinished());
+                break;
+            case MediaPlayerEvent.EventType.Started:
+                OnVideoStarted(mediaPlayer);
                 break;
         }
     }
 
-    private void OnVideoFinished()
+    private IEnumerator OnVideoFinished()
     {
-        //TODO start quiz
+        QuizHandler quizHandler = FindObjectOfType<QuizHandler>(true);
+        if(quizHandler == null)
+            Debug.LogError(this + " could not find quiz handler");
+
+
+        yield return new WaitForSeconds(SceneTransitioner.instance.FadeOut());
+        quizHandler.StartQuiz();
+        yield return new WaitForSeconds(SceneTransitioner.instance.FadeIn());
+    }
+
+    private void OnVideoStarted(MediaPlayer mediaPlayer)
+    {
+        //if(_skipToQuizInEditor)
+        //{
+        //    mediaPlayer.
+        //    mediaPlayer.SeekToLiveTime();
+        //}
+
     }
 }

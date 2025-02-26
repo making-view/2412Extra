@@ -158,6 +158,18 @@ public class SceneTransitioner : MonoBehaviour
         }
     }
 
+    public float FadeOut()
+    {
+        StartCoroutine(Fade(0f, 1f));
+        return _fadeTime;
+    }
+
+    public float FadeIn()
+    {
+        StartCoroutine(Fade(1f, 0f));
+        return _fadeTime;
+    }
+
     //void OnApplicationFocus(bool focus)
     //{
     //    if (!focus) //on pause, mark player to start at entrance and reset tutorials done
