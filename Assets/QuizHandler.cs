@@ -155,6 +155,8 @@ public class QuizHandler : MonoBehaviour
         _txtSecond.text = " ";
         _txtThird.text = " ";
 
+        LockButtons(true);
+
         yield return new WaitForSeconds(5); //duration of end screen
         SceneTransitioner.instance.StartTransitionToScene("EXTRA_Interior");
     }

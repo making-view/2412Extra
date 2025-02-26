@@ -52,19 +52,20 @@ public class MediaEventHandler : MonoBehaviour
         if(quizHandler == null)
             Debug.LogError(this + " could not find quiz handler");
 
-
-        yield return new WaitForSeconds(SceneTransitioner.instance.FadeOut());
+        SceneTransitioner.instance.StartMovePlayerWithFade(true);
+        yield return new WaitForSeconds(SceneTransitioner.instance._fadeTime / 2);
         quizHandler.StartQuiz();
-        yield return new WaitForSeconds(SceneTransitioner.instance.FadeIn());
     }
 
     private void OnVideoStarted(MediaPlayer mediaPlayer)
     {
-        //if(_skipToQuizInEditor)
-        //{
-        //    mediaPlayer.
-        //    mediaPlayer.SeekToLiveTime();
-        //}
-
+        //make sure this isn't triggered in release builds
+        if (_skipToQuizInEditor && (Debug.isDebugBuild || Application.isEditor))
+        {
+            double duration = mediaPlayer.Info.GetDuration();
+            double goToTime = duration - 5.0;
+            // Seek to nearest keyframe at end of video
+            mediaPlayer.Control.SeekFast(goToTime);
+        }
     }
 }
