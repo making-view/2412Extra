@@ -1991,7 +1991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mediaPlayer: {fileID: 978079752}
   videoToPlay: {fileID: 11400000, guid: 350afca362c06244682e5b83ce685e45, type: 2}
-  _skipToQuizInEditor: 1
+  _skipToQuizInEditor: 0
 --- !u!1001 &1095681871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3559,23 +3559,20 @@ MonoBehaviour:
   _audioCelebrate: {fileID: 8300000, guid: c98633cbb75756141b78c57e56082c49, type: 3}
   _audioWrong: {fileID: 8300000, guid: ae595db9abf6c4443a1466eee9f3b6ef, type: 3}
   questions:
-  - name: "Sp\xF8rsm\xE5l 1: \tHvorfor er det viktig at Frukt & Gr\xF8nt-avdelingen
-      alltid ser bra ut?"
+  - name: "Hvorfor er det viktig at Frukt & Gr\xF8nt-avdelingen alltid ser bra ut?"
     questionAlternatives:
     - "1. F&G avdelingen er butikkens \xABsmil\xBB - den skaper f\xF8rsteinntrykket
       av \thele butikken."
     - "2. Det er lovp\xE5lagt \xE5 holde avdelingen ren."
     - 3. Det er viktigere at inngangspartiet er rent og ryddig
     correctAnswerIndex: 1
-  - name: "Sp\xF8rsm\xE5l 2: \tHva kan d\xE5rlig kvalitet p\xE5 \xE9n vare f\xF8re
-      til?"
+  - name: "Hva kan d\xE5rlig kvalitet p\xE5 \xE9n vare f\xF8re til?"
     questionAlternatives:
     - "1. At kundene bed\xF8mmer at hele avdelingen har d\xE5rlig kvalitet"
     - "2. At kundene kj\xF8per f\xE6rre varer i andre avdelinger."
     - 3. At kunder kaster opp
     correctAnswerIndex: 1
-  - name: "Sp\xF8rsm\xE5l 3: \tHvem har ansvar for \xE5 fylle p\xE5 varer i Frukt
-      & Gr\xF8nt-avdelingen?"
+  - name: "Hvem har ansvar for \xE5 fylle p\xE5 varer i Frukt & Gr\xF8nt-avdelingen?"
     questionAlternatives:
     - 1. Bare de som jobber fast i avdelingen.
     - 2. Alle ansatte i butikken.
