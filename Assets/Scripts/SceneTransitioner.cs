@@ -10,7 +10,7 @@ public class SceneTransitioner : MonoBehaviour
 {
     // Start is called before the first frame update
     public static SceneTransitioner instance;
-    [SerializeField] [Range(0.0f, 4.0f)] float _fadeTime = 1.0f;
+    [SerializeField] [Range(0.0f, 4.0f)] public float _fadeTime = 1.0f;
 
     public UnityEvent onLoadScene = new UnityEvent();
 
@@ -20,16 +20,10 @@ public class SceneTransitioner : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(FadeInOnStart());
+        StartCoroutine(MovePlayerWithFade(false));
         SetupTeleportTutorial();
     }
 
-    IEnumerator FadeInOnStart()
-    {
-        PlayerManager.instance._screenFader.alpha = 1.0f;
-        StartCoroutine(MovePlayerDelayed());
-        yield return StartCoroutine(Fade(1.0f, 0.0f)); //fade in
-    }
 
     private void OnEnable()
     {
@@ -58,7 +52,7 @@ public class SceneTransitioner : MonoBehaviour
         onLoadScene.RemoveAllListeners();
         SceneManager.LoadScene(sceneName);
 
-        StartCoroutine(MovePlayerDelayed());
+        StartCoroutine(MovePlayerWithFade(false));
 
         yield return StartCoroutine(Fade(1.0f, 0.0f));
 
@@ -77,10 +71,20 @@ public class SceneTransitioner : MonoBehaviour
         }
     }
 
-    IEnumerator MovePlayerDelayed()
+    public void StartMovePlayerWithFade(bool fadeIn)
+    {
+        StartCoroutine(MovePlayerWithFade(fadeIn));
+    }
+
+    IEnumerator MovePlayerWithFade(bool fadeIn)
     {
         PlayerManager.instance._screenFader.alpha = 1.0f;
-        yield return null;
+
+        if(fadeIn)
+            yield return StartCoroutine(Fade(0.0f, 1.0f));
+        else
+            yield return null;
+
         MovePlayerToStartingPosition();
         yield return StartCoroutine(Fade(1.0f, 0.0f));
     }
@@ -154,20 +158,8 @@ public class SceneTransitioner : MonoBehaviour
             if (sceneName == "EXTRA_Interior")
                 StartTransitionToScene(sceneName);
             else
-                StartCoroutine(MovePlayerDelayed());
+                StartCoroutine(MovePlayerWithFade(false));
         }
-    }
-
-    public float FadeOut()
-    {
-        StartCoroutine(Fade(0f, 1f));
-        return _fadeTime;
-    }
-
-    public float FadeIn()
-    {
-        StartCoroutine(Fade(1f, 0f));
-        return _fadeTime;
     }
 
     //void OnApplicationFocus(bool focus)
