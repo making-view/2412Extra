@@ -402,6 +402,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1561997394}
     m_Modifications:
+    - target: {fileID: 2195295553887651978, guid: 9b33a0962b32a13448b8017d7892eed8, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -6770048234581376055, guid: 4b16f17ff2db5c448be55af88bdda13f, type: 2}
+    - target: {fileID: 6015253948368306964, guid: 9b33a0962b32a13448b8017d7892eed8, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -6770048234581376055, guid: 4b16f17ff2db5c448be55af88bdda13f, type: 2}
     - target: {fileID: 7380761033440643622, guid: 9b33a0962b32a13448b8017d7892eed8, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: 0
@@ -785,6 +793,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1561997394}
     m_Modifications:
+    - target: {fileID: 2195295553887651978, guid: 9b33a0962b32a13448b8017d7892eed8, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -6770048234581376055, guid: 4b16f17ff2db5c448be55af88bdda13f, type: 2}
+    - target: {fileID: 6015253948368306964, guid: 9b33a0962b32a13448b8017d7892eed8, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -6770048234581376055, guid: 4b16f17ff2db5c448be55af88bdda13f, type: 2}
     - target: {fileID: 7380761033440643622, guid: 9b33a0962b32a13448b8017d7892eed8, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: 0
@@ -1767,6 +1783,8 @@ GameObject:
   - component: {fileID: 978079753}
   - component: {fileID: 978079752}
   - component: {fileID: 978079754}
+  - component: {fileID: 978079756}
+  - component: {fileID: 978079755}
   m_Layer: 0
   m_Name: MediaPlayer
   m_TagString: Untagged
@@ -1996,7 +2014,119 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mediaPlayer: {fileID: 978079752}
   videoToPlay: {fileID: 11400000, guid: 073904cb00e91424fa0cf9157d7d3828, type: 2}
-  _skipToQuizInEditor: 0
+  _skipToQuizInEditor: 1
+--- !u!114 &978079755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978079751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b05a64a5de3f8546bf586f42e37b979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mediaPlayer: {fileID: 978079752}
+  _audioOutputMode: 1
+  _channelMask: 65535
+  _supportPositionalAudio: 0
+--- !u!82 &978079756
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978079751}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -9077805833606664971, guid: 4b16f17ff2db5c448be55af88bdda13f, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1037464473
 GameObject:
   m_ObjectHideFlags: 0
@@ -2693,7 +2823,7 @@ AudioSource:
   m_GameObject: {fileID: 1253952147}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -6770048234581376055, guid: 4b16f17ff2db5c448be55af88bdda13f, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -2806,6 +2936,9 @@ MonoBehaviour:
   _txtThird: {fileID: 1473114751}
   _audioCelebrate: {fileID: 8300000, guid: c98633cbb75756141b78c57e56082c49, type: 3}
   _audioWrong: {fileID: 8300000, guid: ae595db9abf6c4443a1466eee9f3b6ef, type: 3}
+  _audioBGM: {fileID: 0}
+  _audioAwait: {fileID: 0}
+  _audioNewQuestion: {fileID: 0}
   questions:
   - name: "Hvorfor er det viktig \xE5 smile til kundene?"
     questionAlternatives:
@@ -2854,6 +2987,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1561997394}
     m_Modifications:
+    - target: {fileID: 2195295553887651978, guid: 9b33a0962b32a13448b8017d7892eed8, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -6770048234581376055, guid: 4b16f17ff2db5c448be55af88bdda13f, type: 2}
+    - target: {fileID: 6015253948368306964, guid: 9b33a0962b32a13448b8017d7892eed8, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -6770048234581376055, guid: 4b16f17ff2db5c448be55af88bdda13f, type: 2}
     - target: {fileID: 7380761033440643622, guid: 9b33a0962b32a13448b8017d7892eed8, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: 0
@@ -3138,7 +3279,7 @@ Transform:
   m_GameObject: {fileID: 1561997393}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.716, y: -0.3173555, z: 1.166}
+  m_LocalPosition: {x: -0.716, y: -0.07, z: 1.255}
   m_LocalScale: {x: 0.29999998, y: 0.29999998, z: 0.29999998}
   m_ConstrainProportionsScale: 0
   m_Children:

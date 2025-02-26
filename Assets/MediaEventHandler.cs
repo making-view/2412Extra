@@ -62,10 +62,16 @@ public class MediaEventHandler : MonoBehaviour
         //make sure this isn't triggered in release builds
         if (_skipToQuizInEditor && (Debug.isDebugBuild || Application.isEditor))
         {
-            double duration = mediaPlayer.Info.GetDuration();
-            double goToTime = duration - 5.0;
-            // Seek to nearest keyframe at end of video
-            mediaPlayer.Control.SeekFast(goToTime);
+            SkipToEndOfVideo(mediaPlayer);
         }
+    }
+
+    //TODO call this on exiting area + reposition if we're not already in quiz mode
+    private void SkipToEndOfVideo(MediaPlayer mediaPlayer)
+    {
+        double duration = mediaPlayer.Info.GetDuration();
+        double goToTime = duration - 10.0;
+        // Seek to nearest keyframe at end of video
+        mediaPlayer.Control.SeekFast(goToTime);
     }
 }
