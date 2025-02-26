@@ -3695,7 +3695,7 @@ MonoBehaviour:
   - name: "Hvorfor er det viktig at Frukt & Gr\xF8nt-avdelingen alltid ser bra ut?"
     questionAlternatives:
     - "1. F&G avdelingen er butikkens \xABsmil\xBB - den skaper f\xF8rsteinntrykket
-      av \thele butikken."
+      av hele butikken."
     - "2. Det er lovp\xE5lagt \xE5 holde avdelingen ren."
     - 3. Det er viktigere at inngangspartiet er rent og ryddig
     correctAnswerIndex: 1
