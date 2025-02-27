@@ -100,6 +100,12 @@ public class GameHandler : MonoBehaviour
         if (_gameRunning)
             _backgroundMusic.Stop();
 
+        if (_helpPlayer != null)
+        {
+            StopCoroutine(_helpPlayer);
+            _helpPlayer = null;
+        }
+
         _gameFinished = false;
         _gameRunning = false;
         _timer = 0;

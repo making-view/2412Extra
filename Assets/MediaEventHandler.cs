@@ -12,12 +12,10 @@ public class MediaEventHandler : MonoBehaviour
     // Start is called before the first frame update
 
     public MediaReference videoToPlay;
-
-    bool _firstVideoDone = false;
-
     public static MediaEventHandler instance;
-
     [SerializeField] private bool _skipToQuizInEditor = true;
+
+    private bool _shouldExitOnLeaveArea = false;
 
     void Start()
     {
@@ -31,6 +29,32 @@ public class MediaEventHandler : MonoBehaviour
 
         mediaPlayer = GetComponent<MediaPlayer>();
         mediaPlayer.Events.AddListener((mediaPlayer, eventType, errorCode) => HandledEvent(mediaPlayer, eventType, errorCode));
+
+        var exitVolume = FindObjectOfType<DoOnPlayerEnterVolume>();
+        exitVolume.onPlayerExit.AddListener(() => PlayerExitedArea(exitVolume));
+        //add area exitet listener
+
+        var exitUI = FindObjectOfType<VideoInstructionHandler>();
+        if (exitUI != null)
+            exitUI.SetInstructionText("Teleporter ut for å gå rett til quiz");
+    }
+
+    private void PlayerExitedArea(DoOnPlayerEnterVolume area)
+    {
+        if (_shouldExitOnLeaveArea)
+        {
+            SceneTransitioner.instance.StartTransitionToScene("EXTRA_Interior");
+            return;
+        }
+        
+        _shouldExitOnLeaveArea= true;
+
+        var exitUI = FindObjectOfType<VideoInstructionHandler>();
+        if(exitUI != null)
+            exitUI.SetInstructionText("Teleporter ut for å avslutte video");
+
+        SkipToEndOfVideo(mediaPlayer);
+        SceneTransitioner.instance.StartMovePlayerWithFade(false);
     }
 
     private void HandledEvent(MediaPlayer mediaPlayer, MediaPlayerEvent.EventType eventType, ErrorCode errorCode)
@@ -53,6 +77,12 @@ public class MediaEventHandler : MonoBehaviour
             Debug.LogError(this + " could not find quiz handler");
 
         SceneTransitioner.instance.StartMovePlayerWithFade(true);
+        _shouldExitOnLeaveArea = true;
+
+        var exitUI = FindObjectOfType<VideoInstructionHandler>();
+        if (exitUI != null)
+            exitUI.SetInstructionText("Teleporter ut for å avslutte video");
+
         yield return new WaitForSeconds(SceneTransitioner.instance._fadeTime / 2);
         quizHandler.StartQuiz();
     }

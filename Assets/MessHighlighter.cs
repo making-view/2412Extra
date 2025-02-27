@@ -31,7 +31,6 @@ public class MessHighlighter : MonoBehaviour
     private void OnEnable()
     {
         _time = 0f;
-
         //fade in audiosource
     }
 

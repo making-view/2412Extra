@@ -12,6 +12,7 @@ public class DoOnPlayerEnterVolume : MonoBehaviour
 
     [SerializeField] private string travelToScene = "";
 
+    float _cooldown = -1.0f;
 
     private void OnEnable()
     {
@@ -43,7 +44,11 @@ public class DoOnPlayerEnterVolume : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            onPlayerEnter.Invoke();
+            if(_cooldown <= 0f)
+            {
+                onPlayerEnter.Invoke();
+                StartCoroutine(HandleCooldown(1f));
+            }
         }
     }
 
@@ -51,7 +56,24 @@ public class DoOnPlayerEnterVolume : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            onPlayerExit.Invoke();
+            Debug.Log("Player exiting with cooldown " + _cooldown);
+
+            if (_cooldown <= 0f)
+            {
+                onPlayerExit.Invoke();
+                StartCoroutine(HandleCooldown(1f));
+            }
+        }
+    }
+
+    private IEnumerator HandleCooldown(float cooldown)
+    {
+        _cooldown = cooldown;
+
+        while(_cooldown >= 0f)
+        {
+            yield return null;
+            _cooldown -= Time.deltaTime;
         }
     }
 }

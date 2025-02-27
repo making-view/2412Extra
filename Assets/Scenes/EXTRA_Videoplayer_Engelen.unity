@@ -2828,7 +2828,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2936,9 +2936,8 @@ MonoBehaviour:
   _txtThird: {fileID: 1473114751}
   _audioCelebrate: {fileID: 8300000, guid: c98633cbb75756141b78c57e56082c49, type: 3}
   _audioWrong: {fileID: 8300000, guid: ae595db9abf6c4443a1466eee9f3b6ef, type: 3}
-  _audioBGM: {fileID: 0}
-  _audioAwait: {fileID: 0}
-  _audioNewQuestion: {fileID: 0}
+  _audioBGM: {fileID: 8300000, guid: 4251e6a9db05c95469729d7af6d1b36e, type: 3}
+  _audioAwait: {fileID: 8300000, guid: af557450a8e026547b293e329529f28b, type: 3}
   questions:
   - name: "Hvorfor er det viktig \xE5 smile til kundene?"
     questionAlternatives:

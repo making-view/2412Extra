@@ -2,6 +2,7 @@ using Autohand;
 using RenderHeads.Media.AVProVideo;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class VideoInstructionHandler : MonoBehaviour
@@ -80,7 +81,6 @@ public class VideoInstructionHandler : MonoBehaviour
         //start video
         MediaEventHandler.instance.mediaPlayer.OpenMedia(MediaEventHandler.instance.videoToPlay);
 
-        //TODO debug skip to end of video to test quiz
 
         while (_instructionDuration > 0f)
         {
@@ -91,5 +91,10 @@ public class VideoInstructionHandler : MonoBehaviour
         }
 
         ShowInstructions(0f);
+    }
+
+    public void SetInstructionText(string text)
+    {
+        GetComponentInChildren<TextMeshProUGUI>().text = text;
     }
 }

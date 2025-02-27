@@ -45,7 +45,6 @@ public class QuizHandler : MonoBehaviour
 
     [SerializeField] private AudioClip _audioBGM;
     [SerializeField] private AudioClip _audioAwait;
-    [SerializeField] private AudioClip _audioNewQuestion;
 
     [Space]
     [SerializeField] List<QuizQuestion> questions = new List<QuizQuestion>();
@@ -85,6 +84,9 @@ public class QuizHandler : MonoBehaviour
         _txtSecond.text = question.questionAlternatives[1];
         _txtThird.text = question.questionAlternatives[2];
 
+        _audioSource.clip = _audioBGM;
+        _audioSource.Play();
+        
         //clear old UI
         //update UI gradually, question texts and header text
 
@@ -124,10 +126,14 @@ public class QuizHandler : MonoBehaviour
     {
         QuizQuestion question = questions[_currentQuestion];
         bool correct = answerIndex == question.correctAnswerIndex;
- 
-        yield return StartCoroutine(HighlightButton(buttonRenderer));
 
-        if(correct)
+        _audioSource.clip = _audioAwait; //play waiting sfx
+        _audioSource.Play();
+
+        yield return StartCoroutine(HighlightButton(buttonRenderer));
+        _audioSource.Stop();
+
+        if (correct)
         {
             buttonRenderer.material.SetColor("_Color", _colorCorrect);
             _audioSource.PlayOneShot(_audioCelebrate);
@@ -168,7 +174,7 @@ public class QuizHandler : MonoBehaviour
 
     private IEnumerator HighlightButton(MeshRenderer buttonRenderer)
     {
-        float timer = 2.0f;
+        float timer = 3.0f;
         Material material = buttonRenderer.material;
 
         Color startColor = _colorWaiting;
