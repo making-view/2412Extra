@@ -42,6 +42,7 @@ public class QuizHandler : MonoBehaviour
     private AudioSource _audioSource;
     [SerializeField] private AudioClip _audioCelebrate;
     [SerializeField] private AudioClip _audioWrong;
+    [SerializeField] GameObject _allCorrectConfetti = null;
 
     [SerializeField] private AudioClip _audioBGM;
     [SerializeField] private AudioClip _audioAwait;
@@ -49,8 +50,9 @@ public class QuizHandler : MonoBehaviour
     [Space]
     [SerializeField] List<QuizQuestion> questions = new List<QuizQuestion>();
     [SerializeField] int _currentQuestion = 0;
+    private int _correctQuestions = 0;
     [SerializeField] bool _buttonsLocked = false;
-
+    
     void Start()
     {
         _rendererButtonFirst = _btnFirst.GetComponentsInChildren<MeshRenderer>().Where((x) => x.gameObject.name.Contains("Button")).First();
@@ -135,6 +137,7 @@ public class QuizHandler : MonoBehaviour
 
         if (correct)
         {
+            _correctQuestions++;
             buttonRenderer.material.SetColor("_Color", _colorCorrect);
             _audioSource.PlayOneShot(_audioCelebrate);
 
@@ -161,10 +164,13 @@ public class QuizHandler : MonoBehaviour
     private IEnumerator FinishQuiz()
     {
         _txtQuestion.text = "Quiz fullført\n" +
-            "Returnerer til hovedmeny";
-        _txtFirst.text =  " ";
+            +_correctQuestions + " av " + questions.Count + " riktige!\n";
+        _txtFirst.text = "Returnerer til hovedmeny";
         _txtSecond.text = " ";
         _txtThird.text = " ";
+
+        if(_correctQuestions == questions.Count)
+            _allCorrectConfetti.SetActive(true);
 
         LockButtons(true);
 

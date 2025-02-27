@@ -9,7 +9,7 @@ public class VideoInstructionHandler : MonoBehaviour
 {
     [SerializeField] List<CanvasGroup> _instructionCanvases = new List<CanvasGroup>();
     [SerializeField] private Transform _cameraTrans;
-    [SerializeField] private float _instructionDuration = 5.0f;
+    private float _instructionDuration = 3.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -68,7 +68,7 @@ public class VideoInstructionHandler : MonoBehaviour
 
     private IEnumerator ShowInstructionsAndStartVideo()
     {
-        float videoOverlap = _instructionDuration / 4f;
+        float videoOverlap = _instructionDuration / 2f;
 
         while(_instructionDuration > videoOverlap)
         {
