@@ -43,6 +43,10 @@ public class QuizHandler : MonoBehaviour
     [SerializeField] private AudioClip _audioCelebrate;
     [SerializeField] private AudioClip _audioWrong;
 
+    [SerializeField] private AudioClip _audioBGM;
+    [SerializeField] private AudioClip _audioAwait;
+    [SerializeField] private AudioClip _audioNewQuestion;
+
     [Space]
     [SerializeField] List<QuizQuestion> questions = new List<QuizQuestion>();
     [SerializeField] int _currentQuestion = 0;
@@ -150,14 +154,15 @@ public class QuizHandler : MonoBehaviour
 
     private IEnumerator FinishQuiz()
     {
-        _txtQuestion.text = "Quiz fullført";
+        _txtQuestion.text = "Quiz fullført\n" +
+            "Returnerer til hovedmeny";
         _txtFirst.text =  " ";
         _txtSecond.text = " ";
         _txtThird.text = " ";
 
         LockButtons(true);
 
-        yield return new WaitForSeconds(5); //duration of end screen
+        yield return new WaitForSeconds(4); //duration of end screen
         SceneTransitioner.instance.StartTransitionToScene("EXTRA_Interior");
     }
 
