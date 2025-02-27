@@ -10,11 +10,15 @@ public class ButtonMenuHandler : MonoBehaviour
     [SerializeField] PhysicsGadgetButton _btnPlayVideoRampen;
     [SerializeField] PhysicsGadgetButton _btnPlayVideoEngelen;
 
+    [Space]
+    [SerializeField] PhysicsGadgetButton _btnResetScores;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
-        if(_btnPlayVideoEngelen == null || _btnPlayGame == null || _btnPlayVideoRampen == null)
+        if (_btnPlayVideoEngelen == null || _btnPlayGame == null || _btnPlayVideoRampen == null)
         {
             Debug.LogError(this + " is missing buttons");
             return;
@@ -23,8 +27,15 @@ public class ButtonMenuHandler : MonoBehaviour
         _btnPlayGame.OnPressed.AddListener(() => StartGame()); //lock other buttons?
         _btnPlayVideoRampen.OnPressed.AddListener(() => StartVideoRampen()); //lock other buttons?
         _btnPlayVideoEngelen.OnPressed.AddListener(() => StartVideoEngelen()); //lock other buttons?
+
+        _btnResetScores.OnPressed.AddListener(() => ResetScore());
     }
 
+    private static void ResetScore()
+    {
+        FindObjectOfType<HighScoreHandler>().ResetScores();
+        SceneTransitioner.instance.StartTransitionToScene("EXTRA_Interior");
+    }
 
     private void StartIntro()
     {

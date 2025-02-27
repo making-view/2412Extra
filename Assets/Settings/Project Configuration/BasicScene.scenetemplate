@@ -210,6 +210,8 @@ MonoBehaviour:
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 3a66602b8cc7fdd4ab57d07b4176432b, type: 3}
     instantiationMode: 0
+  - dependency: {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
+    instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 8b74d04e304377448bd158b804497c1c, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 919132149155446097, guid: 2a509c5be118ea7458c738d29f95e554, type: 3}
@@ -358,6 +360,8 @@ MonoBehaviour:
     instantiationMode: 1
   - dependency: {fileID: 2800000, guid: 559aba2f89bfca244bd82a15bf97d8e1, type: 3}
     instantiationMode: 0
+  - dependency: {fileID: 8300000, guid: 9d9a2de98c6a55243bb09e2615d5ed99, type: 3}
+    instantiationMode: 1
   - dependency: {fileID: 2100000, guid: e16eb15d1eb813f41b10c8a3dea448ad, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: c5c548a613b520943931fa30ae5664b2, type: 3}
@@ -502,6 +506,8 @@ MonoBehaviour:
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 71610c155ec1904489b8164a515bbc47, type: 3}
     instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 7a158f5bb34ed154cbbdda9fb787acc9, type: 3}
+    instantiationMode: 0
   - dependency: {fileID: 2100000, guid: 8d2abe4f4ed24034487ee76e478d5504, type: 2}
     instantiationMode: 0
   - dependency: {fileID: 2800000, guid: 31dc911f9e2547e499ec1a1f1fe2f7a1, type: 3}
@@ -608,9 +614,9 @@ MonoBehaviour:
     instantiationMode: 0
   - dependency: {fileID: 24100000, guid: 4b16f17ff2db5c448be55af88bdda13f, type: 2}
     instantiationMode: 0
-  - dependency: {fileID: 919132149155446097, guid: 9efe8459055863947b5c7412ee5e5243, type: 3}
-    instantiationMode: 0
   - dependency: {fileID: 919132149155446097, guid: f8025c34ee1448643b1725853a5f6c22, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 919132149155446097, guid: 9efe8459055863947b5c7412ee5e5243, type: 3}
     instantiationMode: 0
   - dependency: {fileID: 919132149155446097, guid: d7e7ced9f2d4fac4e8ca96bcca092aab, type: 3}
     instantiationMode: 0

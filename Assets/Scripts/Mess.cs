@@ -19,7 +19,7 @@ public class Mess : MonoBehaviour
 
     private GameObject _confetti;
     private GameObject _collider;
-    [SerializeField] private Transform _messTransform;
+    [SerializeField] public Transform _messTransform;
     [SerializeField] public Transform _popupPosition;
     [SerializeField] float _hitsToClear = 30f;
     [SerializeField] float _progressThreshold = 0.5f;

@@ -16,7 +16,8 @@ public class GameHandler : MonoBehaviour
     public UnityEvent onGameStarted = new UnityEvent();
 
     private float _timer = 0;
-    [SerializeField] private float _timeLimit = 120f;
+    [SerializeField] private float _timeLimit = 10f;
+    private Coroutine _helpPlayer = null;
     
     //TODO make into list with timers?
     [SerializeField] private TextMeshProUGUI _txtTimer;
@@ -57,9 +58,35 @@ public class GameHandler : MonoBehaviour
             return;
 
         _timer += Time.deltaTime;
-        //_txtTimer.text = _timer.ToString("00:00:00");
         TimeSpan ts = TimeSpan.FromSeconds(_timer);
         _txtTimer.text = String.Format(@"{0:mm\:ss\.ff}", ts);
+
+        if(_timer > _timeLimit && _helpPlayer == null)
+        {
+            _helpPlayer = StartCoroutine(HelpPlayerFindMess());
+        }
+    }
+
+    private IEnumerator HelpPlayerFindMess()
+    {
+        MessHighlighter highlighter = FindObjectOfType<MessHighlighter>(true);
+        highlighter.gameObject.SetActive(true );
+        Transform highlightedMess = MessHandler.instance.GetClosestMess();
+        highlighter.StartMovingTowardsTarget(highlightedMess);
+
+        while (_gameRunning)
+        {
+            Transform closestMess = MessHandler.instance.GetClosestMess();
+            if(closestMess != highlightedMess)
+            {
+                highlightedMess = closestMess;
+                highlighter.StartMovingTowardsTarget(closestMess);
+            }
+
+            yield return new WaitForSeconds(1.0f);
+        }
+
+        highlighter.gameObject.SetActive(false );
     }
 
     public void StartPreparingGame()
@@ -80,12 +107,8 @@ public class GameHandler : MonoBehaviour
         //turn off lights and play audio, use fade or actual lights
         PlayerManager.instance._screenFader.alpha = 1.0f;
         _rampenAudio.PlayOneShot(_rampenGamePrepare);
-        yield return new WaitForSeconds(2.0f);
-        _rampenAudio.PlayOneShot(_lightsOn);
-        PlayerManager.instance._screenFader.alpha = 0.0f;
 
-
-        //open gates and remove blocking collider TODO sfx and slight delay?
+        //open gates and remove blocking collider
         foreach (GameObject go in _disableOnGameReady)
             go.SetActive(false);
 
@@ -93,6 +116,10 @@ public class GameHandler : MonoBehaviour
             go.SetActive(true);
 
         MessHandler.instance.ReadyMess();
+
+        yield return new WaitForSeconds(2.0f);
+        _rampenAudio.PlayOneShot(_lightsOn);
+        PlayerManager.instance._screenFader.alpha = 0.0f;
 
         onGameReady.Invoke();
     }

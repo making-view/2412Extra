@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using static MessHandler;
 using Random = System.Random;
 
@@ -19,6 +20,8 @@ public class MessHandler : MonoBehaviour
         public List<Mess> remainingMess = new List<Mess>();
         [SerializeField] public TextMeshProUGUI infoTxt;
     }
+
+    public UnityEvent onMessCleaned = new UnityEvent();
 
     [SerializeField] GameObject _messCleanedNotification;
 
@@ -127,11 +130,36 @@ public class MessHandler : MonoBehaviour
 
         if (messLeft == 0)
             GameHandler.instance.GameWin();
+        else
+            onMessCleaned.Invoke();
     }
 
     public List<Mess> ShuffleMessList(List<Mess> list)
     {
         Random random = new Random();
         return list.OrderBy(x => random.Next()).ToList();
+    }
+
+    internal Transform GetClosestMess()
+    {
+        Transform closestMess = null;
+        float closestDistance = float.MaxValue;
+        Vector3 playerPosition = PlayerManager.instance._screenFader.transform.position;
+
+        foreach (MessList messList in _messCategories)
+        {
+            foreach(Mess mess in messList.remainingMess)
+            {
+                float distance = Vector3.Distance(mess._messTransform.position, playerPosition);
+
+                if (distance < closestDistance)
+                {
+                    closestDistance = distance;
+                    closestMess = mess._messTransform;
+                }
+            }
+        }
+
+        return closestMess;
     }
 }
