@@ -2141,7 +2141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mediaPlayer: {fileID: 978079752}
   videoToPlay: {fileID: 11400000, guid: 073904cb00e91424fa0cf9157d7d3828, type: 2}
-  _skipToQuizInEditor: 1
+  _skipToQuizInEditor: 0
 --- !u!114 &978079755
 MonoBehaviour:
   m_ObjectHideFlags: 0
