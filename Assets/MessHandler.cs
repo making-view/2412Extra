@@ -150,12 +150,22 @@ public class MessHandler : MonoBehaviour
         {
             foreach(Mess mess in messList.remainingMess)
             {
-                float distance = Vector3.Distance(mess._messTransform.position, playerPosition);
+                float distance;
+                
+                if (mess._popupPosition != null)
+                    distance = Vector3.Distance(mess._popupPosition.position, playerPosition);
+                else
+                    distance = Vector3.Distance(mess._messTransform.position, playerPosition);
 
                 if (distance < closestDistance)
                 {
                     closestDistance = distance;
-                    closestMess = mess._messTransform;
+
+                    if (mess._popupPosition != null)
+                        closestMess = mess._popupPosition;
+                    else
+                        closestMess = mess._messTransform;
+
                 }
             }
         }
