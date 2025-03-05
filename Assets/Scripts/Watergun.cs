@@ -56,8 +56,13 @@ public class Watergun : MonoBehaviour
         }
         //move tp pointer to gun while holding it
 
-
-    }
+        //drop gun on scene load
+        SceneTransitioner.instance.onLoadScene.AddListener(() =>
+        {
+            ReleaseHands();
+            Destroy(gameObject);
+        });
+    } 
 
     public void StartFiring()
     {
@@ -144,23 +149,6 @@ public class Watergun : MonoBehaviour
             //Debug.Log("Sending haptic to " + hand.name);
             hand.PlayHapticVibration(_timePerBubble / 2f, 0.5f);
         }
-    }
-
-    private void OnEnable()
-    {
-        //drop gun on scene load
-        SceneTransitioner.instance.onLoadScene.AddListener(() =>
-        {
-            ReleaseHands();
-        });
-    }
-
-    private void OnDisable()
-    {
-        SceneTransitioner.instance.onLoadScene.RemoveListener(() =>
-        {
-            ReleaseHands();
-        });
     }
 
     private void ReleaseHands()

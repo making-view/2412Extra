@@ -40,6 +40,8 @@ public class TutorialCanvas : MonoBehaviour
         _instructionCanvases = GetComponentsInChildren<CanvasGroup>().ToList();
 
         Initialize();
+
+        //TODO de-initialize from teleporter etc when scene loads?
     }
 
     public TutorialType GetTutorialType()
@@ -85,6 +87,12 @@ public class TutorialCanvas : MonoBehaviour
                 }
                 break;
             case TutorialType.grabGun:
+                if (PlayerPrefs.GetInt("GunTutorialsDone", 0) == 1) //don't activate self if gun tutorial already done
+                {
+                    gameObject.SetActive(false);
+                    return;
+                }
+                break;
             case TutorialType.useGun:
                 if (PlayerPrefs.GetInt("GunTutorialsDone", 0) == 1) //don't activate self if gun tutorial already done
                 {
@@ -100,15 +108,21 @@ public class TutorialCanvas : MonoBehaviour
         if (_initialized) //make sure we don't initialize bindings twice
             return;
 
+
+                            //TODO, initialize it so thate the done value is set regardless of this gameobject being active
         switch (_type)
         {
             case TutorialType.none:
                 break;
             case TutorialType.teleportButton:
                 foreach (Teleporter teleporter in PlayerManager.instance.GetComponentsInChildren<Teleporter>())
+                {
+                    teleporter.OnTeleport.AddListener(() => PlayerPrefs.SetInt("TeleportTutorialDone", 1));
                     teleporter.OnTeleport.AddListener(() => CompleteTutorial());
+                }
                 break;
             case TutorialType.useGun:
+                GameHandler.instance.onGameStarted.AddListener(() => PlayerPrefs.SetInt("GunTutorialsDone", 1));
                 GameHandler.instance.onGameStarted.AddListener(() => CompleteTutorial());
                 break;
             case TutorialType.grabGun:
@@ -123,15 +137,44 @@ public class TutorialCanvas : MonoBehaviour
 
     private void OnDisable()
     {
+        //TODO, this is not needed. Remove this and make sure we're only initialized once
+
+
+        //switch (_type)
+        //{
+        //    case TutorialType.none:
+        //        break;
+        //    case TutorialType.teleportButton:
+        //        foreach (Teleporter teleporter in PlayerManager.instance.GetComponentsInChildren<Teleporter>())
+        //            teleporter.OnTeleport.RemoveListener(() => CompleteTutorial());
+        //        break;
+        //    case TutorialType.useGun:
+        //        GameHandler.instance.onGameStarted.RemoveListener(() => CompleteTutorial());
+        //        break;
+        //    case TutorialType.grabGun:
+        //        foreach (GrabbableExtraEvents extraEvents in FindObjectOfType<Watergun>().GetComponentsInChildren<GrabbableExtraEvents>())
+        //            extraEvents.OnFirstGrab.RemoveListener((hand, grabbable) => CompleteTutorial());
+        //        break;
+        //}
+
+        //_initialized = false;
+    }
+
+    private void OnDestroy()
+    {
         switch (_type)
         {
             case TutorialType.none:
                 break;
             case TutorialType.teleportButton:
                 foreach (Teleporter teleporter in PlayerManager.instance.GetComponentsInChildren<Teleporter>())
+                {
+                    teleporter.OnTeleport.RemoveListener(() => PlayerPrefs.SetInt("TeleportTutorialDone", 1));
                     teleporter.OnTeleport.RemoveListener(() => CompleteTutorial());
+                }
                 break;
             case TutorialType.useGun:
+                GameHandler.instance.onGameStarted.RemoveListener(() => PlayerPrefs.SetInt("GunTutorialsDone", 1));
                 GameHandler.instance.onGameStarted.RemoveListener(() => CompleteTutorial());
                 break;
             case TutorialType.grabGun:
@@ -139,8 +182,6 @@ public class TutorialCanvas : MonoBehaviour
                     extraEvents.OnFirstGrab.RemoveListener((hand, grabbable) => CompleteTutorial());
                 break;
         }
-
-        _initialized = false;
     }
 
     private void CompleteTutorial()
@@ -150,18 +191,19 @@ public class TutorialCanvas : MonoBehaviour
         _completed = true;
         StartCoroutine(FadeAway());
 
-        //mark tutorial as done so it won't be reloaded until application has been paused
-        switch (_type)
-        {
-            case TutorialType.none:
-                break;
-            case TutorialType.teleportButton:
-                PlayerPrefs.SetInt("TeleportTutorialDone", 1);
-                break;
-            case TutorialType.useGun:
-                PlayerPrefs.SetInt("GunTutorialsDone", 1);
-                break;
-        }
+        //moved this to the listener so that it can be completed without the tutorial being active
+        ////mark tutorial as done so it won't be reloaded until application has been paused
+        //switch (_type)
+        //{
+        //    case TutorialType.none:
+        //        break;
+        //    case TutorialType.teleportButton:
+        //        PlayerPrefs.SetInt("TeleportTutorialDone", 1);
+        //        break;
+        //    case TutorialType.useGun:
+        //        PlayerPrefs.SetInt("GunTutorialsDone", 1);
+        //        break;
+        //}
     }
 
         private void SetOpacity(float opacity)
