@@ -995,7 +995,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3188809829309611225, guid: 763b97df26d57374587aeed04846b662, type: 3}
       propertyPath: questions.Array.data[0].questionAlternatives.Array.data[0]
-      value: "1. F&G avdelingen er butikkens \xABsmil\xBB - den skaper f\xF8rsteinntrykket
+      value: "1. F&G avdelingen er butikkens \xABsmil\xBB, den skaper f\xF8rsteinntrykket
         av hele butikken."
       objectReference: {fileID: 0}
     - target: {fileID: 3188809829309611225, guid: 763b97df26d57374587aeed04846b662, type: 3}
@@ -1077,6 +1077,10 @@ PrefabInstance:
     - target: {fileID: 6310637385327267658, guid: 763b97df26d57374587aeed04846b662, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730551436634628373, guid: 763b97df26d57374587aeed04846b662, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

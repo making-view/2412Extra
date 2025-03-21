@@ -1981,6 +1981,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3188809829309611225, guid: 763b97df26d57374587aeed04846b662, type: 3}
+      propertyPath: questions.Array.data[1].questionAlternatives.Array.data[0]
+      value: "1. Ved \xE5 ignorere faste kunder for \xE5 spare tid, de kjenner deg
+        jo allerede."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3188809829309611225, guid: 763b97df26d57374587aeed04846b662, type: 3}
+      propertyPath: questions.Array.data[1].questionAlternatives.Array.data[1]
+      value: "2. Ved \xE5 hilse, v\xE6re litt pratsom med de som \xF8nsker det og
+        vise at du kjenner dem igjen."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3188809829309611225, guid: 763b97df26d57374587aeed04846b662, type: 3}
       propertyPath: questions.Array.data[2].questionAlternatives.Array.data[0]
       value: "1. V\xE6re oppmerksom p\xE5 kundene og aktivt hjelpe dem med \xE5 finne
         det de trenger."

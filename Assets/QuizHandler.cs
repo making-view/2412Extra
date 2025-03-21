@@ -84,9 +84,8 @@ public class QuizHandler : MonoBehaviour
 
     public void StartQuiz()
     {
+        ClearText();
         _tablet.SetActive(true);
-        _floor.enabled = true;
-
         StartCoroutine(LightsOn());
     }
 
@@ -94,11 +93,20 @@ public class QuizHandler : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         _spotLight1.SetActive(true);
+        _floor.enabled = true;
         yield return new WaitForSeconds(1.5f);
         _spotLight2.SetActive(true);
 
         yield return new WaitForSeconds(0.2f);
         StartCoroutine(PrepareQuestion());
+    }
+
+    private void ClearText()
+    {
+        _txtQuestion.text = "";
+        _txtFirst.text = "";
+        _txtSecond.text = "";
+        _txtThird.text = "";    
     }
 
     private IEnumerator PrepareQuestion()

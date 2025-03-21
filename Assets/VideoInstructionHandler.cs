@@ -9,7 +9,7 @@ public class VideoInstructionHandler : MonoBehaviour
 {
     [SerializeField] List<CanvasGroup> _instructionCanvases = new List<CanvasGroup>();
     [SerializeField] private Transform _cameraTrans;
-    private float _instructionDuration = 3.0f;
+    private float _instructionDuration = 5.0f;
 
     // Start is called before the first frame update
     void Start()
