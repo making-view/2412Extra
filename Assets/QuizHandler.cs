@@ -39,10 +39,18 @@ public class QuizHandler : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _txtThird;
 
     [Space]
+    [SerializeField] private List<MeshRenderer> _bulbs;
+
+    [Space]
     private AudioSource _audioSource;
     [SerializeField] private AudioClip _audioCelebrate;
     [SerializeField] private AudioClip _audioWrong;
     [SerializeField] GameObject _allCorrectConfetti = null;
+
+    [Space]
+    [SerializeField] GameObject _spotLight1 = null;
+    [SerializeField] GameObject _spotLight2 = null;
+    [SerializeField] MeshRenderer _floor = null;
 
     [SerializeField] private AudioClip _audioBGM;
     [SerializeField] private AudioClip _audioAwait;
@@ -69,11 +77,27 @@ public class QuizHandler : MonoBehaviour
             _tablet = transform.GetChild(0).gameObject;
 
         _tablet.SetActive(false);
+        _spotLight1.SetActive(false);
+        _spotLight2.SetActive(false);
+        _floor.enabled = false;
     }
 
     public void StartQuiz()
     {
         _tablet.SetActive(true);
+        _floor.enabled = true;
+
+        StartCoroutine(LightsOn());
+    }
+
+    private IEnumerator LightsOn()
+    {
+        yield return new WaitForSeconds(0.5f);
+        _spotLight1.SetActive(true);
+        yield return new WaitForSeconds(1.5f);
+        _spotLight2.SetActive(true);
+
+        yield return new WaitForSeconds(0.2f);
         StartCoroutine(PrepareQuestion());
     }
 
@@ -140,6 +164,7 @@ public class QuizHandler : MonoBehaviour
             _correctQuestions++;
             buttonRenderer.material.SetColor("_Color", _colorCorrect);
             _audioSource.PlayOneShot(_audioCelebrate);
+            _bulbs[_currentQuestion].material.SetColor("_EmissionColor", _colorCorrect);
 
             foreach (ParticleSystem particle in _celebration)
                 particle.Play();
@@ -148,6 +173,7 @@ public class QuizHandler : MonoBehaviour
         {
             buttonRenderer.material.SetColor("_Color", _colorWrong);
             _audioSource.PlayOneShot(_audioWrong);
+            _bulbs[_currentQuestion].material.SetColor("_EmissionColor", _colorWrong);
         }
 
         yield return new WaitForSeconds(1);
