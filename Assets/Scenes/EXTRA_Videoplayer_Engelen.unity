@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0.4
+  m_AmbientIntensity: 0.06
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.37130654, g: 0.41573912, b: 0.5283019, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
@@ -443,38 +443,6 @@ MonoBehaviour:
   - {fileID: 887820678}
   - {fileID: 1582970472}
   _cameraTrans: {fileID: 0}
---- !u!1 &244186615
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 244186616}
-  m_Layer: 11
-  m_Name: Floor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &244186616
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 244186615}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.076632746, z: -0, w: 0.9970594}
-  m_LocalPosition: {x: 0.009097546, y: 0, z: -0.0078631565}
-  m_LocalScale: {x: 2.7, y: 0.1, z: 2.7}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1226072304}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -8.79, z: 0}
 --- !u!1 &617125055
 GameObject:
   m_ObjectHideFlags: 0
@@ -683,7 +651,7 @@ Transform:
   m_GameObject: {fileID: 665500381}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00000021706, y: 0, z: 0.00000043412}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 4.687452, y: 3.6391044, z: 4.687452}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1234,7 +1202,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mediaPlayer: {fileID: 978079752}
   videoToPlay: {fileID: 11400000, guid: 073904cb00e91424fa0cf9157d7d3828, type: 2}
-  _skipToQuizInEditor: 0
+  _skipToQuizInEditor: 1
+  _endOfVideoOffset: 3.5
 --- !u!114 &978079755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1540,111 +1509,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1226072303
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1226072304}
-  - component: {fileID: 1226072307}
-  - component: {fileID: 1226072306}
-  - component: {fileID: 1226072305}
-  m_Layer: 11
-  m_Name: Cube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1226072304
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1226072303}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 244186616}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1226072305
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1226072303}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 62.050316, y: 1, z: 61.9907}
-  m_Center: {x: 0.020629883, y: 0, z: 0.020464897}
---- !u!23 &1226072306
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1226072303}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 4009ac5b1e106f64aac2c9b2f3361a15, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1226072307
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1226072303}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1229682726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1980,24 +1844,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3188809829309611225, guid: 763b97df26d57374587aeed04846b662, type: 3}
-      propertyPath: questions.Array.data[1].questionAlternatives.Array.data[0]
-      value: "1. Ved \xE5 ignorere faste kunder for \xE5 spare tid, de kjenner deg
-        jo allerede."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3188809829309611225, guid: 763b97df26d57374587aeed04846b662, type: 3}
-      propertyPath: questions.Array.data[1].questionAlternatives.Array.data[1]
-      value: "2. Ved \xE5 hilse, v\xE6re litt pratsom med de som \xF8nsker det og
-        vise at du kjenner dem igjen."
-      objectReference: {fileID: 0}
-    - target: {fileID: 3188809829309611225, guid: 763b97df26d57374587aeed04846b662, type: 3}
-      propertyPath: questions.Array.data[2].questionAlternatives.Array.data[0]
-      value: "1. V\xE6re oppmerksom p\xE5 kundene og aktivt hjelpe dem med \xE5 finne
-        det de trenger."
+    - target: {fileID: 2798838516831670551, guid: 763b97df26d57374587aeed04846b662, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3218180986460903877, guid: 763b97df26d57374587aeed04846b662, type: 3}
       propertyPath: m_Name
       value: QuizSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 4952121143969871230, guid: 763b97df26d57374587aeed04846b662, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6310637385327267658, guid: 763b97df26d57374587aeed04846b662, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2039,6 +1896,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8730551436634628373, guid: 763b97df26d57374587aeed04846b662, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2051,7 +1912,6 @@ SceneRoots:
   - {fileID: 2138431208}
   - {fileID: 978079753}
   - {fileID: 617125059}
-  - {fileID: 244186616}
   - {fileID: 972343937}
   - {fileID: 1214325622}
   - {fileID: 665500385}

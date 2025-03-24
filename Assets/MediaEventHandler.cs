@@ -13,7 +13,10 @@ public class MediaEventHandler : MonoBehaviour
 
     public MediaReference videoToPlay;
     public static MediaEventHandler instance;
+
+    [Space]
     [SerializeField] private bool _skipToQuizInEditor = true;
+    [SerializeField] private float _endOfVideoOffset = 10f;
 
     private bool _shouldExitOnLeaveArea = false;
 
@@ -100,8 +103,8 @@ public class MediaEventHandler : MonoBehaviour
     private void SkipToEndOfVideo(MediaPlayer mediaPlayer)
     {
         double duration = mediaPlayer.Info.GetDuration();
-        double goToTime = duration - 10.0;
+        double goToTime = duration - _endOfVideoOffset;
         // Seek to nearest keyframe at end of video
-        mediaPlayer.Control.SeekFast(goToTime);
+        mediaPlayer.Control.Seek(goToTime);
     }
 }
