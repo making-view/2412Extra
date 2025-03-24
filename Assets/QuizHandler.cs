@@ -199,16 +199,28 @@ public class QuizHandler : MonoBehaviour
     {
         _txtQuestion.text = "Quiz fullført\n" +
             +_correctQuestions + " av " + questions.Count + " riktige!\n";
-        _txtFirst.text = "Returnerer til hovedmeny";
-        _txtSecond.text = " ";
-        _txtThird.text = " ";
 
         if(_correctQuestions == questions.Count)
             _allCorrectConfetti.SetActive(true);
 
         LockButtons(true);
+        float timeRemaining = 7f;
+        float maxTime = timeRemaining;
 
-        yield return new WaitForSeconds(4); //duration of end screen
+        while (timeRemaining > 0f)
+        {
+            timeRemaining -= Time.deltaTime;
+            yield return null;
+            float secondsElapsed = Mathf.Clamp(MathF.Floor(maxTime - timeRemaining), 0, maxTime);
+
+            _txtFirst.text = "Returnerer til hovedmeny";
+            for(int i = 0; i < secondsElapsed; i++)
+                _txtFirst.text += ".";
+
+            _txtSecond.text = Mathf.Clamp(MathF.Floor(timeRemaining - 0.5f), 0f, timeRemaining).ToString();
+            _txtThird.text = Mathf.Clamp(MathF.Floor(timeRemaining), 0f, timeRemaining).ToString();
+        }
+
         SceneTransitioner.instance.StartTransitionToScene("EXTRA_Interior");
     }
 

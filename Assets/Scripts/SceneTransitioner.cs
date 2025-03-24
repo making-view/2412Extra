@@ -13,6 +13,8 @@ public class SceneTransitioner : MonoBehaviour
     [SerializeField] [Range(0.0f, 4.0f)] public float _fadeTime = 1.0f;
 
     public UnityEvent onLoadScene = new UnityEvent();
+    public UnityEvent onLoadScenePersistent = new UnityEvent();
+    public UnityEvent onSceneDoneLoadingPersistent = new UnityEvent();
 
     //Set to true when exiting main scene so that next time it loads near game and video stations
     private bool _shouldStartAtEntrance = true;
@@ -48,6 +50,7 @@ public class SceneTransitioner : MonoBehaviour
         yield return StartCoroutine(Fade(0.0f, 1.0f));
         //load new scene and fire events
         onLoadScene.Invoke();
+        onLoadScenePersistent.Invoke();
         yield return null;
         onLoadScene.RemoveAllListeners();
         SceneManager.LoadScene(sceneName);
@@ -55,8 +58,10 @@ public class SceneTransitioner : MonoBehaviour
         StartCoroutine(MovePlayerWithFade(false));
 
         yield return StartCoroutine(Fade(1.0f, 0.0f));
+        onSceneDoneLoadingPersistent.Invoke();
 
-        SetupTeleportTutorial();
+
+    SetupTeleportTutorial();
     }
 
     private void SetupTeleportTutorial()

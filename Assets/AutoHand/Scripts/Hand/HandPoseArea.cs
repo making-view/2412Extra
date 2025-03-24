@@ -27,11 +27,26 @@ namespace Autohand{
             OnHandExit.AddListener(HandExit);
         }
 
-        protected virtual void OnDisable() {
-            for(int i = posingHands.Count - 1; i >= 0; i--) 
-                posingHands[i].handAnimator.TryRemoveHandPoseArea(this);
+        protected virtual void OnDisable()
+        {
+            ManualTriggerExit();
             OnHandEnter.RemoveListener(HandEnter);
             OnHandExit.RemoveListener(HandExit);
+        }
+
+        public void ManualTriggerExit()
+        {
+            for (int i = posingHands.Count - 1; i >= 0; i--)
+            {
+                if (posingHands[i] == null)
+                {
+                    Debug.LogWarning(this + " posing hand null. Maybe look into this, idk");
+                    continue;
+                }
+                //was clear instead of cleanup
+                posingHands[i].collisionTracker.CleanUp();
+                posingHands[i].handAnimator.TryRemoveHandPoseArea(this);
+            }
         }
 
         protected virtual void HandEnter(Hand hand) {
