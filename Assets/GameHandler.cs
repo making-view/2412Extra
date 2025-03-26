@@ -33,6 +33,10 @@ public class GameHandler : MonoBehaviour
     [SerializeField] private List<GameObject> _enableOnGameReady = new List<GameObject>();
     [SerializeField] private List<GameObject> _disableOnGameReady = new List<GameObject>();
 
+    [Space]
+    [SerializeField] Transform _watchScoreboardPosition;
+    [SerializeField] GameObject _returnMessageScreen;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -49,6 +53,8 @@ public class GameHandler : MonoBehaviour
 
         foreach (GameObject go in _enableOnGameReady)
             go.SetActive(false);
+
+        _returnMessageScreen.SetActive(false);
     }
 
     // Update is called once per frame
@@ -136,6 +142,7 @@ public class GameHandler : MonoBehaviour
         if (_gameRunning || _gameFinished)
             return;
 
+        _returnMessageScreen.SetActive(false);
         _timer = 0;
         _gameRunning = true;
 
@@ -175,7 +182,26 @@ public class GameHandler : MonoBehaviour
 
         HighScoreHandler.instance.AddNewScore(_txtTimer.text);
 
+        SceneTransitioner.instance.StartMovePlayerToPositionWithFade(true, _watchScoreboardPosition);
+
         //should take gun out of bubble mode and tp player to leaderboard
         //show UI for quitting or restarting
+
+        StartCoroutine(ResetAfterDelay(11.0f));
+    }
+
+    private IEnumerator ResetAfterDelay(float delay)
+    {
+        _returnMessageScreen.SetActive(true);
+        TextMeshProUGUI returnMessageText = _returnMessageScreen.GetComponentInChildren<TextMeshProUGUI>();
+        
+        while(delay > 0f)
+        {
+            returnMessageText.text = "Returnerer til hovedmeny om " + delay + " sekunder";
+            yield return new WaitForSeconds(1.0f);
+            delay--;
+        }
+
+        SceneTransitioner.instance.StartTransitionToScene("EXTRA_Interior");
     }
 }

@@ -57,7 +57,7 @@ public class MediaEventHandler : MonoBehaviour
             exitUI.SetInstructionText("Teleporter ut for å avslutte video");
 
         SkipToEndOfVideo(mediaPlayer);
-        SceneTransitioner.instance.StartMovePlayerWithFade(false);
+        SceneTransitioner.instance.StartMovePlayerToStartWithFade(false);
     }
 
     private void HandledEvent(MediaPlayer mediaPlayer, MediaPlayerEvent.EventType eventType, ErrorCode errorCode)
@@ -79,7 +79,7 @@ public class MediaEventHandler : MonoBehaviour
         if(quizHandler == null)
             Debug.LogError(this + " could not find quiz handler");
 
-        SceneTransitioner.instance.StartMovePlayerWithFade(true);
+        SceneTransitioner.instance.StartMovePlayerToStartWithFade(true);
         _shouldExitOnLeaveArea = true;
 
         var exitUI = FindObjectOfType<VideoInstructionHandler>();

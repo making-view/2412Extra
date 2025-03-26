@@ -22,7 +22,7 @@ public class SceneTransitioner : MonoBehaviour
 
     private void Start()
     {
-        StartCoroutine(MovePlayerWithFade(false));
+        StartCoroutine(MovePlayerWithFade(false, null));
         SetupTeleportTutorial();
     }
 
@@ -55,7 +55,7 @@ public class SceneTransitioner : MonoBehaviour
         onLoadScene.RemoveAllListeners();
         SceneManager.LoadScene(sceneName);
 
-        StartCoroutine(MovePlayerWithFade(false));
+        StartCoroutine(MovePlayerWithFade(false, null));
 
         yield return StartCoroutine(Fade(1.0f, 0.0f));
         onSceneDoneLoadingPersistent.Invoke();
@@ -76,12 +76,17 @@ public class SceneTransitioner : MonoBehaviour
         }
     }
 
-    public void StartMovePlayerWithFade(bool fadeIn)
+    public void StartMovePlayerToStartWithFade(bool fadeIn)
     {
-        StartCoroutine(MovePlayerWithFade(fadeIn));
+        StartCoroutine(MovePlayerWithFade(fadeIn, null));
     }
 
-    IEnumerator MovePlayerWithFade(bool fadeIn)
+    public void StartMovePlayerToPositionWithFade(bool fadeIn, Transform position)
+    {
+        StartCoroutine(MovePlayerWithFade(fadeIn, position));
+    }
+
+    IEnumerator MovePlayerWithFade(bool fadeIn, Transform position)
     {
         PlayerManager.instance._screenFader.alpha = 1.0f;
 
@@ -90,7 +95,7 @@ public class SceneTransitioner : MonoBehaviour
         else
             yield return null;
 
-        MovePlayerToStartingPosition();
+        MovePlayerToPosition(position);
         yield return StartCoroutine(Fade(1.0f, 0.0f));
     }
 
@@ -110,28 +115,33 @@ public class SceneTransitioner : MonoBehaviour
         PlayerManager.instance._screenFader.alpha = to;
     }
 
-    public void MovePlayerToStartingPosition()
+    public void MovePlayerToPosition(Transform position)
+    {  
+        if(position == null)
+            position = GetStartingPosition();
+
+        Vector3 targetPos = position.position;
+        Quaternion targetRot = position.rotation;
+
+        MovePlayerTo(targetPos, targetRot);
+    }
+
+    private Transform GetStartingPosition()
     {
         //if game has not been restarted or paused, check for a resturn position
         //if found, go to this instead 
 
         Transform startingPosition = GameObject.FindGameObjectWithTag("ReturningPosition")?.transform;
-
-        if(startingPosition == null || _shouldStartAtEntrance)
+        if (startingPosition == null || _shouldStartAtEntrance)
             startingPosition = GameObject.FindGameObjectWithTag("StartingPosition")?.transform;
 
-        if(startingPosition == null)
+        if (startingPosition == null)
         {
             Debug.LogError(this + " No starting position found");
-            return;
         }
 
         Debug.Log(this + " Found starting pos. Moving player");
-        
-        Vector3 targetPos = startingPosition.position;
-        Quaternion targetRot = startingPosition.rotation;
-
-        MovePlayerTo(targetPos, targetRot);
+        return startingPosition;
     }
 
     public void MovePlayerTo(Vector3 targetPos, Quaternion targetRot)
@@ -163,7 +173,7 @@ public class SceneTransitioner : MonoBehaviour
             if (sceneName == "EXTRA_Interior")
                 StartTransitionToScene(sceneName);
             else
-                StartCoroutine(MovePlayerWithFade(false));
+                StartCoroutine(MovePlayerWithFade(false, null));
         }
     }
 
