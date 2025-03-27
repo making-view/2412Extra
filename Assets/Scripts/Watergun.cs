@@ -16,6 +16,7 @@ public class Watergun : MonoBehaviour
 
     [SerializeField] private GameObject _goop = null;
     [SerializeField] private Transform _rayOrigin = null;
+    [SerializeField] private GameObject _emptyFX = null;
 
     [SerializeField] private float _maxGoop = 3.0f;
     [SerializeField] private float _recoilStrength = 1.0f;
@@ -90,7 +91,10 @@ public class Watergun : MonoBehaviour
             _goopLevel = Mathf.Clamp(_goopLevel - Time.deltaTime, 0f, _maxGoop);
 
             if (_goopLevel <= 0f)
+            {
                 _particles.Stop();
+                _emptyFX.SetActive(true);
+            }
             else
             {
                 _firingTime += Time.deltaTime;
@@ -116,7 +120,7 @@ public class Watergun : MonoBehaviour
             _particles.Stop();
 
             _goopLevel = Mathf.Clamp(_goopLevel + Time.deltaTime * 2f, 0f, _maxGoop);
-
+            _emptyFX.SetActive(false);
 
             //todo stretch, play refilling sound while filling
             //todo play sound when tank is full

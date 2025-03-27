@@ -54,7 +54,8 @@ public class SceneTransitioner : MonoBehaviour
         yield return null;
         onLoadScene.RemoveAllListeners();
         SceneManager.LoadScene(sceneName);
-
+        
+        yield return null;
         StartCoroutine(MovePlayerWithFade(false, null));
 
         yield return StartCoroutine(Fade(1.0f, 0.0f));
@@ -155,26 +156,21 @@ public class SceneTransitioner : MonoBehaviour
 
     private void OnApplicationPause(bool pause)
     {
-        if (pause) //on pause, mark player to start at entrance and reset tutorials done
-        {
-            _shouldStartAtEntrance = true;
-            PlayerPrefs.SetInt("TeleportTutorialDone", 0);
-            PlayerPrefs.SetInt("GunTutorialsDone", 0);
-        }
-        else      //on unpause, move player to entrance
-        {
-            //reload scene if we're in the game scene
-            string sceneName = SceneManager.GetActiveScene().name;
+        _shouldStartAtEntrance = true;
+        PlayerPrefs.SetInt("TeleportTutorialDone", 0);
+        PlayerPrefs.SetInt("GunTutorialsDone", 0);
+        PlayerPrefs.SetInt("GrabTutorialDone", 0);
 
-            Debug.Log(this + " Unapusing in scene " + sceneName);
+        string sceneName = SceneManager.GetActiveScene().name;
 
-            StopAllCoroutines();
+        Debug.Log(this + " Unapusing in scene " + sceneName);
 
-            if (sceneName == "EXTRA_Interior")
-                StartTransitionToScene(sceneName);
-            else
-                StartCoroutine(MovePlayerWithFade(false, null));
-        }
+        StopAllCoroutines();
+
+        if (sceneName == "EXTRA_Interior")
+            StartTransitionToScene(sceneName);
+        else
+            StartCoroutine(MovePlayerWithFade(false, null));
     }
 
     //void OnApplicationFocus(bool focus)

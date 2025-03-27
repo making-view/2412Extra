@@ -168,7 +168,7 @@ public class HighScoreHandler : MonoBehaviour
 
     private IEnumerator HighlightEntry(HighScoreEntry entry)
     {
-        float timer = 8.0f;
+        float timer = 15.0f;
         Image image = entry._bgImage;
 
         Color startColor = image.color;
@@ -176,7 +176,7 @@ public class HighScoreHandler : MonoBehaviour
 
         while (timer > 0.0f)
         {
-            float lerp = (Mathf.Sin(timer * Mathf.PI * 4) + 1.0f) / 2.0f;
+            float lerp = (Mathf.Sin(timer * Mathf.PI * 2) + 1.0f) / 2.0f;
             image.color = Color.Lerp(startColor, toColor, lerp);
 
             timer -= Time.deltaTime;

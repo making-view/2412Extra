@@ -181,17 +181,14 @@ public class GameHandler : MonoBehaviour
         _gameRunning = false;
 
         HighScoreHandler.instance.AddNewScore(_txtTimer.text);
-
-        SceneTransitioner.instance.StartMovePlayerToPositionWithFade(true, _watchScoreboardPosition);
-
-        //should take gun out of bubble mode and tp player to leaderboard
-        //show UI for quitting or restarting
-
-        StartCoroutine(ResetAfterDelay(11.0f));
+        StartCoroutine(ResetAfterDelay(10.0f));
     }
 
     private IEnumerator ResetAfterDelay(float delay)
     {
+        yield return new WaitForSeconds(3);
+        SceneTransitioner.instance.StartMovePlayerToPositionWithFade(true, _watchScoreboardPosition);
+
         _returnMessageScreen.SetActive(true);
         TextMeshProUGUI returnMessageText = _returnMessageScreen.GetComponentInChildren<TextMeshProUGUI>();
         

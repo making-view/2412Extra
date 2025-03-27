@@ -87,7 +87,7 @@ public class TutorialCanvas : MonoBehaviour
                 }
                 break;
             case TutorialType.grabGun:
-                if (PlayerPrefs.GetInt("GunTutorialsDone", 0) == 1) //don't activate self if gun tutorial already done
+                if (PlayerPrefs.GetInt("GrabTutorialDone", 0) == 1) //don't activate self if grab tutorial already done
                 {
                     gameObject.SetActive(false);
                     return;
@@ -122,12 +122,18 @@ public class TutorialCanvas : MonoBehaviour
                 }
                 break;
             case TutorialType.useGun:
-                GameHandler.instance.onGameStarted.AddListener(() => PlayerPrefs.SetInt("GunTutorialsDone", 1));
-                GameHandler.instance.onGameStarted.AddListener(() => CompleteTutorial());
+                foreach (Grabbable grabbable in FindObjectOfType<Watergun>().GetComponentsInChildren<Grabbable>())
+                {
+                    grabbable.onSqueeze.AddListener((hand, grabbable) => PlayerPrefs.SetInt("GunTutorialsDone", 1));
+                    grabbable.onSqueeze.AddListener((hand, grabbable) => CompleteTutorial());
+                }
                 break;
             case TutorialType.grabGun:
                 foreach (GrabbableExtraEvents extraEvents in FindObjectOfType<Watergun>().GetComponentsInChildren<GrabbableExtraEvents>())
+                {
+                    extraEvents.OnFirstGrab.AddListener((hand, grabbable) => PlayerPrefs.SetInt("GrabTutorialDone", 1));
                     extraEvents.OnFirstGrab.AddListener((hand, grabbable) => CompleteTutorial());
+                }
                 break;
         }
 
@@ -174,12 +180,19 @@ public class TutorialCanvas : MonoBehaviour
                 }
                 break;
             case TutorialType.useGun:
-                GameHandler.instance.onGameStarted.RemoveListener(() => PlayerPrefs.SetInt("GunTutorialsDone", 1));
-                GameHandler.instance.onGameStarted.RemoveListener(() => CompleteTutorial());
+                foreach (Grabbable grabbable in FindObjectOfType<Watergun>().GetComponentsInChildren<Grabbable>())
+                {
+                    grabbable.onSqueeze.RemoveListener((hand, grabbable) => PlayerPrefs.SetInt("GunTutorialsDone", 1));
+                    grabbable.onSqueeze.RemoveListener((hand, grabbable) => CompleteTutorial());
+                }
                 break;
             case TutorialType.grabGun:
-                foreach (GrabbableExtraEvents extraEvents in FindObjectOfType<Watergun>().GetComponentsInChildren<GrabbableExtraEvents>())
+                foreach (GrabbableExtraEvents extraEvents in FindObjectOfType<Watergun>(true).GetComponentsInChildren<GrabbableExtraEvents>())
+                {
+                    extraEvents.OnFirstGrab.RemoveListener((hand, grabbable) => PlayerPrefs.SetInt("GrabTutorialDone", 1));
                     extraEvents.OnFirstGrab.RemoveListener((hand, grabbable) => CompleteTutorial());
+
+                }
                 break;
         }
     }
