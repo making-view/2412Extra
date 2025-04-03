@@ -44,7 +44,7 @@ public class MessHandler : MonoBehaviour
     {
         foreach (MessList messList in _messCategories)
         {
-            List<Mess> messes = FindObjectsByType<Mess>(FindObjectsSortMode.None).ToList().Where((x) => x.tag.Equals(messList.tag)).ToList();
+            List<Mess> messes = FindObjectsOfType<Mess>(true).ToList().Where((x) => x.tag.Equals(messList.tag)).ToList();
             foreach ( Mess  mess in messes)
                 mess.EnableMess(false);
         }
@@ -59,7 +59,7 @@ public class MessHandler : MonoBehaviour
             messList.allMess.Clear();
             messList.remainingMess.Clear();
 
-            messList.allMess.AddRange(FindObjectsByType<Mess>(FindObjectsSortMode.None).ToList().Where((x) => x.tag.Equals(messList.tag)));
+            messList.allMess.AddRange(FindObjectsOfType<Mess>(true).ToList().Where((x) => x.tag.Equals(messList.tag)));
 
             if (messList.numToClean > messList.allMess.Count)
             {
