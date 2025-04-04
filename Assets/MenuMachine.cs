@@ -84,8 +84,8 @@ public class MenuMachine : MonoBehaviour
         if(!_locked)
         {
             float factor = _blinkingWhiteness * (Mathf.Cos(Time.timeSinceLevelLoad * _blinkingSpeed) + 1f) / 2f;
-            Color MainButtonColor = Color.Lerp(_btnStartColor, Color.white, factor);
-            Color OtherButtonColor = Color.Lerp(_btnOtherColor, Color.white, factor);
+            Color MainButtonColor = Color.Lerp(_btnStartColor, Color.grey, factor);
+            Color OtherButtonColor = Color.Lerp(_btnOtherColor, Color.grey, factor);
 
             _btnStart.GetComponentInChildren<MeshRenderer>().material.color = MainButtonColor;
             _btnNext.GetComponentInChildren<MeshRenderer>().material.color = OtherButtonColor;
