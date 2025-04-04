@@ -129,16 +129,12 @@ public class SceneTransitioner : MonoBehaviour
 
     private Transform GetStartingPosition()
     {
-        //if game has not been restarted or paused, check for a resturn position
-        //if found, go to this instead 
-
-        Transform startingPosition = GameObject.FindGameObjectWithTag("ReturningPosition")?.transform;
-        if (startingPosition == null || _shouldStartAtEntrance)
-            startingPosition = GameObject.FindGameObjectWithTag("StartingPosition")?.transform;
-
+        Transform startingPosition = GameObject.FindGameObjectWithTag("StartingPosition").transform;
+        
         if (startingPosition == null)
         {
             Debug.LogError(this + " No starting position found");
+            return null;
         }
 
         Debug.Log(this + " Found starting pos. Moving player");
@@ -156,21 +152,24 @@ public class SceneTransitioner : MonoBehaviour
 
     private void OnApplicationPause(bool pause)
     {
-        _shouldStartAtEntrance = true;
-        PlayerPrefs.SetInt("TeleportTutorialDone", 0);
-        PlayerPrefs.SetInt("GunTutorialsDone", 0);
-        PlayerPrefs.SetInt("GrabTutorialDone", 0);
+        if(pause == false)
+        {
+            _shouldStartAtEntrance = true;
+            PlayerPrefs.SetInt("TeleportTutorialDone", 0);
+            PlayerPrefs.SetInt("GunTutorialsDone", 0);
+            PlayerPrefs.SetInt("GrabTutorialDone", 0);
 
-        string sceneName = SceneManager.GetActiveScene().name;
+            string sceneName = SceneManager.GetActiveScene().name;
 
-        Debug.Log(this + " Unapusing in scene " + sceneName);
+            Debug.Log(this + " Unapusing in scene " + sceneName);
 
-        StopAllCoroutines();
+            StopAllCoroutines();
 
-        if (sceneName == "EXTRA_Interior")
-            StartTransitionToScene(sceneName);
-        else
-            StartCoroutine(MovePlayerWithFade(false, null));
+            if (sceneName == "EXTRA_Interior")
+                StartTransitionToScene(sceneName);
+            else
+                StartCoroutine(MovePlayerWithFade(false, null));
+        }
     }
 
     //void OnApplicationFocus(bool focus)

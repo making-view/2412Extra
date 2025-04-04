@@ -14,6 +14,7 @@ public class GameHandler : MonoBehaviour
 
     public UnityEvent onGameReady = new UnityEvent();
     public UnityEvent onGameStarted = new UnityEvent();
+    public UnityEvent onGameEnded = new UnityEvent();
 
     private float _timer = 0;
     [SerializeField] private float _timeLimit = 10f;
@@ -182,6 +183,7 @@ public class GameHandler : MonoBehaviour
 
         HighScoreHandler.instance.AddNewScore(_txtTimer.text);
         StartCoroutine(ResetAfterDelay(10.0f));
+        onGameEnded.Invoke();
     }
 
     private IEnumerator ResetAfterDelay(float delay)
