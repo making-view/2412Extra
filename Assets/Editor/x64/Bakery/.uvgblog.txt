@@ -5088,3 +5088,100 @@ Total cache size 267201520
 Total cache size after purge 267201520
 Total cache size 267201520
 Total cache size after purge 267201520
+Total cache size 267201520
+Total cache size after purge 267201520
+Total cache size 267201520
+Total cache size after purge 267201520
+Total cache size 267201520
+Total cache size after purge 267201520
+Total cache size 267201520
+Total cache size after purge 267201520
+Total cache size 267201520
+Total cache size after purge 267201520
+Total cache size 267201520
+Total cache size after purge 267201520
+[ 376/1425  0s] CopyFiles Library/Bee/artifacts/Android/Obb/assets/bin/Data/sharedassets1.resource
+[ 377/1425  0s] CopyFiles Library/Bee/artifacts/Android/Obb/assets/bin/Data/data.unity3d
+[ 379/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+[ 380/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+[ 381/1425  0s] GuidGenerator D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/unity_obb_guid
+[ 382/1425  0s] AddBootConfigGUID Library/Bee/artifacts/Android/boot.config
+[ 383/1425  0s] CopyFiles Library/Bee/artifacts/Android/Obb/unity_obb_guid
+[ 384/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+[ 385/1425  2s] 7z D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle.main.obb
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Scanning the drive:
+3 files, 858 bytes (1 KiB)
+
+Creating archive: D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle.main.obb
+
+Add new data to archive: 3 files, 858 bytes (1 KiB)
+
+
+Files read from disk: 3
+Archive size: 1245 bytes (2 KiB)
+Everything is Ok
+
+7-Zip (a) 22.01 ZS v1.5.4 R4 (x64) : Copyright (c) 1999-2022 Igor Pavlov, 2016-2023 Tino Reichardt : 2023-02-27
+
+Open archive: D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle.main.obb
+--
+Path = D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle.main.obb
+Type = zip
+Physical Size = 1245
+
+Scanning the drive:
+17 files, 2253482920 bytes (2150 MiB)
+
+Updating archive: D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle.main.obb
+
+Keep old data in archive: 3 files, 858 bytes (1 KiB)
+Add new data to archive: 17 files, 2253482920 bytes (2150 MiB)
+
+
+Files read from disk: 17
+Archive size: 2253487247 bytes (2150 MiB)
+Everything is Ok
+[ 386/1425  7s] UnityLinker D:/D_Prosjekter/2412Extra/Library/Bee/artifacts/unitylinker_xy1a.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\UnityLinker.exe @Library\Bee\artifacts\rsp\12659375769506487053.rsp
+[ 611/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+[ 612/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+[ 615/1425  0s] ExtractUsedFeatures Library/Bee/artifacts/Android/Features/Assembly-CSharp-FeaturesChecked.txt
+[ 617/1425  4s] GenerateNativePluginsForAssemblies Library/Bee/artifacts/Android/AsyncPluginsFromLinker
+[ 619/1425  5s] IL2CPP_CodeGen D:/D_Prosjekter/2412Extra/Library/Bee/artifacts/il2cpp_conv_gsm9.traceevents
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\il2cpp\build\deploy\il2cpp.exe @Library\Bee\artifacts\rsp\302206158756276805.rsp
+[1032/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Resources/mscorlib.dll-resources.dat
+[1238/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+[1351/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+[1404/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+[1405/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+[1406/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+[1407/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/Data/Metadata/global-metadata.dat
+[1408/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+[1411/1425  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/8evdprr5mtuy.o
+[1412/1425  0s] GuidGenerator D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+[1413/1425  0s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4zt79gvu5iqh.o
+[1414/1425  1s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/4rjmopz3hrhs.o
+[1415/1425  2s] C_Android_arm64 Library/Bee/artifacts/Android/d8kzr/gdoz6oxu21bg.o
+[1416/1425  1s] Link_Android_arm64 Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+[1417/1425  0s] CopyFiles Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+[1418/1425  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/stripped/libil2cpp.so
+[1419/1425  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.sym.so
+[1420/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.sym.so
+[1421/1425  0s] NdkObjCopy Library/Bee/artifacts/objcopy_5lmi/libil2cpp.so
+[1422/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+[1423/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+[1424/1425  0s] CopyFiles D:/D_Prosjekter/2412Extra/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.so
+*** Tundra build success (18.39 seconds), 37 items updated, 1425 evaluated
+Total cache size 267201520
+Total cache size after purge 267201520
+abort_threads: Failed aborting id: 0000000000003B4C, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000003B4C, mono_thread_manage will ignore it
+
+Done
+Done
+Done
+Done

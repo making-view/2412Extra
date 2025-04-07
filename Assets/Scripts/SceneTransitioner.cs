@@ -24,8 +24,20 @@ public class SceneTransitioner : MonoBehaviour
     {
         StartCoroutine(MovePlayerWithFade(false, null));
         SetupTeleportTutorial();
+
+        ReloadIfEditor();
     }
 
+    //Reload to prevent graphical bug with lightbuild
+    private void ReloadIfEditor()
+    {
+        if (Application.isEditor)
+        {
+            string sceneName = SceneManager.GetActiveScene().name;
+            if (sceneName == "EXTRA_Interior")
+                StartTransitionToScene(sceneName);
+        }
+    }
 
     private void OnEnable()
     {
@@ -152,7 +164,7 @@ public class SceneTransitioner : MonoBehaviour
 
     private void OnApplicationPause(bool pause)
     {
-        if(pause == false)
+        if(pause == true)
         {
             _shouldStartAtEntrance = true;
             PlayerPrefs.SetInt("TeleportTutorialDone", 0);
@@ -171,28 +183,4 @@ public class SceneTransitioner : MonoBehaviour
                 StartCoroutine(MovePlayerWithFade(false, null));
         }
     }
-
-    //void OnApplicationFocus(bool focus)
-    //{
-    //    if (!focus) //on pause, mark player to start at entrance and reset tutorials done
-    //    {
-    //        _shouldStartAtEntrance = true;
-    //        PlayerPrefs.SetInt("TeleportTutorialDone", 0);
-    //        PlayerPrefs.SetInt("GunTutorialsDone", 0);
-    //    }
-    //    else      //on unpause, move player to entrance
-    //    {
-    //        //reload scene if we're in the game scene
-    //        string sceneName = SceneManager.GetActiveScene().name;
-
-    //        Debug.Log(this + " Unapusing in scene " + sceneName);
-
-    //        StopAllCoroutines();
-
-    //        if (sceneName == "EXTRA_Interior")
-    //            StartTransitionToScene(sceneName);
-    //        else
-    //            StartCoroutine(MovePlayerDelayed());
-    //    }
-    //}
 }
